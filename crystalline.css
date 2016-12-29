@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.0.0
+                   Version 1.1.0
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -293,6 +293,13 @@ input.game-input{
     border: 0;
 }
 
+div.control-group .shortcut-recorder input[type=text]{
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .channel-notice.invite{
     background: url(/assets/bf625d222187f542b9d7179109422e2c.svg) center 20px no-repeat #282b30;
     background-color: rgba(0, 0, 0, 0.3) !important;
@@ -342,6 +349,41 @@ input.game-input{
 
 .btn-confirm{
     border-radius: 0;
+}
+
+.message-group h2 strong{
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.message-group .comment .markup{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.theme-dark .channel-textarea-autocomplete-inner header{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.channel-textarea-autocomplete-inner header strong{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.theme-dark .channel-textarea-autocomplete-inner{
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.theme-dark .channel-textarea-autocomplete-inner ul li.active{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .channel-textarea-autocomplete-inner:after{
+    border: 0;
+}
+
+.channel-textarea-autocomplete-inner:after{
+    border: 0;
 }
 
 div.message-group-blocked{
@@ -396,6 +438,20 @@ div.message-group-blocked{
 
 .popout.popout-top section:after, .popout.popout-top-right section:after{
     border-top-color: #7289da;
+}
+
+.small-popout-box{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+    border: 0;
+}
+
+.option-popout .btn-item{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.modal-content .form-inner p{
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .private-channels .channel:hover,
@@ -793,9 +849,100 @@ span.channel-name{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.theme-dark .search-popout{
+    box-shadow: none !important;
+}
+
 .search-popout .search-query{
     background-color: rgba(0, 0, 0, 0.5);
     border: 0;
+}
+
+.search-popout .results-group:before{
+    border: 0;
+}
+
+.search-popout .date-picker{
+    background-color: rgba(42, 42, 42, 0.8);
+    border: 0;
+}
+
+.react-datepicker{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.react-datepicker .react-datepicker__header{
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.react-datepicker .react-datepicker__day--disabled,
+.react-datepicker .react-datepicker__day--outside-month
+{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.42) !important;
+}
+
+.react-datepicker__day{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.react-datepicker .react-datepicker__current-month{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.react-datepicker .react-datepicker__day-name{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.react-datepicker .react-datepicker__day{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.search-popout .date-picker .date-picker-hint{
+    background-color: rgba(42, 42, 42, 0);
+    border: 0;
+    border-radius: 0;
+}
+
+.react-datepicker .react-datepicker__navigation.react-datepicker__navigation--next,
+.react-datepicker .react-datepicker__navigation.react-datepicker__navigation--previous{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    border: 0;
+}
+
+.react-datepicker .react-datepicker__month>.react-datepicker__week:first-of-type>.react-datepicker__day:first-of-type,
+.react-datepicker .react-datepicker__month>.react-datepicker__week:last-of-type>.react-datepicker__day:first-of-type,
+.react-datepicker .react-datepicker__month>.react-datepicker__week:last-of-type>.react-datepicker__day:last-of-type,
+.react-datepicker .react-datepicker__month>.react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type{
+    border-radius: 0;
+}
+
+.react-datepicker .react-datepicker__month .react-datepicker__week>.react-datepicker__day:last-of-type,
+.react-datepicker .react-datepicker__month>.react-datepicker__week:last-of-type .react-datepicker__day{
+    border: 0;
+}
+
+.react-datepicker .react-datepicker__day.react-datepicker__day--disabled,
+.react-datepicker .react-datepicker__day.react-datepicker__day--disabled:hover{
+    color: rgba(255, 255, 255, 0.42);
+}
+
+.search-popout .date-picker .date-picker-hint .hint-value{
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 0;
+}
+
+.react-datepicker .react-datepicker__day.react-datepicker__day--selected:hover, .react-datepicker .react-datepicker__day:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.react-datepicker .react-datepicker__day.react-datepicker__day--today:after{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 span.search-filter,
