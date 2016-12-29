@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.2.0
+                   Version 1.2.1
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -14,18 +14,25 @@ Feel free to open an issue at the GitHub repository.
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
+body {
+    -webkit-transition: background 3s ease-in-out;
+    transition: background 3s ease-in-out;
+    background: #fff url(https://i.stole-a-me.me/d5f56d.jpg);
+    background-size: 1920px auto;
+}
+
 *:not(code) {
     font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;
 }
 
 .markup pre code, code * {
     font-size: 13px !important;
-    font-family:'ＭＳ ゴシック', Consolas, Monaco, monospace !important;
+    font-family:'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;
     border-radius: 0 !important;
 }
 
 .markup pre, .markup code {
-    font-family: 'ＭＳ ゴシック','Ubuntu Mono', Consolas, Monaco, monospace !important;
+    font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;
     font-size: 13px;
     background: rgba(10, 10, 10, 0.7) !important;
     border: 0 !important;
@@ -793,6 +800,10 @@ div.guild-header{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.guilds-wrapper .guilds-add{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .guild-channels .channel-text.selected,
 .guild-channels .channel-text:hover{
     background-size: 0 0 !important;
@@ -806,11 +817,22 @@ div.guild-header{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-body {
-    -webkit-transition: background 3s ease-in-out;
-    transition: background 3s ease-in-out;
-    background: #fff url(https://i.stole-a-me.me/d5f56d.jpg);
-    background-size: 1920px auto;
+.create-guild-container{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.create-guild-container .create-or-join .form-inner{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+}
+
+.create-guild-container .action{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.create-guild-container .action.create .action-header,
+.create-guild-container .action.join .action-header{
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .app, .connecting {
