@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.2.3
+                   Version 1.2.5
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -580,6 +580,16 @@ div.message-group-blocked{
 
 .theme-dark .chat .title-wrap{
     background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.chat form{
+    box-shadow: none;
+}
+
+.theme-dark .chat .has-more button {
+    background: rgba(0, 0, 0, 0.42);
+    border: 0;
+    border-radius: 0 !important;
 }
 
 div.guild-header{
@@ -1373,10 +1383,4 @@ span.amount {
 .message-group .comment .edited{
     opacity: 1;
 
-}
-
-.theme-dark .chat .has-more button {
-    background: rgba(0, 0, 0, 0.42);
-    border: 0;
-    border-radius: 0 !important;
 }
