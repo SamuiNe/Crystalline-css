@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.2.2
+                   Version 1.2.3
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -379,6 +379,25 @@ div.control-group .shortcut-recorder input[type=text]{
     color: rgba(255, 255, 255, 0.7);
 }
 
+.theme-dark .message-group .embed-wrapper .embed-color-pill{
+    border-radius: 0;
+}
+
+.theme-dark .message-group .embed{
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 0;
+    border: 0;
+}
+
+.message-group .mentioned .message-text:after{
+    border-radius: 0;
+}
+
+.theme-dark .reaction{
+    background-color: rgba(10, 10, 10, 0.3);
+    border-radius: 0;
+}
+
 .theme-dark .channel-textarea-autocomplete-inner header{
     border: 0;
     background-color: rgba(0, 0, 0, 0.5);
@@ -697,6 +716,11 @@ div.guild-header{
     color: rgba(255, 255, 255, 0.8);
     border-radius: 0;
     border: 0;
+}
+
+.color-picker .swatches .swatch.custom:after,
+.color-picker .swatches .swatch.selected:after{
+    border-radius: 0;
 }
 
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header p{
