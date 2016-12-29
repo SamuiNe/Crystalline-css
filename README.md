@@ -1,7 +1,7 @@
 # Crystalline-css
 Beautiful Discord theme focused on using dark colors and transparent windows.
 
-Current CDN Link is available [here](https://cdn.rawgit.com/SamuiNe/Crystalline-css/master/crystalline.css).
+Current embed Link is available [here](https://cdn.rawgit.com/SamuiNe/Crystalline-css/master/crystalline.css).
 
 If there is any bug found or any suggestions, feel free to open an issue. Thank you in advance!
 
