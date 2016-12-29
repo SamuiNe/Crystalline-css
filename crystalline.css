@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.1.0
+                   Version 1.2.0
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -15,7 +15,7 @@ Feel free to open an issue at the GitHub repository.
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 *:not(code) {
-    font-family: 'NFモトヤバーチ Std W1', Whitney, Helvetica, Arial, sans-serif !important;
+    font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;
 }
 
 .markup pre code, code * {
@@ -134,6 +134,10 @@ div.theme-dark.context-menu.item.item-subMenu{
     border-radius: 0 !important;
 }
 
+.tab-bar.TOP{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
 .form .control-group input[type=text],
 .form .control-group input[type=email],
 .form .control-group input[type=password]{
@@ -164,6 +168,11 @@ input.game-input{
     background-color: rgba(42, 42, 42, 0.0);
     border: 0;
     box-shadow: none;
+}
+
+.user-settings-modal-games .games-table .games-row .item-game,
+.user-settings-modal-games .games-table .games-row .item-overlay{
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .now-playing{
@@ -214,6 +223,10 @@ input.game-input{
     color: rgba(255, 255, 255, 0.8);
 }
 
+.form hr{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3{
     color: rgba(255, 255, 255, 0.5);
 }
@@ -257,6 +270,9 @@ input.game-input{
 
 }
 
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header{
+    border-color: rgba(255, 255, 255, 0.2);
+}
 
 .settings .settings-inner .settings-panel{
     background-color: rgba(0, 0, 0, 0);
@@ -266,9 +282,6 @@ input.game-input{
     background-color: rgba(255, 255, 255, 0.2);
     color: rgba(255, 255, 255, 0.8);
     border: 0;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-bottom: 10px;
 }
 
 .form .btn-default:hover{
@@ -440,6 +453,45 @@ div.message-group-blocked{
     border-top-color: #7289da;
 }
 
+.popout-menu{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+}
+
+.popout-menu .popout-menu-item:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.popout-menu .popout-menu-item.invite:hover,
+.popout-menu .popout-menu-item.leave:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.popout-menu .popout-menu-item{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.popout-menu .popout-menu-separator{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.notification-settings-modal .notification-settings-modal-channel-settings-list{
+    box-shadow: none;
+}
+
+.channel-notification-settings .content label{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.channel-mute-button{
+    opacity: 0.5;
+}
+
+.channel-notification-settings{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
 .small-popout-box{
     background-color: rgba(42, 42, 42, 0.8);
     border-radius: 0;
@@ -507,6 +559,208 @@ div.message-group-blocked{
 div.guild-header{
     background-color: rgba(0, 0, 0, 0.5);
     height: 57px;
+}
+
+.form .control-groups.control-separator{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.region-select .region-select-inner,
+.region-select button{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    border: 0;
+}
+
+.region-select-name,
+.region-select button{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.region-select button:hover{
+    background-color: rgba(255, 255, 255, 0.42);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.region-select-modal{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+}
+
+.region-select-modal .region-select-modal-header{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.region-select-modal .region-select-modal-option{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    border: 0;
+}
+
+.instant-invites .instant-invites-header{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-bar.search-bar-light .search-bar-inner{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 0;
+}
+
+.search-bar.search-bar-light input{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.guild-settings-modal-integrations .guild-settings-modal-integrations-header{
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+}
+
+.guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.guild-settings-modal-members{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-header .form .Select .Select-value{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-header,
+.guild-settings-modal-members .guild-settings-modal-list .member+.member{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-footer{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.guild-settings-modal .emoji-row .btn+.btn,
+.guild-settings-modal .member-buttons .btn{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0;
+    border: 0;
+}
+
+.guild-settings-modal .member-buttons .btn:hover {
+    background-color: rgba(255, 255, 255, 0.42);
+}
+
+.guild-settings-modal .member-buttons .btn.btn-danger:hover{
+    background-color: rgba(255, 200, 200, 0.42);
+}
+
+.guild-settings-modal .emoji-row .btn.btn-danger,
+.guild-settings-modal .member-buttons .btn.btn-danger{
+    border: 0;
+}
+
+#settings-roles .roles header{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+#settings-roles .roles li:hover{
+    background: rgba(255, 255, 255, 0.1) none;
+}
+
+#settings-roles .roles li.selected{
+    background: rgba(255, 255, 255, 0.2) none;
+}
+
+.color-picker .swatches .swatch.large{
+    border-radius: 0;
+}
+
+.color-picker-popout{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.guild-settings-modal-members .guild-settings-modal-list .member .member-username{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.color-picker-popout input{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0;
+    border: 0;
+}
+
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header,
+.guild-settings-modal-emoji .emoji-row{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.guild-settings-modal-emoji .emoji-row .emoji-name{
+    border-radius: 0;
+    border: 0;
+}
+
+.guild-settings-modal .emoji-row .btn{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+}
+
+.guild-settings-modal .emoji-row .btn.btn-danger:hover{
+    background-color: rgba(255, 200, 200, 0.4);
+}
+
+.clipboard-input-inner{
+    border: 0;
+    border-radius: 0;
+}
+
+.clipboard-input-inner input{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.clipboard-input-inner button{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0;
+}
+
+.clipboard-input-inner button:first-of-type:before{
+    background: none;
+}
+
+.webhooks .webhooks-header{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.webhooks .webhook{
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    border: 0;
+}
+
+.webhooks .webhook .webhook-header .webhook-details .webhook-name{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.webhooks .webhook .webhook-header .webhook-details .webhook-created-on{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form .btn-clear{
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0;
+    border: 0;
+}
+
+.form .btn-clear:hover{
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .tooltip{
@@ -832,8 +1086,14 @@ div.emoji-picker{
 }
 
 input.emoji-name.input{
-    background-color: rgba(255, 255, 255, 0.6) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.8);
 }
+
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username{
+    color: rgba(255, 255, 255, 0.8);
+}
+
 
 div.search-header,
 div.search-results-wrap{
@@ -1033,6 +1293,10 @@ button.btn-stroked{
 
 .premium-settings .subscription{
     border-radius: 0;
+}
+
+.premium-settings .premium-header{
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 div.card-description,
