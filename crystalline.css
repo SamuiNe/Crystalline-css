@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.2.5
+                   Version 1.2.6
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -961,6 +961,18 @@ div.guild-header{
     border: 0 !important;
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.quick-message.isBlocked{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.channel-textarea-guard button{
+    border-radius: 0;
+}
+
+input:disabled{
+    opacity: 0.3;
 }
 
 .markdown-modal{
