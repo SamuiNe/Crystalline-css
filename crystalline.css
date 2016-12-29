@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.2.1
+                   Version 1.2.2
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -723,12 +723,13 @@ div.guild-header{
 }
 
 .clipboard-input-inner{
+    background-color: rgba(255, 255, 255, 0.2);
     border: 0;
     border-radius: 0;
 }
 
 .clipboard-input-inner input{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0.8);
 }
 
