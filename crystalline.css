@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.2.6
+                   Version 1.2.7
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -242,6 +242,10 @@ input.game-input{
     color: rgba(255, 255, 255, 0.3);
 }
 
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list{
+    box-shadow: none;
+}
+
 .connect-account-btn .connect-account-btn-inner{
     border-radius: 0;
 }
@@ -318,6 +322,26 @@ div.control-group .shortcut-recorder input[type=text]{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.2) !important;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.notice.notice-streamer-mode{
+    background-color: rgba(89, 54, 149, 0.5);
+}
+
+.notice{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.notice .btn{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0;
+    border: 0;
+}
+
+.notice .btn:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .channel-notice.invite{
@@ -450,6 +474,10 @@ div.message-group-blocked{
     border: 0 !important;
 }
 
+.settings .settings-inner .settings-panel{
+    color: rgba(255, 255, 255, 0.9);
+}
+
 #voice-connection .btn-group{
     border-radius: 0;
     border: 0;
@@ -462,7 +490,7 @@ div.message-group-blocked{
 
 #voice-connection .btn-info,
 #voice-connection .btn-disconnect{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     border: 0;
     box-shadow: none;
 }
@@ -638,7 +666,8 @@ div.guild-header{
 }
 
 .search-bar.search-bar-light .search-bar-inner{
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 0 !important;
     border: 0;
 }
 
@@ -692,6 +721,10 @@ div.guild-header{
 .guild-settings-modal .emoji-row .btn.btn-danger,
 .guild-settings-modal .member-buttons .btn.btn-danger{
     border: 0;
+}
+
+#settings-roles .roles{
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 #settings-roles .roles header{
@@ -993,6 +1026,13 @@ input:disabled{
     background-color: rgba(179, 224, 255, 0.1);
 }
 
+.theme-dark .message-group.is-local-bot-message{
+    background: none;
+    background-color: rgba(42, 42, 42, 0.42);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    box-shadow: none;
+}
+
 .theme-dark .channel-textarea-inner{
     border: 0;
     border-radius: 0;
@@ -1143,11 +1183,6 @@ span.discriminator{
     border: 0 !important;
 }
 
-.search-bar.search-bar-light .search-bar-inner{
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 0 !important;
-}
-
 div.emoji-picker{
     background-color: rgba(42, 42, 42, 0.8);
     border: 0 !important;
@@ -1175,7 +1210,7 @@ span.channel-name{
 }
 
 .theme-dark .search .search-bar{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .theme-dark .search-popout{
@@ -1277,8 +1312,9 @@ span.channel-name{
 span.search-filter,
 span.search-answer,
 div.jump-button{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.9);
     border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 div.option.selected{
