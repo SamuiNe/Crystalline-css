@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.2.8
+                   Version 1.2.9
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -554,6 +554,11 @@ div.message-group-blocked{
 
 .option-popout .btn-item{
     color: rgba(255, 255, 255, 0.8);
+}
+
+.option-popout .btn-item:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .modal-content .form-inner p{
