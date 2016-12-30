@@ -1,16 +1,16 @@
-/**************************************************
-         Crystalline CSS for BeautifulDiscord
-                   Version 1.3.1
-
-                 Created by SamuiNe
-             https://github.com/SamuiNe
-
-          Found a bug or have a suggestion?
-Feel free to open an issue at the GitHub repository.
-                Thank you in advance!
-
-     MIT License, Copyright SamuiNe 2016 ~ 2017
-***************************************************/
+/**********************************************************
+ *           Crystalline CSS for BeautifulDiscord         *
+ *                     Version 1.3.1                      *
+ *                                                        *
+ *                   Created by SamuiNe                   *
+ *               https://github.com/SamuiNe               *
+ *                                                        *
+ *            Found a bug or have a suggestion?           *
+ *  Feel free to open an issue at the GitHub repository.  *
+ *                  Thank you in advance!                 *
+ *                                                        *
+ *       MIT License, Copyright SamuiNe 2016 ~ 2017       *
+ **********************************************************/
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
@@ -325,6 +325,10 @@ input.game-input{
     color: rgba(255, 255, 255, 0.8);
 }
 
+.instant-invites .instant-invites-list .instant-invite .channel{
+    color: rgba(255, 255, 255, 0.3);
+}
+
 .checkbox .checkbox-inner span{
     border-color: rgba(255, 255, 255, 0.2);
     border-radius: 0;
@@ -339,7 +343,7 @@ input.game-input{
 #instant-invite-modal .form-actions,
 #instant-invite-modal-advanced .form-inner,
 #instant-invite-modal-advanced .form-actions{
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #permissions ul li{
@@ -1365,7 +1369,8 @@ span.channel-name{
     border-radius: 0;
 }
 
-.react-datepicker .react-datepicker__day.react-datepicker__day--selected:hover, .react-datepicker .react-datepicker__day:hover{
+.react-datepicker .react-datepicker__day.react-datepicker__day--selected:hover,
+.react-datepicker .react-datepicker__day:hover{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1498,5 +1503,4 @@ span.amount {
 
 .message-group .comment .edited{
     opacity: 1;
-
 }
