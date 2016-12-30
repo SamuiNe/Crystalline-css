@@ -1,6 +1,6 @@
 /**************************************************
          Crystalline CSS for BeautifulDiscord
-                   Version 1.3.0
+                   Version 1.3.1
 
                  Created by SamuiNe
              https://github.com/SamuiNe
@@ -305,7 +305,62 @@ input.game-input{
 }
 
 .form header{
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+#instant-invite-modal .blurb{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.instant-invite-modal{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+}
+
+.instant-invites .instant-invites-list .instant-invite+.instant-invite{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.instant-invites .instant-invites-list .instant-invite .member{
     color: rgba(255, 255, 255, 0.8);
+}
+
+.checkbox .checkbox-inner span{
+    border-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+}
+
+.checkbox .checkbox-inner+span{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#instant-invite-modal .form-inner,
+#instant-invite-modal .form-header,
+#instant-invite-modal .form-actions,
+#instant-invite-modal-advanced .form-inner,
+#instant-invite-modal-advanced .form-actions{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#permissions ul li{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#permissions .permission-actions>div{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+
+#permissions .permission-actions.disabled>div{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.form .control-group textarea{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
 }
 
 .form .form-header,
