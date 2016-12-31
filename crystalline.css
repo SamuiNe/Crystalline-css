@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.3.5                      *
+ *                     Version 1.3.6                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -384,6 +384,15 @@ input.game-input{
     border: 0;
 }
 
+.form .form-inner:first-child,
+.form .form-inner:last-child{
+    border-radius: 0;
+}
+
+.alert.form .form-inner .cancel{
+    border-radius: 0;
+}
+
 div.control-group .shortcut-recorder input[type=text]{
     border: 0;
     border-radius: 0;
@@ -595,6 +604,11 @@ div.message-group-blocked{
 
 .popout-menu .popout-menu-item{
     color: rgba(255, 255, 255, 0.8);
+}
+
+.popout-menu .popout-menu-item:hover{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .popout-menu .popout-menu-separator{
