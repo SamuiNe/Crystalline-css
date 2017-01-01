@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.3.6                      *
+ *                     Version 1.3.7                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -21,18 +21,23 @@ body {
     background-size: 1920px auto;
 }
 
+/*
+    To use custom font, please enter the font name enclosed with ' ' at font-family and remove both */ /*.
+*/
+
 *:not(code) {
-    /*font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
+    /* font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
 .markup pre code, code * {
+    /* font-family:'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px !important;
-    /*font-family:'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+
     border-radius: 0 !important;
 }
 
 .markup pre, .markup code {
-    /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+    /* font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px;
     background: rgba(10, 10, 10, 0.7) !important;
     border: 0 !important;
@@ -41,6 +46,21 @@ body {
 
 .markup pre code {
     background: transparent !important;
+}
+
+/*
+    Disabling the edited message picture is possible by encapsulating .message-group .comment .edited with both */ /*.
+*/
+
+.message-group .comment .edited{
+    font-size: 0;
+    width: 16px !important;
+    height: 16px !important;
+    display: inline-block;
+    background-image: url(https://i.stole-a-me.me/f86e8d.png);
+    background-size: 100%;
+    opacity: 1;
+    line-height: 29px;
 }
 
 .bot-tag {
@@ -709,6 +729,20 @@ div.message-group-blocked{
     border: 0;
     border-radius: 0 !important;
 }
+
+.theme-dark .chat .jump-to-present-bar {
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+}
+
+.theme-dark .chat .jump-to-present-bar:hover{
+    background-color: rgba(60, 60, 60, 0.8) !important;
+}
+
+.chat .jump-to-present-bar button{
+    color: rgba(255, 255, 255, 0.8);
+}
+
 
 div.guild-header{
     background-color: rgba(0, 0, 0, 0.5);
@@ -1536,19 +1570,4 @@ span.amount {
 .premium-settings .payment-subhead,
 .premium-settings .billing-history .payment-subhead{
     color: rgba(255, 255, 255, 0.3);
-}
-
-.message-group .comment .edited{
-    font-size: 0;
-    width: 16px !important;
-    height: 16px !important;
-    display: inline-block;
-    background-image: url(https://i.stole-a-me.me/f86e8d.png);
-    background-size: 100%;
-    opacity: 0.5;
-    line-height: 29px;
-}
-
-.message-group .comment .edited{
-    opacity: 1;
 }
