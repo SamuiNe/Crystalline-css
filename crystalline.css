@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.3.8                      *
+ *                     Version 1.3.9                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1319,8 +1319,24 @@ span.discriminator{
     border-radius: 0 !important;
 }
 
-.theme-dark .messages-wrapper .messages .divider.divider-red>span{
+.chat .divider.divider-red{
+    background-color: rgba(0, 0, 0, 0) !important;
+    z-index: 1 !important;
+}
+
+.theme-dark .friends-table .messages .divider.divider-red>div{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark .messages-wrapper .messages .divider.divider-red>div{
+    background-color: rgba(240, 71, 71, 1) !important;
+}
+
+.theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    margin-left: calc(-100% + 242px);
+    background-color: rgba(240, 71, 71, 0.3) !important;
     color: rgba(240, 71, 71, 0.8);
+    z-index: 1 !important;
 }
 
 .emoji-picker .header{
