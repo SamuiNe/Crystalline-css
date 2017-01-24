@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.3.7                      *
+ *                     Version 1.3.8                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1557,6 +1557,12 @@ button.btn-stroked{
 
 .premium-settings .premium-header{
     border-color: rgba(255, 255, 255, 0.2);
+}
+
+.premium-settings .payment-method .payment-info .card-tools button,
+.premium-settings .subscription,
+.premium-settings .subscription .premium-tools button{
+    border-radius: 0;
 }
 
 div.card-description,
