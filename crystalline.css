@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.4.0                      *
+ *                     Version 1.4.1                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1083,6 +1083,18 @@ div.guild-header{
     color: rgba(255, 255, 255, 0.75);
 }
 
+#user-profile-modal .header .header-info .header-info-inner .activity{
+    color: rgba(255, 255, 255, 0.42);
+}
+
+#user-profile-modal .guilds .guild:hover{
+    background: rgba(255, 255, 255, 0.2) none;
+}
+
+#user-profile-modal .guilds .guild .guild-name{
+    color: rgba(197, 207, 237, 1)
+}
+
 .note textarea,
 #user-profile-modal .tab-bar .tab-bar-item.selected{
     border-bottom-color: rgba(255, 255, 255, 0.8);
@@ -1132,7 +1144,8 @@ div.guild-header{
 }
 
 .embed .image,
-.embed video{
+.embed video,
+.embed .embed-video-actions .embed-video-actions-inner{
     border-radius: 0;
 }
 
@@ -1339,6 +1352,7 @@ span.discriminator{
 
 .theme-dark .messages-wrapper .messages .divider.divider-red>span {
     margin-left: calc(-100% + 242px);
+    /*margin-top: 18px;*/
     background-color: rgba(240, 71, 71, 0.3) !important;
     color: rgba(240, 71, 71, 0.8);
     z-index: 1 !important;
