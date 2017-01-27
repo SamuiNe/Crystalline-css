@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.4.1                      *
+ *                     Version 1.4.3                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -460,7 +460,8 @@ div.control-group .shortcut-recorder input[type=text]{
     border: 0 !important;
 }
 
-.account .btn-group, .account .btn-group .btn {
+.account .btn-group,
+.account .btn-group .btn {
     border: 0 !important;
 }
 
@@ -550,7 +551,6 @@ div.message-group-blocked{
 }
 
 #friends,
-#friends .btn,
 .friends-table,
 .guild-channels,
 .channels-wrap,
@@ -681,6 +681,19 @@ div.message-group-blocked{
 
 .private-channels .channel.selected{
     background-color: rgba(0, 0, 0, 0.42);
+}
+
+#friends .btn{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+}
+
+#friends .friends-empty .btn{
+    border-radius: 0;
+}
+
+#friends .btn:hover{
+    background-color: rgba(255, 255, 255, 0.42);
 }
 
 #friends .friends-header .tab-bar .tab-bar-item {
@@ -1586,7 +1599,16 @@ button.btn-stroked{
     border-radius: 0;
 }
 
-.premium-settings .subscription{
+.premium-settings .subscription,
+.premium-settings .payment-method .payment-info .card-tools button,
+.premium-settings .premium-header .premium-options button,
+.premium-settings .subscription,
+.premium-settings .subscription .premium-tools button,
+.premium-payment-modal,
+.premium-payment-modal .premium-animation>svg,
+.premium-payment-modal .premium-payment-form,
+.premium-payment-modal .premium-payment-button,
+.fancy-credit-input{
     border-radius: 0;
 }
 
@@ -1594,10 +1616,17 @@ button.btn-stroked{
     border-color: rgba(255, 255, 255, 0.2);
 }
 
-.premium-settings .payment-method .payment-info .card-tools button,
-.premium-settings .subscription,
-.premium-settings .subscription .premium-tools button{
-    border-radius: 0;
+.premium-settings .premium-header .premium-options button.btn-clear{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear:hover{
+    background-color: rgba(255, 255, 255, 0.42);
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear strong{
+    color: rgba(255, 255, 255, 0.9);
 }
 
 div.card-description,
