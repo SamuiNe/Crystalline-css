@@ -12,12 +12,17 @@
  *       MIT License, Copyright SamuiNe 2016 ~ 2017       *
  **********************************************************/
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+/* This import is not needed unless if you want to use Open Sans font. */
+
+/* @import 'https://fonts.googleapis.com/css?family=Open+Sans'; */
 
 body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
-    background: #fff url(https://i.stole-a-me.me/d5f56d.jpg);
+    background: #fff url(https://puu.sh/tMfiP/fe4fac116c.jpg);
+
+    /* It is recommended to set the background-size width to match your monitor's or discord window's width. */
     background-size: 1920px auto;
 }
 
@@ -50,7 +55,6 @@ body {
 
 /*
     Disabling the edited message picture is possible by encapsulating .message-group .comment .edited with both */ /*.
-*/
 
 .message-group .comment .edited{
     font-size: 0;
@@ -62,6 +66,7 @@ body {
     opacity: 1;
     line-height: 29px;
 }
+*/
 
 .bot-tag {
     background: rgba(0, 200, 0, 0) !important;
@@ -88,6 +93,10 @@ div.theme-dark.context-menu.item.item-subMenu{
     border: 0 !important;
     border-image-width: 0 !important;
     margin: 0 0 0 0;
+}
+
+.theme-dark .layers {
+    background: transparent !important;
 }
 
 .theme-dark.context-menu .item:hover{
