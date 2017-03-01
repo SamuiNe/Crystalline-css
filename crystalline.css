@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.4.3                      *
+ *                     Version 1.4.4                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1617,8 +1617,16 @@ button.btn-stroked{
 .premium-payment-modal .premium-animation>svg,
 .premium-payment-modal .premium-payment-form,
 .premium-payment-modal .premium-payment-button,
+.premium-settings .payment-method .payment-info .card-tools .ui-button,
 .fancy-credit-input{
     border-radius: 0;
+}
+
+.ui-form-title.h2,
+.premium-settings .billing-history-list li .date,
+.premium-settings .billing-history-list li .description,
+.premium-settings .billing-history-list li .payment-details{
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .premium-settings .premium-header{
