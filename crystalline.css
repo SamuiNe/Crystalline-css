@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.4.4                      *
+ *                     Version 1.4.5                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -614,6 +614,11 @@ div.message-group-blocked{
 
 .popout.popout-top section:after, .popout.popout-top-right section:after{
     border-top-color: #7289da;
+}
+
+.popout section{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0 !important;
 }
 
 .popout-menu{
