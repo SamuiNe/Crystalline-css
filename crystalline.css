@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.4.6                      *
+ *                     Version 1.5.0                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -31,18 +31,18 @@ body {
 */
 
 *:not(code) {
-    /* font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
+    /*font-family: 'Comic Sans MS', 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
 .markup pre code, code * {
-    /* font-family:'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+    /*font-family: 'Comic Sans MS', 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px !important;
 
     border-radius: 0 !important;
 }
 
 .markup pre, .markup code {
-    /* font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+    /*font-family: 'Comic Sans MS', 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px;
     background: rgba(10, 10, 10, 0.7) !important;
     border: 0 !important;
@@ -472,9 +472,15 @@ div.control-group .shortcut-recorder input[type=text]{
     box-shadow: none;
 }
 
-.channel-notices .channel-notice .message .btn{
+.channel-notices .channel-notice .message .btn,
+.channel-notices .channel-notice.quickswitcher-notice{
     color: rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.42);
+}
+
+.channel-notices .channel-notice .message .btn{
+    border-radius: 0;
+    border: none;
 }
 
 .account {
@@ -1461,7 +1467,7 @@ span.channel-name{
 }
 
 .search-popout .date-picker{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.5);
     border: 0;
 }
 
@@ -1604,8 +1610,10 @@ div.option.history.selected::after
     background-size: 0 0 !important;
 }
 
+/* search popout */
+
 div.popout.popout-bottom.no-shadow.search-popout{
-    background-color: rgba(0, 0, 0, 0.1) !important;
+    background-color: rgba(42, 42, 42, 0.5) !important;
 }
 
 div.search-result-message.hit{
@@ -1684,4 +1692,64 @@ span.amount {
 .premium-settings .payment-subhead,
 .premium-settings .billing-history .payment-subhead{
     color: rgba(255, 255, 255, 0.3);
+}
+
+.quickswitcher.dark{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.qs-tutorial-messages .qs-search-message{
+    opacity: 0.9;
+}
+
+.quickswitcher.dark .big-input{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.quickswitcher.dark .scroller-wrap:before{
+    background: 0 #7289da;
+    height: 5px;
+}
+
+.quickswitcher .result .result-display-name,
+.quickswitcher .result .result-username{
+    opacity: 1;
+}
+
+.quickswitcher.dark .result>div .result-match,
+.quickswitcher.dark .result>div .result-type-icon{
+    opacity: 0.9;
+}
+
+.quickswitcher .result .result-display-name{
+    opacity: 1;
+    color: rgba(197, 207, 237, 1);
+}
+
+.quickswitcher .result .result-username{
+    opacity: 1;
+    color: rgba(197, 207, 237, 0.4);
+}
+
+.quickswitcher .result{
+    border-radius: 0;
+}
+
+.quickswitcher.dark .result.selected{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.quickswitcher.dark .result.selected:after{
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.quickswitcher.dark .result>div.unread .result-match,
+.quickswitcher.dark .result>div.unread .result-type-icon{
+    opacity: 0.9;
 }
