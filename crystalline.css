@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.5.0                      *
+ *                     Version 1.5.1                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1154,6 +1154,10 @@ div.guild-header{
 #user-profile-modal .tab-bar .tab-bar-item.selected{
     border-bottom-color: rgba(255, 255, 255, 0.8);
     color: rgba(255, 255, 255, 0.8);
+}
+
+.note textarea:focus{
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #user-profile-modal .guilds .section .section-header,
