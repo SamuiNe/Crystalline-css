@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.5.2                      *
+ *                     Version 1.6.0                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -20,10 +20,30 @@
 body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
-    background: #fff url(https://puu.sh/tMfiP/fe4fac116c.jpg);
 
-    /* It is recommended to set the background-size width to match your monitor's or discord window's width. */
+    /* Credits to 晴瀬ひろき for the background picture.
+       Original picture link - http://www.pixiv.net/member_illust.php?mode=medium&illust_id=61282267 */
+    /* If you want to change the background, you can change the background url value. */
+    background: #fff url(https://wawawa.s-ul.eu/Mos7mtS3);
+
+    /* It is recommended to set the background-size width to match your monitor's or discord window's width.
+       If the background picture is blurry, please use a bigger sized background picture. */
     background-size: 1920px auto;
+}
+
+.app, .connecting {
+    /* You can adjust the background brightness by reducing the fourth value of below.
+       0.0 for no dark background, 1.0 for full darkness.
+
+       Or, you can change the other values for tint and so.
+       1st value - Red 0-255
+       2nd value - Green 0-255
+       3rd value - Blue 0-255
+       4th value - Alpha (Opacity) 0.0-1.0 */
+    background: rgba(0, 0, 0, 0.6);
+
+    -webkit-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
 }
 
 /*
@@ -600,6 +620,11 @@ div.message-group-blocked{
     border: 0 !important;
 }
 
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece{
+    background-color: rgba(0, 0, 0, 0.42) !important;
+    border: none !important;
+}
+
 .settings .settings-inner .settings-panel{
     color: rgba(255, 255, 255, 0.9);
 }
@@ -1081,12 +1106,6 @@ div.guild-header{
 .create-guild-container .action.create .action-header,
 .create-guild-container .action.join .action-header{
     color: rgba(255, 255, 255, 0.8);
-}
-
-.app, .connecting {
-    background: rgba(0, 0, 0, 0.7);
-    -webkit-transition: background 0.5s ease-in-out;
-    transition: background 0.5s ease-in-out;
 }
 
 .theme-dark .channel-members .member.popout-open{
@@ -1577,6 +1596,16 @@ div.results-group{
     border-radius: 0 !important;
     border: 0;
     box-shadow: none !important;
+}
+
+
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.42) !important;
+    border: none !important;
+}
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece{
+    background: rgba(0, 0, 0, 0) !important;
 }
 
 .theme-dark .search-results-wrap .search-header .total-results{
