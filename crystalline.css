@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.6.0                      *
+ *                     Version 1.6.1                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -804,7 +804,7 @@ div.message-group-blocked{
 }
 
 .theme-dark .chat .jump-to-present-bar {
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 0;
 }
 
