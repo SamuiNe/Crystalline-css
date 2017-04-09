@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.6.1                      *
+ *                     Version 1.6.2                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -237,6 +237,11 @@ input.game-input{
 .user-settings-modal-games .games-table .games-row .item-game,
 .user-settings-modal-games .games-table .games-row .item-overlay{
     border-color: rgba(255, 255, 255, 0.2);
+}
+
+#overlay-explanation{
+    background-color: rgba(242, 101, 34, 0.8);
+    border-radius: 0;
 }
 
 .now-playing{
@@ -567,6 +572,52 @@ div.control-group .shortcut-recorder input[type=text]{
 .theme-dark .reaction{
     background-color: rgba(10, 10, 10, 0.3);
     border-radius: 0;
+}
+
+.message-reactions-modal{
+    background: rgba(255, 255, 0, 0);
+    box-shadow: none;
+}
+
+.message-reactions-modal .message-reactions-list .scroller-wrap{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+}
+
+.message-reactions-modal .message-reactions-list-inner{
+    background-color: rgba(0, 0, 0 ,0);
+}
+
+.message-reactions-modal .message-reactions-reactors{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.message-reactions-modal .message-reactions-reactors .reactor{
+    box-shadow: none;
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction.selected{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction.selected:hover{
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction:hover{
+    background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction .count{
+    color: rgba(255, 255, 255, 0.9);
+}
+.message-reactions-modal .message-reactions-reactors .reactor .name{
+    color: rgba(197, 207, 237, 1);
 }
 
 .theme-dark .channel-textarea-autocomplete-inner header{
@@ -1258,6 +1309,10 @@ input:disabled{
 .markdown-modal .markdown-modal-footer{
     border: 0;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.markdown-modal.selectable .scroller{
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .theme-dark .message-group .comment .markup .mention{
