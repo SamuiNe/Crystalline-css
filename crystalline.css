@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.6.2                      *
+ *                     Version 1.7.0                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -115,15 +115,21 @@ div.theme-dark.context-menu.item.item-subMenu{
     margin: 0 0 0 0;
 }
 
-.theme-dark .layers {
+.context-menu .item.danger:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+}
+
+.theme-dark .layers, .layer{
     background: transparent !important;
 }
 
-.theme-dark.context-menu .item:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+.context-menu .item:hover{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 0;
 }
 
-.theme-dark.context-menu .item{
+.context-menu .item{
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -237,6 +243,10 @@ input.game-input{
 .user-settings-modal-games .games-table .games-row .item-game,
 .user-settings-modal-games .games-table .games-row .item-overlay{
     border-color: rgba(255, 255, 255, 0.2);
+}
+
+.user-settings-modal-locale .select-item .primary{
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 #overlay-explanation{
@@ -473,6 +483,7 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 .notice{
+    background-color: rgba(242, 101, 34, 0.5);
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -665,7 +676,6 @@ div.message-group-blocked{
 .guild-header header,
 .guild-header header:after,
 .typing,
-.channel-members-wrap .scroller-wrap .scroller,
 .divider-red span {
     background: transparent !important;
     border: 0 !important;
@@ -1159,6 +1169,10 @@ div.guild-header{
     color: rgba(255, 255, 255, 0.8);
 }
 
+.channel-members-wrap .scroller-wrap .scroller{
+    background: rgba(0, 0, 0, 0.2);
+}
+
 .theme-dark .channel-members .member.popout-open{
     background: 0 0;
 }
@@ -1207,6 +1221,10 @@ div.guild-header{
 
 .user-popout .username-wrapper .discord-tag .discriminator{
     color: rgba(255, 255, 255, 0.75);
+}
+
+#user-profile-modal{
+    border-radius: 0;
 }
 
 #user-profile-modal .header .header-info .header-info-inner .activity{
@@ -1841,4 +1859,41 @@ span.amount {
 .quickswitcher.dark .result>div.unread .result-match,
 .quickswitcher.dark .result>div.unread .result-type-icon{
     opacity: 0.9;
+}
+
+/* PTB and Canary stuff beyond here... for now */
+
+.ui-card{
+    border: none;
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item,
+.ui-card,
+.ui-button,
+.ui-radiogroup .ui-card,
+.ui-checkbox-wrapper .ui-checkbox,
+.ui-standard-sidebar-view .btn-close,
+.user-settings-keybinds .ghost-pill,
+.user-settings-games .not-detected,
+.user-settings-games .now-playing,
+.ui-hover-card:before{
+    border-radius: 0;
+}
+
+.theme-dark .ui-standard-sidebar-view{
+    background: 0 0;
+}
+
+.theme-dark .ui-card-primary:not(.editable):not(.outline) .ui-form-text{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .sidebar-region .scrollbar{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .ui-standard-sidebar-view .content-region .scrollbar{
+    background-color: rgba(0, 0, 0, 0.55);
 }
