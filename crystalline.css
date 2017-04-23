@@ -115,7 +115,7 @@ div.theme-dark.context-menu.item.item-subMenu{
     margin: 0 0 0 0;
 }
 
-.theme-dark .layers {
+.theme-dark .layers, .layer {
     background: transparent !important;
 }
 
