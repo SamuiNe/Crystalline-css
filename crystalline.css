@@ -922,6 +922,11 @@ div.guild-header{
     height: 57px;
 }
 
+.theme-dark .friends-table .messages .divider:not(.red) div,
+.theme-dark .messages-wrapper .messages .divider:not(.red) div{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 .new-messages-indicator{
     border-radius: 0;
 }
@@ -1909,6 +1914,14 @@ span.amount {
 
 .ui-card{
     border: none;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close:hover{
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .ui-tab-bar.SIDE .ui-tab-bar-item,
