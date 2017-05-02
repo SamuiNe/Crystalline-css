@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.2                      *
+ *                     Version 1.7.3                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -924,7 +924,7 @@ div.guild-header{
 
 .theme-dark .friends-table .messages .divider:not(.red) div,
 .theme-dark .messages-wrapper .messages .divider:not(.red) div{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .new-messages-indicator{
@@ -1548,9 +1548,9 @@ span.discriminator{
 
 .theme-dark .messages-wrapper .messages .divider.divider-red>span {
     margin-left: calc(-100% + 242px);
-    /*margin-top: 18px;*/
-    background-color: rgba(240, 71, 71, 0.3) !important;
-    color: rgba(240, 71, 71, 0.8);
+    /*margin-top: 19px;*/
+    background-color: rgba(240, 71, 71, 0.35) !important;
+    color: rgb(240, 71, 71);
     z-index: 1 !important;
 }
 
