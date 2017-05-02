@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.0                      *
+ *                     Version 1.7.1                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -449,6 +449,7 @@ input.game-input{
 .form .form-actions
 {
     background-color: rgba(42, 42, 42, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     border-radius: 0;
     border: 0;
 }
@@ -690,6 +691,7 @@ div.message-group-blocked{
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* Old voice CSS element?
 #voice-connection .btn-group{
     border-radius: 0;
     border: 0;
@@ -717,6 +719,43 @@ div.message-group-blocked{
 
 .popout{
     box-shadow: none;
+}
+
+ */
+
+#rtc-connection{
+    background-color: rgba(0, 0, 0, 0.42);
+    border: none;
+}
+
+#rtc-connection .btn-group{
+    border-radius: 0;
+    border: none;
+}
+
+#rtc-connection .btn{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#rtc-connection .btn-info{
+    border-radius: 0;
+    border: none;
+}
+
+#rtc-connection .btn-disconnect{
+    box-shadow: none;
+}
+
+#rtc-debug-modal #users-section .user-list{
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#rtc-debug-modal .diagnostics-checkbox{
+    border-radius: 0;
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .popout.popout-top section:after, .popout.popout-top-right section:after{
@@ -1801,6 +1840,11 @@ span.amount {
     color: rgba(255, 255, 255, 0.3);
 }
 
+.alert.form.premium-unsubscribe strong,
+.alert.form.premium-upgrade strong{
+    color: rgba(197, 207, 237, 1);
+}
+
 .quickswitcher.dark{
     background-color: rgba(42, 42, 42, 0.8);
     border-radius: 0;
@@ -1878,6 +1922,7 @@ span.amount {
 .user-settings-games .now-playing,
 .ui-hover-card:before{
     border-radius: 0;
+    border: none;
 }
 
 .theme-dark .ui-standard-sidebar-view{
@@ -1896,4 +1941,29 @@ span.amount {
 .theme-dark .ui-standard-sidebar-view .content-region,
 .theme-dark .ui-standard-sidebar-view .content-region .scrollbar{
     background-color: rgba(0, 0, 0, 0.55);
+}
+
+.theme-dark .ui-hover-card:before{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.user-settings-connections .connection-header{
+    border: none;
+    border-radius: 0;
+}
+
+.connection-delete{
+    border-radius: 0;
+}
+
+.round-remove-button{
+    top: 0 !important;
+    right: -44px !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.theme-dark .user-settings-games .game {
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2) !important;
 }
