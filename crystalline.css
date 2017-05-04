@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.3                      *
+ *                     Version 1.7.4                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -843,6 +843,69 @@ h3{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
+.theme-dark .private-channel-recipients-invite .friend.selected{
+    background: none;
+}
+
+.theme-dark .private-channel-recipients-invite .friend:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .private-channel-recipients-invite .friend{
+    background: none;
+}
+
+.private-channel-recipients-invite .footer button{
+    border-radius: 0;
+}
+
+.private-channel-call .btn-icon{
+    border-radius: 0;
+}
+
+.private-channel-call .btn-text{
+    border-radius: 0;
+}
+
+.theme-dark .chat .private-channel-call{
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* You can have your own image here if you want.
+
+    background-image: url('your url here') !important;
+    */
+}
+
+.theme-dark .ui-quick-select-popout{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.ui-quick-select-popout-option:hover{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.incoming-call .title{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.incoming-call .incoming-call-inner{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.incoming-call .options .option{
+    border-radius: 0;
+}
+
+.ui-quick-select-popout-option.selected{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .themed-popout .footer{
+    background: none;
+}
+
 #friends .btn{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 0;
@@ -973,6 +1036,11 @@ div.guild-header{
 
 .instant-invites .instant-invites-header{
     border-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-bar-tag{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
 }
 
 .search-bar.search-bar-light .search-bar-inner{
@@ -1338,6 +1406,10 @@ div.guild-header{
 .embed .image,
 .embed video,
 .embed .embed-video-actions .embed-video-actions-inner{
+    border-radius: 0;
+}
+
+.embed.embed-rich .embed-rich-thumb{
     border-radius: 0;
 }
 
@@ -1916,6 +1988,28 @@ span.amount {
     border: none;
 }
 
+.ui-selectable-item{
+    border-radius: 0;
+}
+
+.ui-search-bar{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 0;
+}
+
+.ui-search-bar .input{
+    border-radius: 0;
+}
+
+.ui-popout-list{
+    border-radius: 0;
+}
+
+.dark-elevation-border-high, .theme-dark .elevation-border-high{
+    background-color: rgba(42, 42, 42, 0.8);
+    box-shadow: none;
+}
+
 .theme-dark .ui-standard-sidebar-view .btn-close{
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1963,6 +2057,152 @@ span.amount {
 .theme-dark .ui-hover-card:before{
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+.theme-dark .ui-modal,
+.theme-dark .ui-modal-content{
+    background-color: rgba(42, 42, 42, 0.42);
+    border-radius: 0;
+}
+
+.theme-dark .ui-modal-footer{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.ui-select .Select-menu{
+    border-radius: 0;
+}
+
+.theme-dark .ui-select .Select-option:hover{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.theme-dark .ui-select .Select-option{
+    background-color: rgba(42, 42, 42, 0.8) !important;
+}
+
+.Select-option:last-child{
+    border-radius: 0;
+}
+
+.theme-dark .ui-select .Select-menu-outer{
+    background-color: rgba(42, 42, 42, 0);
+}
+
+.theme-dark .ui-select .Select-option.is-selected{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.theme-dark .ui-select .Select-option.is-selected:hover{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .ui-selectable-item:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .ui-audit-log{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.ui-audit-log{
+    border-radius: 0;
+}
+
+.theme-dark .ui-audit-log strong{
+    color: rgba(197, 207, 237, 1);
+}
+
+.theme-dark .ui-audit-log .timestamp{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ui-flex.flex-horizontal-reverse>.ui-flex,
+.ui-flex.flex-horizontal-reverse>.ui-flex-child,
+.ui-flex.flex-horizontal>.ui-flex,
+.ui-flex.flex-horizontal>.ui-flex-child{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ui-flex.flex-horizontal-reverse>.ui-flex-child:last-child,
+.ui-flex.flex-horizontal-reverse>.ui-flex:last-child,
+.ui-flex.flex-horizontal>.ui-flex-child:last-child,
+.ui-flex.flex-horizontal>.ui-flex:last-child{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ui-color-picker-swatch.custom,
+.ui-color-picker-swatch.default,
+.ui-color-picker-swatch{
+    border-radius: 0;
+}
+
+.theme-dark .ui-form-title.h5{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .ui-form-text.style-description, .theme-dark .ui-form-text.style-label-descriptor{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ui-role-list-add{
+    border-radius: 0;
+}
+
+.ui-role-list-role{
+    border-radius: 0;
+}
+
+.roles-list-popout{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.ui-flex.flex-horizontal>.ui-flex{
+    margin-right: 0;
+}
+
+.ui-text-input .input{
+    border-radius: 0;
+    border: none;
+}
+.theme-dark .ui-text-input .input,
+.theme-dark .ui-text-input .input.editable:focus,
+.theme-dark .ui-text-input .input.editable:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ui-button.white.outlined{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.ui-input-button{
+    border-radius: 0;
+    border: none;
+}
+
+.theme-dark .ui-input-button{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .ui-button.grey.ghost{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+
+.theme-dark .ui-text-input.emoji-alias-input .input{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*
+.ui-standard-sidebar-view, .ui-standard-sidebar-view *{
+    color: rgba(255, 255, 255, 0.9);
+}*/
 
 .user-settings-connections .connection-header{
     border: none;
