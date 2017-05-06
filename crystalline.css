@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.4                      *
+ *                     Version 1.7.5                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -51,18 +51,18 @@ body {
 */
 
 *:not(code) {
-    /*font-family: 'Comic Sans MS', 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
+    /*font-family: 'Dogrunes_the_Third', 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
 .markup pre code, code * {
-    /*font-family: 'Comic Sans MS', 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+    /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px !important;
 
     border-radius: 0 !important;
 }
 
 .markup pre, .markup code {
-    /*font-family: 'Comic Sans MS', 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+    /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px;
     background: rgba(10, 10, 10, 0.7) !important;
     border: 0 !important;
@@ -657,6 +657,12 @@ div.control-group .shortcut-recorder input[type=text]{
 
 .channel-textarea-autocomplete-inner:after{
     border: 0;
+}
+
+.channel-textarea-guard .countdown .countdown-number{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+    border: none;
 }
 
 div.message-group-blocked{
@@ -1339,6 +1345,10 @@ div.guild-header{
     border-radius: 0;
 }
 
+#user-profile-modal .btn{
+    border-radius: 0;
+}
+
 #user-profile-modal .header .header-info .header-info-inner .activity{
     color: rgba(255, 255, 255, 0.42);
 }
@@ -1649,6 +1659,24 @@ input.emoji-name.input{
 
 .guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username{
     color: rgba(255, 255, 255, 0.8);
+}
+
+.deprecated-settings-modal .settings-inner{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.deprecated-settings-modal .settings-actions{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+    border: none;
+}
+
+.notification-settings-modal.deprecated-settings-modal .settings-actions{
+    border-radius: 0;
+}
+
+.notification-settings-modal.deprecated-settings-modal .settings-inner:first-child{
+    border-radius: 0;
 }
 
 
@@ -2125,14 +2153,14 @@ span.amount {
 .ui-flex.flex-horizontal-reverse>.ui-flex-child,
 .ui-flex.flex-horizontal>.ui-flex,
 .ui-flex.flex-horizontal>.ui-flex-child{
-    color: rgba(255, 255, 255, 0.9);
+    /*color: rgba(255, 255, 255, 0.9);*/
 }
 
 .ui-flex.flex-horizontal-reverse>.ui-flex-child:last-child,
 .ui-flex.flex-horizontal-reverse>.ui-flex:last-child,
 .ui-flex.flex-horizontal>.ui-flex-child:last-child,
 .ui-flex.flex-horizontal>.ui-flex:last-child{
-    color: rgba(255, 255, 255, 0.9);
+    /*color: rgba(255, 255, 255, 0.9);*/
 }
 
 .ui-color-picker-swatch.custom,
