@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.5                      *
+ *                     Version 1.7.6                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -832,6 +832,10 @@ h3{
     color: rgba(255, 255, 255, 0.9);
 }
 
+.modal-content{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .modal-content .form-inner p{
     color: rgba(255, 255, 255, 0.3);
 }
@@ -1525,10 +1529,13 @@ input:disabled{
 }
 
 .messages-popout .message-group .action-buttons{
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(42, 42, 42, 0) !important;
     background-size: 0 0;
-    box-shadow: 0 0;
-    transition: none !important;
+    box-shadow: none !important;
+}
+
+.messages-popout .message-group .action-buttons:hover{
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .theme-dark .themed-popout .text{
