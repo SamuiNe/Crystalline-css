@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.6                      *
+ *                     Version 1.7.7                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2148,6 +2148,14 @@ span.amount {
     border-radius: 0;
 }
 
+.theme-dark .ui-audit-log{
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.theme-dark .ui-audit-log .user-hook .discrim{
+    opacity: 0.9;
+}
+
 .theme-dark .ui-audit-log strong{
     color: rgba(197, 207, 237, 1);
 }
@@ -2262,4 +2270,16 @@ span.amount {
 
 .theme-dark .user-settings-games .game {
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+.theme-dark .user-settings-games .game-name-input:focus,
+.theme-dark .user-settings-games .game-name-input:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 0;
+}
+
+.theme-dark .user-settings-games .last-played,
+.theme-dark .user-settings-games .overlay-status-text{
+    color: rgba(255, 255, 255, 0.42);
 }
