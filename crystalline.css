@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.8                      *
+ *                     Version 1.7.9                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1090,6 +1090,10 @@ div.guild-header{
     border-color: rgba(255, 255, 255, 0.2);
 }
 
+.theme-dark .guild-settings-members-member .tag{
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .guild-settings-modal .emoji-row .btn+.btn,
 .guild-settings-modal .member-buttons .btn{
     background-color: rgba(255, 255, 255, 0.2);
@@ -1542,7 +1546,10 @@ input:disabled{
     color: rgba(255, 255, 255, 0.8);
 }
 
-.search-popout,
+.search-popout{
+    margin-top: 0 !important;
+    background-color: rgba(0, 0, 0, 0);
+}
 .results-group{
     margin-top: 0 !important;
 }
@@ -1705,6 +1712,10 @@ span.channel-name{
     box-shadow: none !important;
 }
 
+.search-popout .option .non-text{
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .search-popout .search-query{
     background-color: rgba(0, 0, 0, 0.5);
     border: 0;
@@ -1714,9 +1725,34 @@ span.channel-name{
     border: 0;
 }
 
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker,
+.theme-light .ui-calendar-picker .react-datepicker{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__header,
+.theme-light .ui-calendar-picker .react-datepicker__header{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .search-popout .date-picker{
-    background-color: rgba(42, 42, 42, 0.5);
+    background-color: rgba(0, 0, 0, 0.25);
     border: 0;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month,
+.theme-light .ui-calendar-picker .react-datepicker__current-month{
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type,
+.theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type,
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day,
+.theme-light .ui-calendar-picker .react-datepicker__day,
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name,
+.theme-light .ui-calendar-picker .react-datepicker__day-name{
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .react-datepicker{
@@ -1812,7 +1848,7 @@ div.jump-button{
 
 div.option.selected{
     border-radius: 0;
-    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: rgba(42, 42, 42, 0.42) !important;
 }
 
 div.results-group{
@@ -2083,6 +2119,18 @@ span.amount {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.theme-dark .ui-card-primary.editable:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .ui-card-primary .ui-form-title.h5{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .ui-radiogroup .desc{
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .theme-dark .ui-standard-sidebar-view .sidebar-region,
 .theme-dark .ui-standard-sidebar-view .sidebar-region .scrollbar{
     background-color: rgba(0, 0, 0, 0.42);
@@ -2168,6 +2216,11 @@ span.amount {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.dark-elevation-border-low, .theme-dark .elevation-border-low{
+    background-color: rgba(42, 42, 42, 0.8);
+    border: none;
+}
+
 .ui-flex.flex-horizontal-reverse>.ui-flex,
 .ui-flex.flex-horizontal-reverse>.ui-flex-child,
 .ui-flex.flex-horizontal>.ui-flex,
@@ -2244,6 +2297,10 @@ span.amount {
 
 .theme-dark .ui-text-input.emoji-alias-input .input{
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.theme-dark .ui-card.outline{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*
