@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.7.9                      *
+ *                     Version 1.8.0                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1295,6 +1295,10 @@ div.guild-header{
     color: rgba(255, 255, 255, 0.8);
 }
 
+.theme-dark .channel-members{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .channel-members-wrap .scroller-wrap .scroller{
     background: rgba(0, 0, 0, 0.2);
 }
@@ -2350,4 +2354,27 @@ span.amount {
 .theme-dark .user-settings-games .last-played,
 .theme-dark .user-settings-games .overlay-status-text{
     color: rgba(255, 255, 255, 0.42);
+}
+
+/* New updates from 2017/06/09 */
+.content-2mSKOj{
+    border-radius: 0;
+}
+
+.contentSelectedText-3j5CXt{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content-2mSKOj:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.container-RYiLUQ,
+.private-channels .channel.selected a{
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.header-1tSljs,
+.container-iksrDt{
+    background-color: rgba(0, 0, 0, 0.5);
 }
