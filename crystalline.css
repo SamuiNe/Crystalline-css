@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.0                      *
+ *                     Version 1.8.1                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -72,6 +72,38 @@ body {
 .markup pre code {
     background: transparent !important;
 }
+
+/* In case anyone wants to change the channel font size, here ya go o/
+   Just need to uncomment these 3 groups. */
+
+/* Channel name font size
+.nameMutedText-1YDcP-,
+.nameMutedVoice-26k4cP,
+.nameDefaultText-QoumjC,
+.nameDefaultVoice-1swZoh,
+.nameLockedText-2fGz07,
+.nameLockedVoice-wNOMNa,
+.nameSelectedText-32NDX5,
+.nameSelectedVoice-XpjYTw,
+.nameUnreadText-1pxldj,
+.nameUnreadVoice-QK4gxH
+{
+    font-size: 13px;
+}
+*/
+
+/* Channel Icon size
+.icon-3tVJnl{
+    width: 12px !important;
+    height: 12px !important;
+}
+*/
+
+/* Connected Voice User font size
+.nameDefault-1I0lx8{
+    font-size: 12px;
+}
+*/
 
 /*
     Disabling the edited message picture is possible by encapsulating .message-group .comment .edited with both */ /*.
@@ -151,6 +183,22 @@ div.theme-dark.context-menu.item.item-subMenu{
     border: 0;
     border-radius: 0;
 }
+
+.invite-button.can-click{
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.invite-button .invite-button-body,
+.invite-button .invite-button-header{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.invite-button-body{
+    color: #99aab5 !important;
+}
+
 
 .badge{
     border-radius: 0;
@@ -2362,19 +2410,45 @@ span.amount {
 }
 
 .contentSelectedText-3j5CXt{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .content-2mSKOj:hover{
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .container-RYiLUQ,
 .private-channels .channel.selected a{
-    background: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.private-channels .channel:hover a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.contentHoveredText-2HYGIY,
+.contentHoveredVoice-3qGNKh:active,
+.contentSelectedVoice-gTtYM9:active{
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .header-1tSljs,
 .container-iksrDt{
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-3lnMWU{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: none;
+}
+
+.wrapper-2xO9RX{
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.wrapper-2ldvyE{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
 }
