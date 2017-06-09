@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.1                      *
+ *                     Version 1.8.2                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -235,8 +235,8 @@ div.theme-dark.context-menu.item.item-subMenu{
     box-shadow: none;
 }
 
-.settings .settings-header {
-    background-color: rgba(0, 0, 0, 0.3);
+.deprecated-settings-modal .settings-header{
+    background-color: rgba(42, 42, 42, 0.3);
     border-radius: 0;
 }
 
@@ -800,6 +800,11 @@ div.message-group-blocked{
     box-shadow: none;
 }
 
+#rtc-connection-popout hr{
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+
 #rtc-debug-modal #users-section .user-list{
     border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -819,6 +824,15 @@ h3{
 .popout section{
     background-color: rgba(42, 42, 42, 0.8);
     border-radius: 0 !important;
+}
+
+.popout header,
+.user-popout {
+    border-radius: 0 !important;
+}
+
+.popout header{
+    background-color: rgba(42, 42, 42, 0.8);
 }
 
 .popout-menu{
@@ -1370,15 +1384,6 @@ div.guild-header{
 
 .theme-dark .channel-members .member:hover{
     background-color: rgba(0, 0, 0, 0.2);
-}
-
-.popout header,
-.user-popout {
-    border-radius: 0 !important;
-}
-
-.popout header{
-    background-color: rgba(42, 42, 42, 0.9);
 }
 
 .member-roles .member-role{
