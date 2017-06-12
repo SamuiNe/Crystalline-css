@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.2                      *
+ *                     Version 1.8.3                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -280,6 +280,14 @@ div.theme-dark.context-menu.item.item-subMenu{
 div.game-name,
 input.game-input{
     color: rgba(255, 255, 255, 0.8);
+}
+
+.theme-dark .user-settings-account .view-body{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .faded-1KRDbu{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .user-settings-modal-games{
@@ -2160,6 +2168,10 @@ span.amount {
     border: none;
 }
 
+.ui-radiogroup .radio-item{
+    border-radius: 0;
+}
+
 .theme-dark .ui-standard-sidebar-view{
     background: 0 0;
 }
@@ -2343,6 +2355,10 @@ span.amount {
     border: none;
 }
 
+.ui-input-button .ui-input-button-ui-button{
+    border-radius: 0;
+}
+
 .theme-dark .ui-input-button{
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -2438,7 +2454,9 @@ span.amount {
 }
 
 .header-1tSljs,
-.container-iksrDt{
+.container-iksrDt,
+.header-1tSljs:hover,
+.popout-open .header-1tSljs{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -2455,5 +2473,22 @@ span.amount {
 
 .wrapper-2ldvyE{
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+
+.card-3DrRmC{
+    border: none;
+    border-radius: 0;
+}
+
+.theme-dark .cardPrimary-ZVL9Jr{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttonOutlined-38aLSW{
+    border-radius: 0;
+}
+
+.button-2t3of8{
     border-radius: 0;
 }
