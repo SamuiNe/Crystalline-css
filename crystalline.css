@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.4                      *
+ *                     Version 1.8.5                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2536,4 +2536,65 @@ span.amount {
 .theme-dark .message-25xg43{
     border-radius: 0;
     box-shadow: none;
+}
+
+.checkboxBox-2i2Ris{
+    border-radius: 0;
+}
+
+.auditLog-1XsYCj{
+    border-radius: 0;
+    border: none;
+}
+
+.theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1ajMkj{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .headerExpanded-wW1rBx{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.theme-dark .divider-ShvCWe{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .changeDetails-zbf-61{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .copyInputDefault-36NOFa{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+    border: none;
+}
+
+.buttonGreyGhost-SfY7zU{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttonGreyGhost-SfY7zU:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.item-3879bf{
+    border-radius: 0;
+}
+
+.theme-dark .elevationHigh-3lNfp9{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.theme-dark .bubble-17BwqU:before{
+    border-top-color: #7289da;
+}
+
+.grabber-1TZCZi{
+    border-radius: 0;
+}
+
+.theme-dark .bar-2cFRGz{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
 }
