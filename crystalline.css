@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.5                      *
+ *                     Version 1.8.6                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -15,7 +15,8 @@
 /* Caution! This theme only works for dark theme for now. It will not work properly at light theme. */
 
 /* This import is not needed unless if you want to use Open Sans font. */
-/* @import 'https://fonts.googleapis.com/css?family=Open+Sans'; */
+/* @import 'https://fonts.googleapis.com/css?family=Open+Sans';*/
+@import 'https://wawawa.s-ul.eu/P0JVweBG.otf';
 
 body {
     -webkit-transition: background 3s ease-in-out;
@@ -51,7 +52,7 @@ body {
 */
 
 *:not(code) {
-    /*font-family: 'Dogrunes_the_Third', 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
+    /*font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
 .markup pre code, code * {
@@ -2597,4 +2598,32 @@ span.amount {
 .theme-dark .bar-2cFRGz{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Discord update 2017/7/21 */
+
+.theme-dark .inner-3if5cm{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+.theme-dark .autocomplete-1TnWNR{
+    background-color: rgba(10, 10, 10, 0.9);
+    border-radius: 0;
+}
+
+.selector-nbyEfM{
+    border-radius: 0;
+}
+
+.theme-dark .selectorSelected-2M0IGv{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .description-YnaVYa{
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.theme-dark .descriptionUsername-1quCGz{
+    color: rgba(197, 207, 237, 1);
 }
