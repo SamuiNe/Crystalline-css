@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.6                      *
+ *                     Version 1.8.7                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -25,7 +25,7 @@ body {
     /* Credits to 晴瀬ひろき for the background picture.
        Original picture link - http://www.pixiv.net/member_illust.php?mode=medium&illust_id=61282267 */
     /* If you want to change the background, you can change the background url value. */
-    background: #fff url(https://i.imgur.com/Af7G07s.jpg);
+    background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
 
     /* It is recommended to set the background-size width to match your monitor's or discord window's width.
        If the background picture is blurry, please use a bigger sized background picture. */
@@ -41,7 +41,7 @@ body {
        2nd value - Green 0-255
        3rd value - Blue 0-255
        4th value - Alpha (Opacity) 0.0-1.0 */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
 
     -webkit-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
@@ -2388,6 +2388,14 @@ span.amount {
     color: rgba(255, 255, 255, 0.9);
 }*/
 
+.ui-settings-notice{
+    border-radius: 0;
+}
+
+.ui-role-list .ui-role-list-role{
+    border-radius: 0;
+}
+
 .user-settings-connections .connection{
     border-radius: 0;
 }
@@ -2626,4 +2634,25 @@ span.amount {
 
 .theme-dark .descriptionUsername-1quCGz{
     color: rgba(197, 207, 237, 1);
+}
+
+/* Discord Update 08/11/2017 */
+
+.userPopout-4pfA0d{
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.popout{
+    box-shadow: none;
+}
+
+.body-3rkFrF,
+.footer-2J5zqP{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-1PYmcw{
+    border-radius: 0;
 }
