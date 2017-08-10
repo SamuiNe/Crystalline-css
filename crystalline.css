@@ -22,9 +22,7 @@ body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
 
-    /* Credits to 晴瀬ひろき for the background picture.
-       Original picture link - http://www.pixiv.net/member_illust.php?mode=medium&illust_id=61282267 */
-    /* If you want to change the background, you can change the background url value. */
+    /* Not sure where is this from orz */
     background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
 
     /* It is recommended to set the background-size width to match your monitor's or discord window's width.
