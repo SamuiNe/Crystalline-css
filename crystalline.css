@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.7                      *
+ *                     Version 1.8.8                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -126,9 +126,9 @@ body {
 
 .bot-tag::before {
     content: "Bot";
-    font-size: 12px;
+    font-size: 10px;
     background: rgba(0, 108, 200, 0.5) !important;
-    padding: 2px;
+    padding: 0 2px 0 2px;
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
@@ -438,6 +438,10 @@ input.game-input{
 
 .form header{
     color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.form.deprecated .btn-primary{
+    border-radius: 0;
 }
 
 #instant-invite-modal .blurb{
@@ -2648,9 +2652,59 @@ span.amount {
 .body-3rkFrF,
 .footer-2J5zqP{
     background-color: rgba(42, 42, 42, 0.8);
-    border-color: rgba(255, 255, 255, 0.2);
+    border: none;
 }
 
 .footer-1PYmcw{
     border-radius: 0;
+}
+
+.botTagInvert-gorWR_{
+    border-radius: 0;
+    background: rgba(0, 108, 200, 0.5) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Mini user pop-out window padding and margin adjustments */
+
+.header-3mZJcV{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.body-3rkFrF{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-2J5zqP{
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.endBodySection-1WYzxu{
+    margin-bottom: 15px;
+}
+
+.protip.inline{
+    padding-top: 10px;
+}
+
+.marginBottom8-1mABJ4{
+    margin-bottom: 0;
+}
+
+.marginBottom20-2Ifj-2{
+    margin-bottom: 10px;
+}
+
+.botTag-1OwMgs {
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 6px;
+    padding: 0 3px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
 }
