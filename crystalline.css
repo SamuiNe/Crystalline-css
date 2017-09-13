@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.8.8                      *
+ *                     Version 1.9.0                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -323,18 +323,18 @@ input.game-input{
 }
 
 .Select-control{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border: 0 !important;
     border-radius: 0;
 }
 
 .is-open>.Select-control{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .Select-menu-outer{
     margin-top: 0;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(42, 42, 42, 0.8);
     border: 0;
     border-radius: 0;
 }
@@ -723,7 +723,24 @@ div.control-group .shortcut-recorder input[type=text]{
     border: none;
 }
 
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{
+    display:none;
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked{
+    border: none;
+    background: none;
+}
+
 div.message-group-blocked{
+    border-bottom: 1px solid hsla(0,0%,100%,.04) !important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.divider+.message-group-blocked,
+.empty-message+.message-group-blocked{
+    margin: 0;
     display: none;
 }
 
@@ -2532,6 +2549,7 @@ span.amount {
 .theme-dark .modal-3HOjGZ{
     border-radius: 0;
     background-color: rgba(42, 42, 42, 0.8);
+    box-shadow: none;
 }
 
 .input-2YozMi{
@@ -2654,10 +2672,6 @@ span.amount {
     border: none;
 }
 
-.footer-1PYmcw{
-    border-radius: 0;
-}
-
 .botTagInvert-gorWR_{
     border-radius: 0;
     background: rgba(0, 108, 200, 0.5) !important;
@@ -2695,4 +2709,160 @@ span.amount {
 
 .marginBottom20-2Ifj-2{
     margin-bottom: 10px;
+}
+
+/* Discord theme update before 2017/09/13 */
+.item-3H-QZD:first-child,
+.item-3H-QZD:last-child,
+.item-3H-QZD{
+    border-radius: 0;
+    border: none;
+}
+
+.theme-dark .item-3H-QZD {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.denySelected-h37B9e{
+    background: #f04747 !important;
+}
+
+.theme-dark .passthroughSelected-3_g4oB{
+    background: #747f8d !important;
+}
+
+.allowSelected-1FAg8y{
+    background: #43b581 !important;
+}
+
+.prefix-dCECsB,
+.wrapper-2ldvyE{
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.theme-dark .headerExpanded-wW1rBx{
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.theme-dark .userHook-DFT5u7{
+    color: rgba(197, 207, 237, 1);
+}
+
+.theme-dark .footer-1PYmcw{
+    background: rgba(0, 0, 0, 0.42) !important;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.form.deprecated .has-value .Select-placeholder{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form.deprecated .btn-default,
+.form.deprecated .btn-default:hover{
+    border: none;
+}
+
+.round-30vw42{
+    border-radius: 0;
+}
+
+.theme-dark .checkbox-1QwaS4{
+    border: none;
+}
+
+.roundRemoveButton-1NEXB9{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+}
+
+.form.deprecated .Select-option{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form.deprecated .Select-option.is-focused{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form.deprecated .Select-option.is-focused:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form.deprecated .Select-option:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.checkboxWrapper-2Yvr_Y{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.checkboxWrapper-2Yvr_Y:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box-XhjOl4{
+    border-radius: 0;
+}
+
+.theme-dark .ui-video{
+    background: none;
+}
+
+.theme-dark .private-channel-call{
+    background: none;
+}
+
+.ui-call-avatar.video{
+    border-radius: none;
+}
+
+.headerLive-2dDMvp{
+    border: none;
+    margin-bottom: -15px;
+}
+
+.bodyDivider-3OPnU2{
+    background: none;
+}
+
+.nameSmall-2HcWNX{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contentSmall-3Or8WV{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.assetsLargeImage-3apSRO{
+    border-radius: 0;
+}
+
+.need-help-modal.deprecated{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.need-help-modal.deprecated .header{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+.need-help-modal.deprecated .header input[type=text]{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form.deprecated .form-inner{
+    background: none;
+}
+
+.need-help-modal.deprecated .footer{
+    background: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+    border: none;
 }
