@@ -1,12 +1,14 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.0                      *
+ *                     Version 1.9.1                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
  *                                                        *
  *            Found a bug or have a suggestion?           *
  *  Feel free to open an issue at the GitHub repository.  *
+ *  Or, feel free to join my Discord Server linked below. *
+ *               https://discord.gg/An6Yka5               *
  *                  Thank you in advance!                 *
  *                                                        *
  *       MIT License, Copyright SamuiNe 2016 ~ 2017       *
@@ -413,6 +415,10 @@ input.game-input{
 
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header{
     border-color: rgba(255, 255, 255, 0.2);
+}
+
+.user-settings-authorized-apps .authed-app{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .settings .settings-inner .settings-panel{
@@ -2420,6 +2426,7 @@ span.amount {
 
 .user-settings-connections .connection-header{
     border: none;
+    border-radius: 0;
 }
 
 .theme-dark .user-settings-notifications .notifications-sound{
@@ -2737,7 +2744,7 @@ span.amount {
 
 .prefix-dCECsB,
 .wrapper-2ldvyE{
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "MS UI Gothic", Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .theme-dark .headerExpanded-wW1rBx{
@@ -2865,4 +2872,74 @@ span.amount {
     background: rgba(0, 0, 0, 0.42);
     border-radius: 0;
     border: none;
+}
+
+.theme-dark .quickswitcher-2NdiGJ{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+}
+
+.theme-dark .tipsWithoutResults-202oQR,
+.theme-dark .tipsWithResults-3TVZGE{
+    background-color: rgba(0, 0, 0, 0.42);
+    margin: 0 -21px -1px -21px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.theme-dark .input-MwQhcX{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.match-2k4Voy{
+    color: rgba(197, 207, 237, 1);
+}
+
+.theme-dark .cardPrimaryEditable-2IQ7-V{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Text color adjustments */
+
+.theme-dark .descChecked-KbaI-r,
+.theme-dark .titleChecked-3Ngoss {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.theme-dark .h5-3KssQU,
+.text-align-right,
+.overflow-ellipsis{
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.overflow-ellipsis,
+.invite-settings-invite-row .channel-name{
+    opacity: 1 !important;
+}
+
+.theme-dark .title-3i-5G_{
+    color: rgba(255, 255, 255, 0.7);
+}
+.theme-dark .text-1rLRsh,
+.theme-dark .title-38OOBL,
+.theme-dark .description-3MVziF,
+.theme-dark .labelDescriptor-1BebCl,
+.theme-dark .desc-2dKaro,
+.invite-settings-invite-row .channel-name{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.theme-dark .discrim-xHdOK3,
+.invite-settings-invite-row .countdown-never{
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1 !important;
+}
+
+.theme-dark .timestamp-5LpvaA{
+    color: rgba(255, 255, 255, 0.3);
 }
