@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.1                      *
+ *                     Version 1.9.2                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2912,8 +2912,7 @@ span.amount {
 }
 
 .theme-dark .h5-3KssQU,
-.text-align-right,
-.overflow-ellipsis{
+.text-align-right{
     color: rgba(255, 255, 255, 0.85);
 }
 
