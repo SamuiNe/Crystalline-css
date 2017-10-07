@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.2                      *
+ *                     Version 1.9.3                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -23,7 +23,9 @@ body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
 
-    /* Not sure where is this from orz */
+    /* The picture source is from 书童hiroco at the link (thanks shinji257!):
+       https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61734227
+       */
     background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
 
     /* It is recommended to set the background-size width to match your monitor's or discord window's width.
@@ -2714,6 +2716,8 @@ span.amount {
     padding-top: 10px;
 }
 
+/* Delete and adjust this later */
+
 .marginBottom8-1mABJ4{
     margin-bottom: 0;
 }
@@ -2945,4 +2949,11 @@ span.amount {
 
 .theme-dark .emoji-alias-input .emoji-input{
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Discord updates 2017/10/04? */
+
+.bar-Y-RLyN{
+    border-radius: 0;
+    opacity: 0.9;
 }
