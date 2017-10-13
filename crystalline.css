@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.3                      *
+ *                     Version 1.9.4                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2716,12 +2716,6 @@ span.amount {
     padding-top: 10px;
 }
 
-/* Delete and adjust this later */
-
-.marginBottom8-1mABJ4{
-    margin-bottom: 0;
-}
-
 /* Discord theme update before 2017/09/13 */
 .item-3H-QZD:first-child,
 .item-3H-QZD:last-child,
@@ -2956,4 +2950,31 @@ span.amount {
 .bar-Y-RLyN{
     border-radius: 0;
     opacity: 0.9;
+}
+
+/* User mini pop-up adjustments */
+
+.bodyTitle-yehI7c{
+    margin-bottom: 3px;
+}
+
+.body-3rkFrF{
+    padding-bottom: 8px;
+}
+
+.endBodySection-1WYzxu{
+    margin-bottom: 8px;
+}
+
+.protip.inline{
+    padding-top: 0;
+}
+
+.avatarWrapperNormal-1wU7gX{
+    margin-bottom: 11px;
+}
+
+.headerTagNormal-KyD3_J,
+.headerActivityText-3qBQRo{
+    margin-bottom: 0;
 }
