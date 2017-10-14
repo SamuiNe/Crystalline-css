@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.4                      *
+ *                     Version 1.9.5                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2977,4 +2977,28 @@ span.amount {
 .headerTagNormal-KyD3_J,
 .headerActivityText-3qBQRo{
     margin-bottom: 0;
+}
+
+/* Discord crash window */
+
+.theme_dark-2FtE3l{
+    background: none;
+    background-color: rgba(0, 0, 0, 0.77);
+}
+
+/* Other stuff discord changed */
+
+.theme-dark .container-a2vS7i,
+.theme-dark .reactors-2PjMP0,
+.theme-dark .sidebar-32BRdp{
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.scroller-2IVcoQ{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.reactionDefault-2V6kdV,
+.reactionSelected-rLBoT_{
+    border-radius: 0;
 }
