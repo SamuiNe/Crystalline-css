@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.5                      *
+ *                     Version 1.9.6                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -1738,7 +1738,7 @@ span.discriminator{
     opacity: 0.05;
 }
 
-.theme-dark .messages-wrapper .messages .divider.divider-red>span {
+.theme-dark .messages-wrapper .messages .divider.divider-red>span{
     margin-left: calc(-100% + 242px);
     /*margin-top: 19px;*/
     background-color: rgba(240, 71, 71, 0.35) !important;
@@ -3001,4 +3001,65 @@ span.amount {
 .reactionDefault-2V6kdV,
 .reactionSelected-rLBoT_{
     border-radius: 0;
+}
+
+/* Discord Canary stuffs*/
+.container-2OU7Cz{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.appMount-14L89u{
+    background: none;
+}
+
+.typeWindows-15E0Ys{
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 0;
+    padding-top: 4px;
+}
+
+.base-3AoPqv, .channels-3g2vYe{
+    border-radius: 0;
+}
+
+.channels-3g2vYe{
+    /*Fix padding later on*/
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.private-channels .search-bar{
+    /*TODO: Adjust the new search bar padding when discord finally decides to not use this element */
+    box-shadow: none;
+    padding-bottom: 1px;
+}
+
+.theme-dark .title-qAcLxz{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+}
+
+.theme-dark .chat form{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+.Select-option{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.Select .Select-menu{
+    border-radius: 0;
+}
+
+.Select .Select-control{
+    border-radius: 0;
+}
+
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label,
+.has-value.Select--single>.Select-control .Select-value .Select-value-label{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Select-option.is-selected{
+    background-color: rgba(255, 255, 255, 0.075);
 }
