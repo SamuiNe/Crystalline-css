@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.6                      *
+ *                     Version 1.9.7                      *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3062,4 +3062,33 @@ span.amount {
 
 .Select-option.is-selected{
     background-color: rgba(255, 255, 255, 0.075);
+}
+
+/* Discord Canary update 2017/10/26 */
+
+.theme-dark .headerBar-cxbhPD{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+}
+
+/* Other CSS Fixes */
+
+.tooltip.tooltip-black{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tooltip.tooltip-black.tooltip-top:after{
+    border-top-color: rgba(197, 207, 237, 1);
+}
+
+.tooltip.tooltip-black.tooltip-bottom:after{
+    border-bottom-color: rgba(197, 207, 237, 1);
+}
+
+.tooltip.tooltip-black.tooltip-right:after{
+    border-right-color: rgba(197, 207, 237, 1);
+}
+
+.search-results-wrap .action-buttons .jump-button{
+    border-radius: 0;
 }
