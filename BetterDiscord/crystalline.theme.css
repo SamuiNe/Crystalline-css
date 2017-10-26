@@ -1,0 +1,17 @@
+//META{"name":"Crystalline","description":"Crystalline is a BeautifulDiscord theme focused on using non-rounded edges, dark colors, and transparent windows.","author":"SamuiNe","version":"latest"}*//
+
+@import 'https://cdn.rawgit.com/SamuiNe/Crystalline-css/master/crystalline.css';
+
+/* By default these are commented out.  You can uncomment the settings below and change them to something that you may prefer otherwise the default in the original css will be used instead. */
+
+body{
+    /* Override background image in original css
+    The picture source is from 书童hiroco at the link (thanks shinji257!):
+    https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61734227 */
+    //background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
+
+    /* It is recommended to set the background-size width to match your monitor's or discord window's width.
+       If the background picture is blurry, please use a bigger sized background picture. */
+    //background-size: 1920px auto;
+}
+
