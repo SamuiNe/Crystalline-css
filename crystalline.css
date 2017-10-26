@@ -3088,3 +3088,7 @@ span.amount {
 .tooltip.tooltip-black.tooltip-right:after{
     border-right-color: rgba(197, 207, 237, 1);
 }
+
+.search-results-wrap .action-buttons .jump-button{
+    border-radius: 0;
+}
