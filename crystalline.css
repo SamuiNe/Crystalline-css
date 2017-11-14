@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.9.9                      *
+ *                     Version 1.10.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -552,6 +552,7 @@ div.control-group .shortcut-recorder input[type=text]{
 .notice{
     background-color: rgba(242, 101, 34, 0.5);
     color: rgba(255, 255, 255, 0.9);
+    border-radius: 0;
 }
 
 .notice .btn{
@@ -641,6 +642,10 @@ div.control-group .shortcut-recorder input[type=text]{
     background-color: rgba(10, 10, 10, 0.5);
     border-radius: 0;
     border: 0;
+}
+
+.message-group .mentioned .message-text{
+    border-radius: 0;
 }
 
 .message-group .mentioned .message-text:after{
@@ -1531,6 +1536,7 @@ div.guild-header{
     border: 0 !important;
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .quick-message.isBlocked{
@@ -3133,4 +3139,13 @@ span.amount {
 .bodyDivider-3OPnU2{
     margin-top: 0 !important;
     margin-bottom: 8px !important;
+}
+
+.notice.notice-facebook{
+    background-color: rgba(53, 80, 137, 0.5);
+}
+
+/* Discord updates 2017/11/13 */
+span.discriminator{
+    color: rgba(255, 255, 255, 0.35);
 }
