@@ -1,6 +1,6 @@
 
 # Crystalline-css Better Discord
-This is a stub file meant to allow the Crystalline css theme file to work with Better Discord.  For convenience it imports the css file from GitHub directly so it is always kept up to date.  A couple of typical configuration options are given to allow changing the background as well as it's size. ~[shinji257](https://github.com/shinji257)<br>
+This is a stub file meant to allow the Crystalline css theme file to work with Better Discord.  For convenience it imports the css file from GitHub via GitCDN.xyz so it is almost always kept up to date.  A couple of typical configuration options are given to allow changing the background as well as it's size. ~[shinji257](https://github.com/shinji257)<br>
 
 ## Requirements
 To apply this CSS to Discord, you should have [BetterDiscord](https://betterdiscord.net/home/) installed!<br>
