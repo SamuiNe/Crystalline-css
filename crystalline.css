@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.10.2                     *
+ *                     Version 1.11.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -28,9 +28,9 @@ body {
        */
     background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
 
-    /* It is recommended to set the background-size width to match your monitor's or discord window's width.
+    /* It is recommended to set the background-size width to match your monitor's or discord window's width plus 1px.
        If the background picture is blurry, please use a bigger sized background picture. */
-    background-size: 1920px auto;
+    background-size: 1921px auto;
 }
 
 .app, .connecting {
@@ -2679,6 +2679,7 @@ span.amount {
 .userPopout-4pfA0d{
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
 }
 
 .popout{
@@ -3201,4 +3202,105 @@ span.discriminator{
 {
     background-color: rgba(67,181,129, 0.2);
     border: none;
+}
+
+/* Discord update 2017/11/29 */
+
+/* User Profile fix */
+.root-2sNHUF{
+    border-radius: 0;
+}
+
+.topSectionNormal-2LlRG1{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.theme-dark .body-3_tdh6{
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.tabBarContainer-3RVZc-{
+    border: none;
+}
+
+.connectedAccount-3mKaTA{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.connectedAccountName-3EFj01{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.tabBarContainer-3RVZc-{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Mini user pop-up fix */
+
+.theme-dark .headerNormal-1cioxU{
+    padding: 0;
+    background-color: rgba(52, 52, 52, 0.8);
+}
+
+.theme-dark .body-3rkFrF,
+.theme-dark .footer-2J5zqP{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.headerTop-1QGMLs{
+    padding: 15px 10px;
+}
+
+.header-3mZJcV{
+    padding: 0;
+}
+
+.headerPlaying-2eYqm9{
+    background-color: rgba(70, 84, 133, 0.8);
+}
+
+.headerStreaming-3F-wjT{
+    background-color: rgba(65, 39, 111, 0.8);
+}
+
+.buttonWhiteOutlined-2KwPTg{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttonWhiteOutlined-2KwPTg:hover{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.activity-AFBUEw{
+    padding: 8px 10px;
+}
+
+.theme-dark .activityProfile-2pymp0 .headerText-2CVBxK,
+.theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK,
+.theme-light .activityProfile-2pymp0 .headerText-2CVBxK,
+.theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .quickMessage-28pD5Y{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .userPopout-4pfA0d .note textarea{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.theme-dark .userPopout-4pfA0d .note textarea:focus{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .quickMessage-28pD5Y{
+    color: rgba(255, 255, 255, 0.8);
 }
