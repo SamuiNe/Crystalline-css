@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.11.0                     *
+ *                     Version 1.11.1                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3241,7 +3241,7 @@ span.discriminator{
 /* Mini user pop-up fix */
 
 .theme-dark .headerNormal-1cioxU{
-    padding: 0;
+    /*padding: 0;*/
     background-color: rgba(52, 52, 52, 0.8);
 }
 
@@ -3251,12 +3251,12 @@ span.discriminator{
 }
 
 .headerTop-1QGMLs{
-    padding: 15px 10px;
+    padding: 0; /* Old custom value 15px 10px*/
 }
-
+/* TODO: uncomment this when Canary theme is added to live version
 .header-3mZJcV{
     padding: 0;
-}
+}*/
 
 .headerPlaying-2eYqm9{
     background-color: rgba(70, 84, 133, 0.8);
