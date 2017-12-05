@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.11.2                     *
+ *                     Version 1.12.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2277,7 +2277,7 @@ span.amount {
 
 .theme-dark .ui-select .Select-control{
     border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .Select-option:last-child{
@@ -2285,18 +2285,18 @@ span.amount {
 }
 
 .theme-dark .ui-select .Select-menu-outer{
-    background-color: rgba(42, 42, 42, 0);
+    background-color: rgba(42, 42, 42, 0) !important;
     box-shadow: none;
 }
 
 .theme-dark .ui-select .Select-option.is-selected{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.8) !important;
 }
 
 .theme-dark .ui-select .Select-option.is-selected:hover{
     border-radius: 0;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .theme-dark .ui-selectable-item:hover{
@@ -2510,6 +2510,7 @@ span.amount {
 .header-1tSljs:hover,
 .popout-open .header-1tSljs{
     background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
 }
 
 .container-3lnMWU{
@@ -2518,9 +2519,9 @@ span.amount {
 }
 
 .wrapper-2xO9RX{
-    border-radius: 0;
-    box-shadow: none;
-    text-shadow: none;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
 }
 
 .wrapper-2ldvyE{
@@ -2594,20 +2595,21 @@ span.amount {
     border: none;
 }
 
-.theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1ajMkj{
-    background-color: rgba(0, 0, 0, 0.3);
+.theme-dark .headerClickable-1jGUp8,
+.theme-dark .headerDefault-1ajMkj{
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .theme-dark .headerExpanded-wW1rBx{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .theme-dark .divider-ShvCWe{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .theme-dark .changeDetails-zbf-61{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .theme-dark .copyInputDefault-36NOFa{
@@ -2617,15 +2619,15 @@ span.amount {
 }
 
 .buttonGreyGhost-SfY7zU{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .buttonGreyGhost-SfY7zU:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .item-3879bf{
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .theme-dark .elevationHigh-3lNfp9{
@@ -2649,12 +2651,12 @@ span.amount {
 /* Discord update 2017/7/21 */
 
 .theme-dark .inner-3if5cm{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.42) !important;
     border-radius: 0;
 }
 
 .theme-dark .autocomplete-1TnWNR{
-    background-color: rgba(10, 10, 10, 0.9);
+    background-color: rgba(10, 10, 10, 0.9) !important;
     border-radius: 0;
 }
 
@@ -2707,16 +2709,11 @@ span.amount {
 
 .body-3rkFrF{
     padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .footer-2J5zqP{
     padding-top: 0;
     padding-bottom: 15px;
-}
-
-.endBodySection-1WYzxu{
-    margin-bottom: 15px;
 }
 
 .protip.inline{
@@ -2880,25 +2877,26 @@ span.amount {
 }
 
 .theme-dark .quickswitcher-2NdiGJ{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.7) !important;
     border-radius: 0;
 }
 
 .theme-dark .tipsWithoutResults-202oQR,
 .theme-dark .tipsWithResults-3TVZGE{
+    border-color: rgba(0, 0, 0, 0) !important;
     background-color: rgba(0, 0, 0, 0.42);
     margin: 0 -21px -1px -21px;
     padding-left: 21px;
     padding-right: 21px;
-    border: none;
-    color: rgba(255, 255, 255, 0.5);
+    border: none !important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .theme-dark .input-MwQhcX{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border-radius: 0;
-    box-shadow: none;
-    color: rgba(255, 255, 255, 0.9);
+    box-shadow: none !important;
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .match-2k4Voy{
@@ -2962,7 +2960,7 @@ span.amount {
 /* User mini pop-up adjustments */
 
 .bodyTitle-yehI7c{
-    margin-bottom: 3px;
+    margin-bottom: 3px !important;
 }
 
 .body-3rkFrF{
@@ -2970,7 +2968,7 @@ span.amount {
 }
 
 .endBodySection-1WYzxu{
-    margin-bottom: 8px;
+    margin-bottom: 8px !important;
 }
 
 .protip.inline{
@@ -3012,7 +3010,7 @@ span.amount {
 
 /* Discord Canary stuffs*/
 .container-2OU7Cz{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .appMount-14L89u{
@@ -3031,7 +3029,7 @@ span.amount {
 
 .channels-3g2vYe{
     /*Fix padding later on*/
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .private-channels .search-bar{
@@ -3041,8 +3039,8 @@ span.amount {
 }
 
 .theme-dark .title-qAcLxz{
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: none !important;
 }
 
 .theme-dark .chat form{
@@ -3074,8 +3072,8 @@ span.amount {
 /* Discord Canary update 2017/10/26 */
 
 .theme-dark .headerBar-cxbhPD{
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: none !important;
 }
 
 /* Other CSS Fixes */
@@ -3109,7 +3107,7 @@ span.amount {
 /* Quick switcher highlight */
 .theme-dark .resultFocused-2geRUA{
     border-radius: 0;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Fix for that large game playing stuff */
@@ -3166,7 +3164,7 @@ span.discriminator{
 }
 
 .headerTagStreaming-2FikoO{
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 .theme-dark .noChannel-2EQ0a9{
@@ -3208,30 +3206,30 @@ span.discriminator{
 
 /* User Profile fix */
 .root-2sNHUF{
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .topSectionNormal-2LlRG1{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.8) !important;
 }
 
 .theme-dark .body-3_tdh6{
-    background-color: rgba(22, 22, 22, 0.8);
+    background-color: rgba(22, 22, 22, 0.8) !important;
 }
 
 .tabBarContainer-3RVZc-{
-    border: none;
+    border: none !important;
 }
 
 .connectedAccount-3mKaTA{
-    border-radius: 0;
-    border: none;
+    border-radius: 0 !important;
+    border: none !important;
     background-color: rgba(255, 255, 255, 0.15);
     color: rgba(255, 255, 255, 0.9);
 }
 
 .connectedAccountName-3EFj01{
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .tabBarContainer-3RVZc-{
@@ -3260,12 +3258,13 @@ span.discriminator{
 
 .topSectionPlaying-3jAH9b,
 .headerPlaying-2eYqm9{
-    background-color: rgba(70, 84, 133, 0.8);
+    background: none !important;
+    background-color: rgba(70, 84, 133, 0.8) !important;
 }
 
 .topSectionStreaming-3rIBIm,
 .headerStreaming-3F-wjT{
-    background-color: rgba(65, 39, 111, 0.8);
+    background-color: rgba(65, 39, 111, 0.8) !important;
 }
 
 .buttonWhiteOutlined-2KwPTg{
@@ -3309,4 +3308,52 @@ span.discriminator{
 
 .container-2oOGIt{
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Discord Canary update 2017/12/05 */
+/*
+.container-2OU7Cz{
+    background-color: rgba(0, 0, 0, 0);
+}*/
+
+.quickswitcher-2NdiGJ{
+    box-shadow: none !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.theme-dark .auditLog-1XsYCj{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: none;
+    border-radius: 0;
+}
+
+.botTagRegular-288-ZL{
+    border-radius: 0;
+    height: 14px;
+    font-size: 10px !important;
+    background-color: rgba(0, 108, 200, 0.5) !important;
+}
+
+.theme-dark .ui-color-picker-custom{
+    background-color: rgba(42, 42, 42, 0.8);
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.saturation-QX6a9n>div{
+    border-radius: 0 !important;
+}
+
+.buttonBrandGhostDefault-2JCnWW:active{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.buttonBrandGhost-1-Lmhc{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.buttonBrandGhost-1-Lmhc{
+    color: rgba(255, 255, 255, 0.9) !important;
 }
