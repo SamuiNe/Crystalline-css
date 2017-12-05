@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.12.0                     *
+ *                     Version 1.12.1                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2665,7 +2665,8 @@ span.amount {
 }
 
 .theme-dark .selectorSelected-2M0IGv{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0;
 }
 
 .theme-dark .description-YnaVYa{
@@ -3349,6 +3350,7 @@ span.discriminator{
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Change button is a "brand" according to Discord */
 .buttonBrandGhost-1-Lmhc{
     background-color: rgba(255, 255, 255, 0.2) !important;
     color: rgba(255, 255, 255, 0.8);
