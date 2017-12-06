@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.12.2                     *
+ *                     Version 1.12.3                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3373,4 +3373,8 @@ span.discriminator{
 .role-3rahR_{
     border-radius: 0;
     height: 20px;
+}
+
+.roleName-DUQZ9m{
+    font-weight: normal;
 }
