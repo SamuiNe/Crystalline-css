@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.12.3                     *
+ *                     Version 1.12.4                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -872,7 +872,7 @@ h3{
 }
 
 .popout header{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.8) !important;
 }
 
 .popout-menu{
@@ -1499,27 +1499,46 @@ div.guild-header{
     color: rgba(255, 255, 255, 0.8);
 }
 
+.theme-dark #autocomplete-popout .autocomplete-arrow,
+.theme-dark #autocomplete-popout .autocomplete-shadow{
+    box-shadow: none !important;
+}
+
+#autocomplete-popout{
+    border-radius: 0 !important;
+    border: none !important;
+}
+
 #autocomplete-popout section{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.8) !important;
 }
 
 #autocomplete-popout .row.selected{
-    background: none;
+    background: none !important;
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 #autocomplete-popout header{
-    background-color: rgba(33, 33, 33, 0.9);
+    background-color: rgba(33, 33, 33, 0.9) !important;
 }
 
 #autocomplete-popout .row a,
 #autocomplete-popout .row.selected a,
 #autocomplete-popout .row:hover a{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8) !important;
 }
 
 #autocomplete-popout .empty h4{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+#autocomplete-popout .autocomplete-header-background{
+    background: none !important;
+}
+
+.theme-dark #autocomplete-popout input[type=text],
+.theme-dark #autocomplete-popout h3{
+    color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .embed .image,
@@ -3377,4 +3396,13 @@ span.discriminator{
 
 .roleName-DUQZ9m{
     font-weight: normal;
+}
+
+/* Discord Update 2017/12/10 */
+.theme-dark #autocomplete-popout .autocomplete-arrow{
+    background-color: rgba(197, 207, 237, 1) !important;
+}
+
+.tooltip.tooltip-black.tooltip-left:after{
+    border-left-color: rgba(197, 207, 237, 1) !important;
 }
