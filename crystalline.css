@@ -428,19 +428,19 @@ input.game-input{
 }
 
 .form .btn-default{
-    background-color: rgba(255, 255, 255, 0.2);
-    color: rgba(255, 255, 255, 0.8);
-    border: 0;
-    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2) !important ;
+    color: rgba(255, 255, 255, 0.8) !important;
+    border: 0 !important;
+    padding: 10px !important;
 }
 
 .form .btn-default:hover{
-    border: 0;
+    border: 0 !important;
 }
 
 .form .btn-primary{
-    border-radius: 0;
-    color: rgba(255, 255, 255, 0.9);
+    border-radius: 0 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .form header{
@@ -486,7 +486,7 @@ input.game-input{
 #instant-invite-modal .form-actions,
 #instant-invite-modal-advanced .form-inner,
 #instant-invite-modal-advanced .form-actions{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 #permissions ul li{
@@ -514,24 +514,24 @@ input.game-input{
 .form .form-inner,
 .form .form-actions
 {
-    background-color: rgba(42, 42, 42, 0.8);
-    color: rgba(255, 255, 255, 0.9);
-    border-radius: 0;
-    border: 0;
+    background-color: rgba(42, 42, 42, 0.8) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 0 !important;
+    border: 0 !important;
 }
 
 .form .form-inner:first-child,
 .form .form-inner:last-child{
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .alert.form .form-inner .cancel{
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .alert.form.has-icon:before{
-    border-radius: 0;
-    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0 !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 div.control-group .shortcut-recorder input[type=text]{
@@ -939,8 +939,9 @@ h3{
 }
 
 .modal-content .form-inner p{
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.3) !important;
 }
+
 
 .private-channels .channel:hover,
 .private-channels .channel.selected{
@@ -1388,17 +1389,20 @@ div.guild-header{
 }
 
 .create-guild-container .create-or-join .form-inner{
-    background-color: rgba(42, 42, 42, 0.8);
-    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.8) !important;
+    border-radius: 0 !important;
 }
 
 .create-guild-container .action{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.create-guild-container .action.create .action-header,
+.create-guild-container .action.create .action-header {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
 .create-guild-container .action.join .action-header{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .theme-dark .channel-members{
@@ -1634,7 +1638,7 @@ input:disabled{
 }
 
 .theme-dark .themed-popout .header{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .theme-dark .themed-popout{
@@ -2790,8 +2794,8 @@ span.amount {
 
 .form.deprecated .btn-default,
 .form.deprecated .btn-default:hover{
-    border: none;
-}
+    border: none !important;
+} 
 
 .round-30vw42{
     border-radius: 0;
@@ -2887,7 +2891,7 @@ span.amount {
 }
 
 .form.deprecated .form-inner{
-    background: none;
+    background: none ;
 }
 
 .need-help-modal.deprecated .footer{
@@ -3405,4 +3409,19 @@ span.discriminator{
 
 .tooltip.tooltip-black.tooltip-left:after{
     border-left-color: rgba(197, 207, 237, 1) !important;
+}
+
+
+div.action-body {
+	color: rgba(255, 255, 255, 0.3) !important;
+}
+
+div.action.create {
+	color: rgba(255, 255, 255, 0.3) !important;
+	background-color: rgba(42, 42, 42, 0.8) !important;
+}
+
+div.action.join {
+	color: rgba(255, 255, 255, 0.3) !important;
+	background-color: rgba(42, 42, 42, 0.8) !important;
 }
