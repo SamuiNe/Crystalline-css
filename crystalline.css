@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.12.4                     *
+ *                     Version 1.12.5                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -514,7 +514,7 @@ input.game-input{
 .form .form-inner,
 .form .form-actions
 {
-    background-color: rgba(42, 42, 42, 0.8) !important;
+    background-color: rgba(22, 22, 22, 0.8) !important;
     color: rgba(255, 255, 255, 0.9) !important;
     border-radius: 0 !important;
     border: 0 !important;
@@ -1389,7 +1389,7 @@ div.guild-header{
 }
 
 .create-guild-container .create-or-join .form-inner{
-    background-color: rgba(42, 42, 42, 0.8) !important;
+    background-color: rgba(22, 22, 22, 0.8) !important;
     border-radius: 0 !important;
 }
 
@@ -2795,7 +2795,7 @@ span.amount {
 .form.deprecated .btn-default,
 .form.deprecated .btn-default:hover{
     border: none !important;
-} 
+}
 
 .round-30vw42{
     border-radius: 0;
@@ -3418,10 +3418,29 @@ div.action-body {
 
 div.action.create {
 	color: rgba(255, 255, 255, 0.3) !important;
-	background-color: rgba(42, 42, 42, 0.8) !important;
+	background-color: rgba(255, 255, 255, 0.) !important;
 }
 
 div.action.join {
 	color: rgba(255, 255, 255, 0.3) !important;
-	background-color: rgba(42, 42, 42, 0.8) !important;
+	background-color: rgba(255, 255, 255, 0.1) !important;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.create-guild-container.deprecated{
+    background: 0;
+}
+
+.create-guild-container.deprecated .action{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.create-guild-container.deprecated .join-server .link-container input{
+    border-radius: 0;
+    border: none;
+    color: rgba(255, 255, 255, 0.9);
 }
