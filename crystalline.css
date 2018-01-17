@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.12.5                     *
+ *                     Version 1.12.6                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3443,4 +3443,15 @@ div.action.join {
     border-radius: 0;
     border: none;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.message-group-blocked:last-child{
+    margin: 0;
+}
+
+/* Discord Update 2018/01/17 */
+
+.theme-dark .layer-kosS71,
+.theme-dark .layers-20RVFW{
+    background-color: rgba(0, 0, 0, 0);
 }
