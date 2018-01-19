@@ -3659,3 +3659,72 @@ div.action.join {
 .ghostPill-1yup5q{
     border-radius: 0;
 }
+
+.menu-3BZuDT{
+    border-radius: 0;
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.separator-1hpa3S{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.item-rK1j5B{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.item-rK1j5B:hover{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wrapper-VSYYTS{
+    border-radius: 0;
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.form-deprecated .form-header,
+.form-deprecated .form-inner,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.clipboardInputInner-oj8y-S{
+    border-radius: 0;
+    border: none;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+input{
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.form-deprecated .form-actions, .form.deprecated .form-actions{
+    border-radius: 0;
+}
+
+.form-deprecated .btn-primary, .form.deprecated .btn-primary{
+    border-radius: 0;
+}
+
+.clipboardInputInner-oj8y-S button:first-of-type:before{
+    background: none;
+}
+
+.clipboardInputInner-oj8y-S button{
+    border: none;
+}
