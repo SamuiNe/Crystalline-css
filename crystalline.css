@@ -3830,3 +3830,22 @@ input{
 .theme-dark .select-3JqNgs .Select-option:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+
+.colorPickerSwatch-2aTUJ5.custom-2kpTcJ,
+.colorPickerSwatch-2aTUJ5.default-3AWDTQ{
+    border-radius: 0;
+}
+
+.theme-dark .colorPickerCustom-1sJLDt{
+    background-color: rgba(42, 42, 42, 0.8);
+    border: none;
+}
+
+.searchBar-YMJBu9{
+    border-radius: 0;
+}
+
+.theme-dark .searchBar-YMJBu9{
+    background-color: rgba(0, 0, 0, 0.42);
+}
