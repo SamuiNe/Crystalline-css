@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.13.2                     *
+ *                     Version 1.14.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -16,8 +16,8 @@
 
 /* Caution! This theme only works for dark theme for now. It will not work properly at light theme. */
 
-/* This import is not needed unless if you want to use Open Sans font. */
-/* @import 'https://fonts.googleapis.com/css?family=Open+Sans';*/
+/* This import is not needed unless if you want to use Crimson Text font. */
+/*@import 'https://fonts.googleapis.com/css?family=Crimson+Text';*/
 
 body {
     -webkit-transition: background 3s ease-in-out;
@@ -53,13 +53,12 @@ body {
 */
 
 *:not(code) {
-    /*font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
+    /*font-family: 'Crimson Text', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
 .markup pre code, code * {
     /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px !important;
-
     border-radius: 0 !important;
 }
 
@@ -3727,4 +3726,107 @@ input{
 
 .clipboardInputInner-oj8y-S button{
     border: none;
+}
+
+/* Discord Update 2018/02/03 */
+
+.theme-dark .item-3tXG-o{
+    box-shadow: none;
+    border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
+}
+
+.theme-dark .card-11ynQk:before{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .button-1qrA-N{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+}
+
+.theme-dark .button-1qrA-N:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container-2YgzWd{
+    border-radius: 0;
+    border: none;
+}
+
+.theme-dark .accountBtnInner-3zsU2z{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .accountBtnInner-3zsU2z:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.connectionDelete-1E0cwj{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.connectionDelete-1E0cwj:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.regionSelect-1lpijo .regionSelectInner-1cIYbU{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0;
+}
+
+.regionSelect-1lpijo button{
+    background-color: rgba(255, 255, 255 , 0.2);
+    border: none;
+    border-radius: 0;
+}
+
+.buttonBrandOutlined-2ljRix{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(114,137,218,.3);
+}
+
+.buttonBrandOutlined-2ljRix:hover{
+    background-color: rgba(114, 137, 218, 0.5);
+}
+
+.premium-settings .payment-source .payment-info .card-tools-button{
+    border-radius: 0;
+}
+
+.theme-dark .cardPrimaryOutline-2YyAz2{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.buttonRedOutlined-2t9fm_{
+    border: none;
+    background-color: rgba(240, 71, 71, 0.3);
+}
+
+.buttonRedOutlined-2t9fm_:hover{
+    border: none;
+    background-color: rgba(240, 71, 71, 0.5);
+}
+
+.theme-dark .select-3JqNgs .Select-menu-outer{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.theme-dark .select-3JqNgs .Select-option.is-selected{
+    background-color: rgba(52, 52, 52, 0.8);
+}
+
+.theme-dark .select-3JqNgs .Select-option.is-focused,
+.theme-dark .select-3JqNgs .Select-option:hover{
+    background-color: rgba(255, 255, 255, 0.1);
 }
