@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.14.0                     *
+ *                     Version 1.15.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -72,6 +72,11 @@ body {
 
 .markup pre code {
     background: transparent !important;
+}
+
+/* If anyone needs emojis with no gaps, please comment this element with */ /*! */
+.message-group .emoji{
+    margin: 0 !important;
 }
 
 /* In case anyone wants to change the channel font size, here ya go o/
@@ -2727,8 +2732,9 @@ span.amount {
     padding-bottom: 15px;
 }
 
-.body-3rkFrF{
+.body-3ljq11{
     padding-top: 15px;
+    padding-bottom: 0;
 }
 
 .footer-2J5zqP{
@@ -2988,7 +2994,7 @@ span.amount {
 
 /* User mini pop-up adjustments */
 
-.bodyTitle-yehI7c{
+.bodyTitle-18hsd9{
     margin-bottom: 3px !important;
 }
 
@@ -2996,8 +3002,10 @@ span.amount {
     padding-bottom: 8px;
 }
 
-.endBodySection-1WYzxu{
-    margin-bottom: 8px !important;
+.endBodySection-LvRMh6{
+    margin-top: 0;
+    padding-top: 4px;
+    margin-bottom: 8px;
 }
 
 .protip.inline{
@@ -3267,18 +3275,18 @@ span.discriminator{
 
 /* Mini user pop-up fix */
 
-.theme-dark .headerNormal-1cioxU{
+.theme-dark .headerNormal-3Vn9nT{
     /*padding: 0;*/
     background-color: rgba(52, 52, 52, 0.8);
 }
 
-.theme-dark .body-3rkFrF,
-.theme-dark .footer-2J5zqP{
+.theme-dark .body-3ljq11,
+.theme-dark .footer-2wFs91{
     background-color: rgba(42, 42, 42, 0.8);
 }
 
-.headerTop-1QGMLs{
-    padding: 0; /* Old custom value 15px 10px*/
+.headerTop-27AvhA{
+    padding: 10px 10px; /* Old custom value 15px 10px*/
 }
 /* TODO: uncomment this when Canary theme is added to live version
 .header-3mZJcV{
@@ -3286,13 +3294,13 @@ span.discriminator{
 }*/
 
 .topSectionPlaying-3jAH9b,
-.headerPlaying-2eYqm9{
+.headerPlaying-2Q7mBy{
     background: none !important;
     background-color: rgba(70, 84, 133, 0.8) !important;
 }
 
 .topSectionStreaming-3rIBIm,
-.headerStreaming-3F-wjT{
+.headerStreaming-lmgoma{
     background-color: rgba(65, 39, 111, 0.8) !important;
 }
 
@@ -3306,8 +3314,8 @@ span.discriminator{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.activity-AFBUEw{
-    padding: 8px 10px;
+.activity-3NviKQ{
+    padding: 10px 10px;
 }
 
 .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK,
@@ -3848,4 +3856,61 @@ input{
 
 .theme-dark .searchBar-YMJBu9{
     background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Discord Update 2018/02/17 */
+.theme-dark .invite-CTGItT{
+    background-color: rgba(10, 10, 10, 0.7);
+    border-radius: 0;
+    border: none;
+}
+
+.noticePremium-2x9Tv2{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.7);
+}
+
+.noticeInfo-3v29SJ{
+    border-radius: 0;
+    background-color: rgba(74, 144, 226, 0.5);
+}
+
+.button-2TvR03{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.userPopout-11hFKo{
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.footer-2wFs91{
+    padding-top: 6px;
+}
+
+.theme-dark .quickMessage-OCo-Q0{
+    background-color: rgba(10, 10, 10, 0.7);
+    border-radius: 0;
+    border: none;
+}
+
+.headerSpotify-26yUf5{
+    background-color: rgba(29, 185, 84, 0.8);
+}
+
+.lookOutlined-1c5nhl.colorWhite-1IbOTe{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lookOutlined-1c5nhl.colorWhite-1IbOTe:hover{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.theme-dark .elevationHigh-3XXATs{
+    border-radius: 0;
+    box-shadow: none;
 }
