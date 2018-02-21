@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.0                     *
+ *                     Version 1.15.1                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -17,7 +17,7 @@
 /* Caution! This theme only works for dark theme for now. It will not work properly at light theme. */
 
 /* This import is not needed unless if you want to use Crimson Text font. */
-/*@import 'https://fonts.googleapis.com/css?family=Crimson+Text';*/
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text';
 
 body {
     -webkit-transition: background 3s ease-in-out;
@@ -26,7 +26,10 @@ body {
     /* The picture source is from 书童hiroco at the link (thanks shinji257!):
        https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61734227
        */
-    background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
+    background: #fff url(http://wawawa.aruchemi.st/vdJkcabG.png);
+
+    /* Just in case adjusting the position is necessary (x% y%)*/
+    background-position: 50% 0;
 
     /* It is recommended to set the background-size width to match your monitor's or discord window's width plus 1px.
        If the background picture is blurry, please use a bigger sized background picture. */
@@ -42,7 +45,7 @@ body {
        2nd value - Green 0-255
        3rd value - Blue 0-255
        4th value - Alpha (Opacity) 0.0-1.0 */
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.80);
 
     -webkit-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
@@ -53,17 +56,17 @@ body {
 */
 
 *:not(code) {
-    /*font-family: 'Crimson Text', Whitney, Helvetica, Arial, sans-serif !important;*/
+    font-family: 'Crimson Text', Whitney, Helvetica, Arial, sans-serif !important;
 }
 
 .markup pre code, code * {
-    /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+    font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;
     font-size: 13px !important;
     border-radius: 0 !important;
 }
 
 .markup pre, .markup code {
-    /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+    font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;
     font-size: 13px;
     background: rgba(10, 10, 10, 0.7) !important;
     border: 0 !important;
@@ -3913,4 +3916,28 @@ input{
 .theme-dark .elevationHigh-3XXATs{
     border-radius: 0;
     box-shadow: none;
+}
+
+.wrapper--CAL_v{
+    border-radius: 0;
+}
+
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(42, 42, 42, 0.7);
+}
+
+.userSettingsVoice-TvPQ80 .media-engine-video{
+    background: none;
+}
+
+.theme-dark .attachment-1Vom9D{
+    background-color: rgba(10, 10, 10, 0.7);
+    border-radius: 0;
+    border: none;
+}
+
+.bar-45Cs4I, .barInner-2eCe2h{
+    border-radius: 0;
 }
