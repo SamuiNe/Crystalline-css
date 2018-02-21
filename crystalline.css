@@ -17,7 +17,7 @@
 /* Caution! This theme only works for dark theme for now. It will not work properly at light theme. */
 
 /* This import is not needed unless if you want to use Crimson Text font. */
-@import 'https://fonts.googleapis.com/css?family=Crimson+Text';
+/*@import 'https://fonts.googleapis.com/css?family=Crimson+Text';*/
 
 body {
     -webkit-transition: background 3s ease-in-out;
@@ -26,7 +26,7 @@ body {
     /* The picture source is from 书童hiroco at the link (thanks shinji257!):
        https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61734227
        */
-    background: #fff url(http://wawawa.aruchemi.st/vdJkcabG.png);
+    background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
 
     /* Just in case adjusting the position is necessary (x% y%)*/
     background-position: 50% 0;
@@ -45,7 +45,7 @@ body {
        2nd value - Green 0-255
        3rd value - Blue 0-255
        4th value - Alpha (Opacity) 0.0-1.0 */
-    background: rgba(0, 0, 0, 0.80);
+    background: rgba(0, 0, 0, 0.8);
 
     -webkit-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
@@ -56,17 +56,17 @@ body {
 */
 
 *:not(code) {
-    font-family: 'Crimson Text', Whitney, Helvetica, Arial, sans-serif !important;
+    /*font-family: 'Crimson Text', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
 .markup pre code, code * {
-    font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;
+    /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px !important;
     border-radius: 0 !important;
 }
 
 .markup pre, .markup code {
-    font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;
+    /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px;
     background: rgba(10, 10, 10, 0.7) !important;
     border: 0 !important;
