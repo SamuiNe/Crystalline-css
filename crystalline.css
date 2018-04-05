@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.1                     *
+ *                     Version 1.15.2                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3939,5 +3939,29 @@ input{
 }
 
 .bar-45Cs4I, .barInner-2eCe2h{
+    border-radius: 0;
+}
+
+.theme-dark .members-1bid1J{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .popout .messages-popout-wrap,
+.theme-dark.contextMenu-uoJTbz{
+    background-color: rgba(42, 42, 42, 0.8);
+    box-shadow: none;
+}
+
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq,
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq,
+.theme-dark .member-2FrNV0:hover .content-3JzEqq{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.member-2FrNV0{
     border-radius: 0;
 }
