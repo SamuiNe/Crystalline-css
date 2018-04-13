@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.2                     *
+ *                     Version 1.15.3                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -81,6 +81,13 @@ body {
 .message-group .emoji{
     margin: 0 !important;
 }
+
+/* If you want to adjust emoji size, adjust it here! Make sure to uncomment the element.
+.emoji.jumboable{
+    height: 42px;
+    width: 42px;
+}
+ */
 
 /* In case anyone wants to change the channel font size, here ya go o/
    Just need to uncomment these 3 groups. */
@@ -3948,7 +3955,7 @@ input{
 
 .theme-dark .popout .messages-popout-wrap,
 .theme-dark.contextMenu-uoJTbz{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(22, 22, 22, 0.8);
     box-shadow: none;
 }
 
@@ -3964,4 +3971,32 @@ input{
 
 .member-2FrNV0{
     border-radius: 0;
+}
+
+.theme-dark .add-game-popout{
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.theme-dark .searchPopout-38pRYh{
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.theme-dark .option-1MvVr1.selected-_bTXUG{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__header,
+.theme-dark .calendarPicker-16Q6sl .react-datepicker{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz{
+    border: none;
 }
