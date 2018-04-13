@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.3                     *
+ *                     Version 1.15.4                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -760,9 +760,14 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 div.message-group-blocked{
-    border-bottom: 1px solid hsla(0,0%,100%,.04) !important;
+    visibility: hidden;
+    border: none;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.message-group.has-divider{
+    border-bottom: 1px solid hsla(0,0%,100%,.04) !important;
 }
 
 .divider+.message-group-blocked,
