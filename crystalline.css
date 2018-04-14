@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.4                     *
+ *                     Version 1.15.5                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -767,12 +767,20 @@ div.message-group-blocked{
 }
 
 .message-group.has-divider{
-    border-bottom: 1px solid hsla(0,0%,100%,.04) !important;
+    border-bottom: 1px solid hsla(0,0%,100%,.04);
+}
+
+.theme-dark .messages-wrapper .messages .divider:before{
+    visibility: hidden;
 }
 
 .divider+.message-group-blocked,
 .empty-message+.message-group-blocked{
     margin: 0;
+    display: none;
+}
+
+.message-group-blocked+.divider{
     display: none;
 }
 
