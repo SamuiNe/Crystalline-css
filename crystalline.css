@@ -4079,3 +4079,7 @@ input{
     background-color: rgba(22, 22, 22, 0.8);
     box-shadow: none;
 }
+
+.theme-dark .item-rK1j5B:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
