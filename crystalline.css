@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.5                     *
+ *                     Version 1.15.6                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3992,6 +3992,8 @@ input{
     border: none;
     box-shadow: none;
 }
+
+/* Discord update 2018/04/21 */
 
 .theme-dark .searchPopout-38pRYh{
     /* background-color: rgba(22, 22, 22, 0.8); */
