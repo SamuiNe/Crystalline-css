@@ -1107,12 +1107,12 @@ h3{
 }
 
 .theme-dark .chat .jump-to-present-bar {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(22, 22, 22, 0.8);
     border-radius: 0;
 }
 
 .theme-dark .chat .jump-to-present-bar:hover{
-    background-color: rgba(60, 60, 60, 0.8) !important;
+    background-color: rgba(42, 42, 42, 0.8) !important;
 }
 
 .chat .jump-to-present-bar button{
