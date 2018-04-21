@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.6                     *
+ *                     Version 1.15.7                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2962,7 +2962,7 @@ span.amount {
 }
 
 .theme-dark .cardPrimaryEditable-2IQ7-V{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.42);
 }
 
 /* Text color adjustments */
@@ -4073,4 +4073,9 @@ input{
 
 .theme-dark .option-1MvVr1.user-1TwSRF .displayUsername-3PmTeH{
     color: rgba(197, 207, 237, 1);
+}
+
+.theme-dark .menu-3BZuDT{
+    background-color: rgba(22, 22, 22, 0.8);
+    box-shadow: none;
 }
