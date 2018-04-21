@@ -760,7 +760,7 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 div.message-group-blocked{
-    visibility: hidden;
+    display: none;
     border: none;
     margin-top: 0;
     margin-bottom: 0;
@@ -771,7 +771,7 @@ div.message-group-blocked{
 }
 
 .theme-dark .messages-wrapper .messages .divider:before{
-    visibility: hidden;
+    display: none;
 }
 
 .divider+.message-group-blocked,
@@ -3300,12 +3300,12 @@ span.discriminator{
 
 .theme-dark .headerNormal-3Vn9nT{
     /*padding: 0;*/
-    background-color: rgba(52, 52, 52, 0.8);
+    background-color: rgba(33, 33, 33, 0.8);
 }
 
 .theme-dark .body-3ljq11,
 .theme-dark .footer-2wFs91{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(22, 22, 22, 0.8);
 }
 
 .headerTop-27AvhA{
@@ -3994,15 +3994,26 @@ input{
 }
 
 .theme-dark .searchPopout-38pRYh{
+    /* background-color: rgba(22, 22, 22, 0.8); */
+    background-color: rgba(22, 22, 22, 0);
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.resultsGroup-2qzvNj{
+    background-color: rgba(32, 32, 32, 0.8);
+}
+
+.theme-dark .option-1MvVr1.selected-_bTXUG{
     background-color: rgba(22, 22, 22, 0.8);
     border-radius: 0;
     border: none;
     box-shadow: none;
 }
 
-.theme-dark .option-1MvVr1.selected-_bTXUG{
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 0;
+.theme-dark .resultsGroup-2qzvNj:before{
+    border: none;
 }
 
 .theme-dark .calendarPicker-16Q6sl .react-datepicker__header,
@@ -4012,4 +4023,52 @@ input{
 
 .theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz{
     border: none;
+}
+
+.popout-2RRwAO{
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+}
+
+.theme-dark .messagesPopoutWrap-1VBR-j{
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+    border: none;
+}
+
+.theme-dark .message-group h2 .timestamp{
+    color: rgba(255, 255, 255, 0.42);
+}
+
+.theme-dark .user-settings-games .not-detected,
+.theme-light .user-settings-games .not-detected{
+    background-color: rgba(52, 52, 52, 0.8);
+}
+
+.theme-dark .option-1MvVr1 .filter-3kZ3tT{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.theme-dark .option-1MvVr1 .answer-9L5NhD,
+.theme-dark .option-1MvVr1 .nonText-1oayCI,
+.theme-dark .option-1MvVr1 strong{
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.theme-dark .option-1MvVr1.user-1TwSRF .displayUsername-3PmTeH{
+    color: rgba(197, 207, 237, 1);
 }
