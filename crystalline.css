@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.15.8                     *
+ *                     Version 1.16.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4097,4 +4097,50 @@ input{
     border-radius: 0;
     box-shadow: none;
 
+}
+
+/*Discord Update 2018/04/28*/
+
+.appMount-3VJmYg{
+    background: none;
+}
+
+.container-2lgZY8{
+    background: none;
+}
+
+.theme-dark .layer-3QrUeG,
+.theme-dark .layers-3iHuyZ{
+    background: none;
+}
+
+.typeWindows-1za-n7{
+    background: rgba(0, 0, 0, 0.9);
+    margin-top: 0;
+    padding-top: 4px;
+}
+
+.theme-dark .title-3qD0b-{
+    background-color: rgba(0, 0, 0, 0.42);
+    box-shadow: none;
+}
+
+.theme-dark .members-1998pB,
+.channels-Ie2l6A{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.container-PNkimc{
+    background: none;
+}
+
+
+.header-2o-2hj{
+    background: rgba(0, 0, 0, 0.42);
+    box-shadow: none;
+}
+
+.wrapper-2NJDcI{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
 }
