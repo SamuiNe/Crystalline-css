@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.16.0                     *
+ *                     Version 1.16.1                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4101,6 +4101,8 @@ input{
 
 /*Discord Update 2018/04/28*/
 
+/*Discord background screwaround fix */
+
 .appMount-3VJmYg{
     background: none;
 }
@@ -4120,15 +4122,39 @@ input{
     padding-top: 4px;
 }
 
+/*The thing under the discord bar fix */
+
 .theme-dark .title-3qD0b-{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.5);
     box-shadow: none;
 }
+
+/* Member Side Bar and channels thing fix */
 
 .theme-dark .members-1998pB,
 .channels-Ie2l6A{
     background-color: rgba(0, 0, 0, 0.0);
 }
+
+.contentHoveredText-2D9B-x{
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
+
+.member-3W1lQa{
+    border-radius: 0;
+}
+
+.theme-dark .member-3W1lQa:hover .content-OzHfo4{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
+.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* I forgot beyond this */
 
 .container-PNkimc{
     background: none;
@@ -4136,11 +4162,93 @@ input{
 
 
 .header-2o-2hj{
-    background: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.42);
     box-shadow: none;
+}
+
+.header-2o-2hj:hover{
+    background-color: rgba(0, 0, 0, 0.42);
 }
 
 .wrapper-2NJDcI{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius: 0;
+}
+
+.contentSelectedText-3wUhMi{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+/* Embed Fix */
+
+.theme-dark .embedInner-1-fpTo{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.embedPill-1Zntps{
+    border-radius: 0;
+}
+
+/* Bot Tag Thing */
+
+.botTag-2WPJ74{
+    border-radius: 0;
+}
+
+.botTagRegular-2HEhHi {
+    background: none;
+    background-color: rgba(114, 137, 218, 0.7);
+}
+
+/* Typing bar fix */
+
+.theme-dark .inner-zqa7da{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+/* Forgot whats this thing */
+.container-2Thooq{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.base-3dtUhz{
+    border-radius: 0;
+}
+
+/* Typing background */
+
+.theme-dark .typing-2GQL18{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*Profile Window Fix*/
+
+.root-SR8cQa{
+    border-radius: 0;
+}
+
+.theme-dark .topSectionNormal-2-vo2m{
+    background-color: rgba(22, 22, 22, 0.8);
+
+}
+
+.theme-dark .userInfoSection-2acyCx+.userInfoSection-2acyCx{
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .connectedAccount-36nQx7{
+    border: none;
+}
+
+.theme-dark .connectedAccount-36nQx7{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+.theme-dark .body-3ND3kc{
+    background-color: rgba(42, 42, 42, 0.8);
 }
