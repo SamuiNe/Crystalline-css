@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.16.2                     *
+ *                     Version 1.17.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3569,12 +3569,6 @@ background-color: rgba(255, 255, 255, 0.1) !important;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.theme-dark .embedInner-1-fpTo{
-    border-radius: 0;
-    border: None;
-    background: rgba(0, 0, 0, 0);
-}
-
 .embedPill-1Zntps{
     border-radius: 0;
 }
@@ -4185,7 +4179,7 @@ input{
 .theme-dark .embedInner-1-fpTo{
     border-radius: 0;
     border: none;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(10, 10, 10, 0.7);
 }
 
 .embedPill-1Zntps{
@@ -4251,4 +4245,30 @@ input{
 
 .theme-dark .body-3ND3kc{
     background-color: rgba(42, 42, 42, 0.8);
+}
+
+/* Discord Update 2018/06/22 */
+.theme-dark .activityFeed-28jde9{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-7JP0BX{
+    border-radius: 0;
+}
+
+.theme-dark .card-7JP0BX{
+    background-color: rgba(10, 10, 10, 0.0);
+}
+
+.theme-dark .body-SKIE6r,
+.theme-dark .header-1RC2Wb{
+    background-color: rgba(10, 10, 10, 0.7);
+}
+
+.splashArt-3yFzRe{
+    opacity: 0.88;
+}
+
+.dot-22bIa4{
+    border-radius: 0;
 }
