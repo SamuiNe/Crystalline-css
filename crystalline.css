@@ -2884,7 +2884,7 @@ span.amount {
 }
 
 .ui-call-avatar.video{
-    border-radius: none;
+    border-radius: 0;
 }
 
 .headerLive-2dDMvp{
@@ -3454,7 +3454,7 @@ color: rgba(255, 255, 255, 0.3) !important;
 
 div.action.create {
 color: rgba(255, 255, 255, 0.3) !important;
-background-color: rgba(255, 255, 255, 0.) !important;
+background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 div.action.join {
