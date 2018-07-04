@@ -624,7 +624,7 @@ div.control-group .shortcut-recorder input[type=text]{
 .account .btn-group .btn:hover {
     border-radius: 15px;
     background: rgba(0, 0, 0, 0.7) !important;
-    box-shadow: 0;
+    box-shadow: none;
     border: 0 !important;
 }
 
