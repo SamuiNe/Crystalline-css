@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.17.0                     *
+ *                     Version 1.17.1                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4271,4 +4271,76 @@ input{
 
 .dot-22bIa4{
     border-radius: 0;
+}
+
+.news-2GDtLJ{
+    border-radius: 0;
+}
+
+/* Music Background color */
+.theme-dark .wrapperAudio-1jDe0Q{
+    background-color: rgba(10, 10, 10, 0.7);
+    /*border-radius: 0;*/
+    border: none;
+}
+
+/* Music bar thingy */
+.mediaBarWrapper-3D7r67, .mediaBarWrapper-3D7r67:after, .mediaBarWrapper-3D7r67:before{
+    background-color: rgba(88, 88, 88, 0.42);
+    /*border-radius: 0;*/
+}
+
+.buffer-26XPkd, .buffer-26XPkd:after, .buffer-26XPkd:before{
+    background-color: rgba(255, 255, 255, 0.5);
+    /*border-radius: 0;*/
+}
+/*
+.mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before{
+    border-radius: 0;
+}*/
+
+/* Music bar tooltip */
+
+.bubble-3qRl2J{
+    border-radius: 0;
+    background-color: rgba(10, 10, 10, 0.7);
+}
+
+.bubble-3qRl2J:before{
+    border-top-color: rgba(197, 207, 237, 1); /*TODO: Copy the triangle tooltip thing from other stuff*/
+}
+
+.mediaBarPreview-1jfyFs, .mediaBarPreview-1jfyFs:after, .mediaBarPreview-1jfyFs:before{
+    background-color: rgba(142, 161, 255, 0.8);
+}
+
+.wrapper-2TxpI8{
+    border-radius: 0;
+}
+
+
+/* Upload bar thingy */
+
+.progress-3Rbvu0{
+    background-color: rgba(88, 88, 88, 0.8) !important;
+}
+
+.progressBar-3u8FBM.small-1CUeBa{
+    background-color: rgba(0, 255, 133, 0.7) !important;
+    border-radius: 0 !important;
+}
+
+.small-1CUeBa{
+    border-radius: 0;
+}
+
+/*Game invite gradient fix*/
+.coverImageWrapper-22d5LB{
+    border-radius: 0;
+}
+
+/*Mini window pop-up at each message line thing */
+.theme-dark .container-1rPqdX{
+    border-radius: 0;
+    background-color: rgba(10, 10, 10, 0.7);
 }
