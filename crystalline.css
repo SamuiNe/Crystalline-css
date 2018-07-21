@@ -59,13 +59,13 @@ body {
     /*font-family: 'Crimson Text', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
-.markup pre code, code * {
+.markup pre code, .markup-2BOw-j pre code, code * {
     /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px !important;
     border-radius: 0 !important;
 }
 
-.markup pre, .markup code {
+.markup pre, .markup code, .markup-2BOw-j pre, .markup-2BOw-j code {
     /*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
     font-size: 13px;
     background: rgba(10, 10, 10, 0.7) !important;
@@ -73,7 +73,7 @@ body {
     border-radius: 0 !important;
 }
 
-.markup pre code {
+.markup pre code, .markup-2BOw-j pre code {
     background: transparent !important;
 }
 
@@ -644,7 +644,7 @@ div.control-group .shortcut-recorder input[type=text]{
     color: rgba(255, 255, 255, 0.95);
 }
 
-.message-group .comment .markup{
+.message-group .comment .markup .markup-2BOw-j{
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1619,7 +1619,7 @@ input:disabled{
     color: rgba(255, 255, 255, 0.9);
 }
 
-.theme-dark .message-group .comment .markup .mention{
+.theme-dark .message-group .comment .markup .mention .markup-2BOw-j{
     background-color: rgba(179, 224, 255, 0.1);
 }
 
