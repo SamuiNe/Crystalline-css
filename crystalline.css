@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.17.1                     *
+ *                     Version 1.17.2                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -26,7 +26,7 @@ body {
     /* The picture source is from 书童hiroco at the link (thanks shinji257!):
        https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61734227
        */
-    background: #fff url(https://wawawa.s-ul.eu/hWCZReAV.png);
+    background: #fff url(https://cdn.discordapp.com/attachments/289712508258746368/470350501779603466/patchouli_knowledge_touhou_drawn_by_shutong_hiroko__1f0f5eb005499f1887ac942a337dfa60.png);
 
     /* Just in case adjusting the position is necessary (x% y%)*/
     background-position: 50% 0;
