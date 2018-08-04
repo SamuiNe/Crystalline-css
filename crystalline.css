@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.17.4                     *
+ *                     Version 1.17.6                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4378,3 +4378,95 @@ input{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius: 0 !important;
 }
+
+/* Discord update 2018/08/04 */
+.theme-dark .chat-3bRxxu,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .messagesWrapper-3lZDfY{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.newMessagesBar-mujexs{
+    background-color: rgba(114,137,218, 0.6);
+    border-radius: 0;
+}
+
+/*TODO: Delete below if stuff gets messed up again for this part*/
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span{
+    margin-left: calc(-100% + 242px);
+    margin-top: -16px;
+    background-color: rgba(240, 71, 71, 0.35) !important;
+    color: rgb(240, 71, 71);
+    z-index: 1 !important;
+    border-radius: 0;
+}
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .divider-3gKybi{
+    margin-right: 20px;
+}
+
+.theme-dark .divider-3gKybi:before{
+    margin-top: -20px;
+    background-color: hsla(0,0%,100%,.06);
+}
+
+
+/* Why does this doesn't work */
+
+/*
+.containerCozy-jafyvG .divider-32i8lo{
+    border: 0 solid rgba(0, 0, 0, 0);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+    margin: 0 20px 0 20px;
+}*/
+
+/*.containerCozy-jafyvG{
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}*/
+
+/* Oh wait, its this one */
+
+.containerCozy-jafyvG{
+    padding-top: 2px;
+}
+
+.theme-dark .divider-3gKybi span{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span{
+
+    /* TODO: Fix text on this */
+}
+
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div{
+    margin-top: -40px !important;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* TODO: Fix Blocked Messages properly */
+.messageGroupBlocked-3wrQQX{
+    display: none;
+}
+
+/*
+.messageGroupBlocked-3wrQQX:before{
+    border: 1px solid hsla(0,0%,100%,.06);
+    display: inline;
+}
+*/
+
+/* End of TODO 4398,3 */
