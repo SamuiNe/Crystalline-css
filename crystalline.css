@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.17.7                     *
+ *                     Version 1.17.8                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4504,4 +4504,57 @@ input{
 .subTitle-3TUjmF,
 .theme-dark .input-cIJ7To{
     color: rgba(255, 255, 255, 0.7);
+}
+
+/* If you're into circles and different colors for unread servers
+   Might add an optional folder for these kind of stuff
+
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before{
+    background-color: rgba(197, 207, 237, 1);
+    margin: -25px 0 0 55px;
+    z-index: 42;
+}
+
+.guild-1EfMGQ.selected-ML3OIq:before{
+    margin: -20px 0 0 0 !important;
+    -webkit-transition: none;
+    transition: none;
+}
+*/
+
+/* Discord update 2018/08/14 */
+
+.theme-dark .container-2Thooq, .theme-light .container-2Thooq{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Other fixes */
+
+.channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW,
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4{
+    background: rgba(22, 22, 22, 0.42) url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;
+    box-shadow: none;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u{
+    border: none;
+    border-radius: 0;
+    background: rgba(22, 22, 22, 0.8);
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover{
+    border: none;
+    border-radius: 0;
+    background: rgba(22, 22, 22, 0.42);
+}
+
+.theme-dark .hasMore-3e72_v button:hover{
+    background-color: rgba(22, 22, 22, 0.42);
+    box-shadow: none;
+}
+
+.theme-dark .hasMore-3e72_v button{
+    background-color: rgba(22, 22, 22, 0.8);
+    border: none;
+    border-radius: 0;
 }
