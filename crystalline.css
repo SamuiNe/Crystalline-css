@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.17.8                     *
+ *                     Version 1.18.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2679,7 +2679,7 @@ span.amount {
 
 .theme-dark .elevationHigh-3A9Xbf{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(22, 22, 22, 0.8);
 }
 
 .theme-dark .bubble-3we2di:before{
@@ -4557,4 +4557,93 @@ input{
     background-color: rgba(22, 22, 22, 0.8);
     border: none;
     border-radius: 0;
+}
+
+/* Disord update September 2018 */
+
+/* Version 1.17.8 > 1.18.0 */
+
+/* Friend List background Selected + Hover */
+
+.channel-2QD9_O a{
+    border-radius: 0;
+}
+
+.channel-2QD9_O:hover a{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.channel-2QD9_O.selected-1HYmZZ a{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Notice bar background opacity and border radius */
+
+.notice-2FJMB4{
+    border-radius: 0;
+}
+
+.noticeFacebook-3equ5g{
+    background-color: rgba(53, 80, 137, 0.8);
+}
+
+.noticeDanger-7u-yT9 {
+    background-color: rgba(240, 71, 71, 0.8);
+}
+/* Voice chat background fix */
+
+.theme-dark .wrapper-29NfPK{
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
+}
+
+/* Voice chat buttons background and border radius */
+
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r{
+    background-color: rgba(22, 22, 22, 0.8);
+    border: none;
+    border-radius: 0;
+}
+
+/* Voice video chat buttons background and border radius */
+
+.wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r,
+.wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV,
+.wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r,
+.wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV,
+.wrapper-29NfPK.normal-2GSW0u .center-1Vp33r,
+.wrapper-29NfPK.normal-2GSW0u .side-kO0bwV{
+    background-color: rgba(22, 22, 22, 0.8);
+    border: none;
+    border-radius: 0;
+}
+
+/* Voice video chat background fix */
+
+.video-1kutKI{
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.theme-dark .pictureInPictureVideo-20ZvXn{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.overlay-1NmNEg{
+    border: none;
+    box-shadow: none;
+}
+
+
+/* Fix for that random shadow below search bar */
+
+.searchBar-6Kv8R2{
+    box-shadow: none;
+}
+
+/* Local Bot background fix */
+
+.theme-dark .isLocalBot-38G0P0{
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.1);
+
 }
