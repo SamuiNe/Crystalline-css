@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.18.1                     *
+ *                     Version 1.18.2                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3704,7 +3704,8 @@ div.action.join {
 
 .wrapper-O5i5-0{
     border-radius: 0;
-    background-color: rgba(22, 22, 22, 0.8);
+    /* TODO: This overlaps with other elements in friend invite screen, double check in the future */
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 .form-deprecated .form-header,
@@ -4643,7 +4644,7 @@ input{
 }
 
 /* Discord update 2018/10/5 and previous updates */
-
+/* Version 1.18.0 > 1.18.1 */
 /* ｓｌｏｗ　ｍｏｄｅ text color */
 
 .cooldownWrapper-3joyFc{
@@ -4685,4 +4686,81 @@ input{
 .messageGroupBlocked-3wrQQX{
     border: none;
 
+}
+
+/* Version 1.18.1 > 1.18.2 */
+
+/* Discord Nitro page fix */
+.theme-dark .paymentRow-2e7VM6{
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .paymentPane-3bwJ6A,
+.theme-dark .paginator-166-09,
+.theme-dark .paymentRow-2e7VM6{
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.theme-dark .paymentRow-2e7VM6:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .expandedInfo-3kfShd{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.paymentPane-3bwJ6A{
+    border-radius: 0;
+}
+
+.indicator-2Qs3-E{
+    border-radius: 0;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Discord Hypesquad border radius fix */
+
+/* TODO: Youtube preview border radius to 0 */
+
+.membershipDialog-rVL-t_,
+.ytp-cued-thumbnail-overlay-duration{
+    border-radius: 0;
+}
+
+/* Fix inconstencies at Help */
+
+.need-help-modal.form.deprecated .header,
+.need-help-modal.form.deprecated .footer{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.need-help-modal.form.deprecated .header input[type=text]{
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Fixed Invite friend window. Refer to git history for changes. */
+
+/* Fix certain text box's background */
+/* TODO: Fix the dropdown menu background, too light and not enough opacity */
+.theme-dark .select-2TCrqx .Select-control{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Change unsaved roles confirmation window background color */
+
+.theme-dark .elevationHigh-1PneE4{
+    background-color: rgba(22, 22, 22, 0.8) !important;
 }
