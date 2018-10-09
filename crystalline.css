@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.18.2                     *
+ *                     Version 1.18.3                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3999,7 +3999,7 @@ input{
 }
 
 .resultsGroup-r_nuzN{
-    background-color: rgba(32, 32, 32, 0.8);
+    background-color: rgba(22, 22, 22, 0.8);
 }
 
 .theme-dark .option-96V44q.selected-rZcOL-{
@@ -4763,4 +4763,120 @@ input{
 
 .theme-dark .elevationHigh-1PneE4{
     background-color: rgba(22, 22, 22, 0.8) !important;
+}
+
+/* Version 1.18.2 > 1.18.3 */
+
+/* Fix reaction border radius */
+/* Adjusted reaction text color and background color */
+.theme-dark .reaction-1ELvT8{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .reactionCount-2ddRoS{
+    color: rgba(255, 255, 255, 0.42);
+}
+
+/* Video preview border radius fix */
+
+.videoWrapper-3YdgHH{
+    border-radius: 0;
+}
+
+/* Search fix */
+
+/* Fix the weird gradiant thing */
+
+.theme-dark .option-96V44q:after,
+.theme-dark .option-96V44q.selected-rZcOL-:after{
+    background: none;
+}
+
+/* Fix the background for search pop-up window */
+
+.theme-dark .container-3ayLPN{
+    background-color: rgba(22, 22, 22, 0.0);
+}
+
+.resultsGroup-r_nuzN{
+    margin-top: 0;
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.container-3ayLPN{
+    border-radius: 0;
+}
+
+/* Delet the random box shadow for search pop-up window */
+
+.theme-dark .elevationBorderHigh-2WYJ09{
+    box-shadow: none;
+}
+
+/* Fix the close button for settings menu */
+
+.closeButton-1tv5uR{
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Fix guild wrapper border radius */
+
+.guildsWrapper-5TJh6A{
+    border-radius: 0;
+}
+
+/* Fix gif embed border radius */
+
+.video-8eMOth{
+    border-radius: 0;
+}
+
+.embedImage-2W1cML,
+.embedThumbnail-2Y84-K, .embedVideo-3nf0O9{
+    border-radius: 0;
+}
+
+/* Fix the background for server add button */
+
+.theme-dark .guildsAdd-21_IdK{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Fix color picker border radius */
+
+.colorPickerSwatch-5GX3Ve{
+    border-radius: 0;
+}
+
+/* Fix role add pop-up border radius */
+
+#autocomplete-popout .autocomplete-shadow {
+    border-radius: 0;
+}
+
+.popout-3sVMXz header,
+.popout-3sVMXz section{
+    border-radius: 0 0 0 0;
+}
+
+/* Fix Display role menu pop-up */
+
+.theme-dark .elevationBorderLow-2qgTRQ{
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.theme-dark .popoutList-T9CKZQ{
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.theme-dark .selectableItem-1MP3MQ{
+    border-radius: 0;
+}
+
+.theme-dark .selectableItem-1MP3MQ:hover{
+    background-color: rgba(255, 255, 255, 0.1);
 }
