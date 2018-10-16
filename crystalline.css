@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.18.3                     *
+ *                     Version 1.18.4                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2629,6 +2629,7 @@ span.amount {
 }
 
 .theme-dark .message-2qRu38{
+    background-color: rgba(11, 11, 11, 0.8);
     border-radius: 0;
     box-shadow: none;
 }
@@ -2864,11 +2865,11 @@ span.amount {
 }
 
 .checkboxWrapper-SkhIWG{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(22, 22, 22, 0.8);
 }
 
 .checkboxWrapper-SkhIWG:hover{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(62, 62, 62, 0.8);
 }
 
 .box-mmYMsp{
@@ -3845,16 +3846,29 @@ input{
 }
 
 .theme-dark .select-2TCrqx .Select-menu-outer{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(22, 22, 22, 0.8);
 }
+
+/*
+.theme-dark .select-2TCrqx .Select-option{
+    background-color: rgba(22, 22, 22, 0.8);
+}
+*/
 
 .theme-dark .select-2TCrqx .Select-option.is-selected{
-    background-color: rgba(52, 52, 52, 0.8);
+    background-color: rgba(62, 62, 62, 0.8);
 }
 
-.theme-dark .select-2TCrqx .Select-option.is-focused,
+.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover{
+    background: none;
+}
+
+.theme-dark .select-2TCrqx .Select-option.is-focused{
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
 .theme-dark .select-2TCrqx .Select-option:hover{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(42, 42, 42, 0.8);
 }
 
 
@@ -4796,7 +4810,7 @@ input{
 /* Fix the background for search pop-up window */
 
 .theme-dark .container-3ayLPN{
-    background-color: rgba(22, 22, 22, 0.0);
+    background-color: rgba(22, 22, 22, 0.8);
 }
 
 .resultsGroup-r_nuzN{
@@ -4880,3 +4894,50 @@ input{
 .theme-dark .selectableItem-1MP3MQ:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* Version 1.18.3 > 1.18.4 */
+
+/* .theme-dark .message-2qRu38 changed, refer to git for details */
+/* Fixed pin message background color */
+
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4,
+.theme-dark .popout-2sKjHu{
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+}
+
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4{
+    border: none;
+}
+
+/* Adjusted dropdown option for Discord Nitro purchase window */
+
+.theme-dark .optionActive-KkAdqq{
+    background-color: rgba(62, 62, 62, 0.8);
+}
+
+.theme-dark .optionNormal-12VR9V:hover{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+/* .checkboxWrapper-SkhIWG:hover and .checkboxWrapper-SkhIWG changed, refer to git for details */
+/* Adjusted background color for Discord Store Terms of Service box */
+
+/* Adjust border radius for Discord Nitro price */
+
+.price-2IU94K{
+    border-radius: 0;
+}
+
+/* .theme-dark .select-2TCrqx changed, refer to git for details */
+/* Adjusted background colors for dropdown menus for consistency */
+
+/* Forgot to document which one is this */
+
+.theme-dark .focused-2bY0OD{
+    background-color: rgba(11, 11, 11, 0.8);
+    border: none;
+}
+
+/* Adjusted .theme-dark .container-3ayLPN, refer to git for details */
+/* Fix date picker background color */
