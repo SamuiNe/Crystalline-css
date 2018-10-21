@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.18.4                     *
+ *                     Version 1.18.5                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4941,3 +4941,125 @@ input{
 
 /* Adjusted .theme-dark .container-3ayLPN, refer to git for details */
 /* Fix date picker background color */
+
+/* Version 1.18.4 > 1.18.5 */
+
+/* Member list background-color adjustment*/
+/* TODO: Look for existing CSS element */
+
+.theme-dark .members-1998pB, .channels-Ie2l6A{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+/* Discord Nitro Classic banner background color and border radius fix */
+
+.theme-dark .tier1Banner-1B_WXY{
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+}
+
+/* Discord Nitro thumbnail border radius fix */
+
+.thumbnail-NKY26f{
+    border-radius: 0;
+}
+
+/* Discord Store page background color fix */
+
+.theme-dark .applicationStore-1pNvnv{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+/* TODO: Update existing CSS element */
+/* Adjust the background color for input field */
+
+.theme-dark .input-cIJ7To{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .searchBox-3Y2Vi7{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+/* Fix Game information and thumbnail border radius */
+
+.theme-dark .tileWrapper-2khh-w{
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+}
+
+.theme-dark .tileWrapper-2khh-w:hover{
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+/* Fix the border radius for Discord Nitro purchase window again */
+
+.price-1rEl-z{
+    border-radius: 0;
+}
+
+/* Discord Library background fix */
+
+.theme-dark .gameLibrary-TTDw4Y{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+/* Discord Library header background color fix */
+
+.theme-dark .gameUpdates-2GPqBU{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.theme-dark .header-39GIC8{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Discord Library game information background fix */
+/* Removed box shadow for game information */
+.rowWrapper-2fB6P0{
+    border-radius: 0;
+}
+
+.theme-dark .rowWrapperActive-2L7i9f{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+}
+
+/* Adjust the text color for Discord Library game information */
+.theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Discord Library download bar fix */
+
+.small-4dgL9e,
+.xsmall-2LuBKD{
+    border-radius: 0;
+}
+
+.theme-dark .progressCellText-3avmMz{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Discord settings background color fix */
+
+.theme-dark .standardSidebarView-3F1I7i{
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .sidebarRegion-VFTUkN{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .contentRegion-3nDuYy{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Fix emoji margins */
+
+.emoji.jumboable{
+    margin: 0;
+}
