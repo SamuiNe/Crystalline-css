@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.19.0                     *
+ *                     Version 1.19.1                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -5124,4 +5124,65 @@ input{
 /* Game Activity now playing / inactive border radius fix */
 .notDetected-33MY4s, .nowPlaying-284llR{
     border-radius: 0;
+}
+
+/* Discord update 2019/1/12 */
+
+/* Fix Friends list background color */
+
+.theme-dark .container-3gCOGc{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Fix Friends list button background color and border radius */
+
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9{
+    border-radius: 0;
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+/* Fix Search bar border radius and background color */
+
+.theme-dark .search-2oPWTC .searchBar-3dMhjb{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Fix Search result's background colors, border radius, and other stuff */
+
+.theme-dark .searchResultsWrap-2DKFzt{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+.theme-dark .searchHeader-1l-wpR{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    background-color: rgba(11, 11, 11, 0.8);
+}
+
+.theme-dark .searchResult-3pzFAB:before,
+.theme-dark .searchResult-3pzFAB:after{
+    background-image: none;
+}
+
+.theme-dark .searchResult-3pzFAB{
+    background-color: rgba(11, 11, 11, 0.42);
+}
+
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz{
+    border-radius: 0;
+    border: none;
+}
+
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA{
+    border: none;
+    background-color: rgba(11, 11, 11, 0.8);
 }
