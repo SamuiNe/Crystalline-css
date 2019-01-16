@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.19.3                     *
+ *                     Version 1.19.4                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -5200,7 +5200,13 @@ input{
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece{
-    border: none !important;
-    border-radius: 0 !important;
-    background: rgba(0, 0, 0, 0) !important;
+    border: none;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb{
+    border-color: rgba(66, 66, 66, 0.42);
+    background-color: rgba(22, 22, 22, 0.42);
+
 }
