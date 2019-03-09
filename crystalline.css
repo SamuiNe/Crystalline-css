@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.19.4                     *
+ *                     Version 1.20.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3272,10 +3272,6 @@ span.discriminator{
     background-color: rgba(42, 42, 42, 0.8) !important;
 }
 
-.theme-dark .body-3ND3kc{
-    background-color: rgba(22, 22, 22, 0.8) !important;
-}
-
 .tabBarContainer-1s1u-z{
     border: none !important;
 }
@@ -4258,7 +4254,7 @@ input{
 }
 
 .theme-dark .body-3ND3kc{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(22, 22, 22, 0.8);
 }
 
 /* Discord Update 2018/06/22 */
@@ -5199,6 +5195,8 @@ input{
     border: none;
 }
 
+/* Scroll bar and scroll bar background fix */
+
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece{
     border: none;
     border-radius: 0;
@@ -5209,4 +5207,172 @@ input{
     border-color: rgba(66, 66, 66, 0.42);
     background-color: rgba(22, 22, 22, 0.42);
 
+
+}
+
+/* Tooltip background fix */
+
+.tooltip-1OS-Ti.black-2bmmnj{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    box-shadow: none;
+
+}
+
+.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after{
+    border-top-color: rgba(197, 207, 237, 1);
+}
+
+.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after{
+    border-right-color: rgba(197, 207, 237, 1);
+}
+
+/* Fixes dating back from 3 months ago */
+
+/* Spotify background color fix */
+
+.noticeSpotify-27dhr0{
+    background-color: rgba(29, 141, 84, 0.8);
+}
+
+/* Fix certain buttons' background color */
+
+.theme-dark .button-1MICoQ,
+.theme-light .button-1MICoQ{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Fix guilds sidebar background color */
+
+.theme-dark .wrapper-1Rf91z{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Default icon should be semi-transparent now */
+
+.theme-dark .wrapper-2lTRaf{
+    background-color: rgba(0, 0, 0, 0.42) !important;
+}
+
+.theme-dark .circleIconButton-jET_ig{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Background color and radius fix for add role popup window */
+/* Also text color fixes and arrow background color */
+
+
+.theme-dark .container-VSDcQc .sectionTag-pXyto9{
+    background-color: rgba(11, 11, 11, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.positionTop-3e-X1p .sectionTag-pXyto9{
+    border-radius: 0;
+}
+
+.theme-dark .row-rrHHJU.selected-1pIgLL{
+    background: rgba(64, 64, 64, 0.7) none;
+}
+
+.theme-dark .autocompleteHeaderBackground-30T70q{
+    background-color: rgba(42, 42, 42, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.theme-dark .container-VSDcQc .headerText-3i6A8K{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-dark .container-VSDcQc .input-1ppKdn{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.positionTop-3e-X1p .autocompleteHeaderBackground-30T70q{
+    border-radius: 0;
+}
+
+.theme-dark .autocompleteArrow-Zxoy9H{
+    background-color: rgba(197, 207, 237, 1);
+    box-shadow: none;
+}
+
+.theme-dark .autocompleteShadow-iiGWFU{
+    box-shadow: none;
+}
+
+.autocompleteHeaderBackground-30T70q{
+    border-radius: 0;
+}
+
+/* Fix disabled button background for user popup window */
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:disabled{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Settings Code Redemption background fix */
+
+.theme-dark .codeRedemptionRedirect-1wVR4b{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Friends List search bar background and background radius fix */
+
+.searchBar-2_Yu-C{
+    border-radius: 0;
+    border: none;
+
+}
+
+/* Discord server discovery main page background and border radius fixes */
+
+.theme-dark .pageWrapper-1PgVDX{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bg-AYqtMd{
+    background: rgba(0, 0, 0, 0.42);
+
+}
+
+.theme-dark .emptySearchResults-1ba__I{
+    background: none;
+}
+
+.card-3DjzTQ{
+    border-radius: 0;
+}
+
+/* Discover server discovery server preview window background fix */
+
+.wrapper-39oAo3{
+    border-radius: 0;
+}
+
+.theme-dark .wrapper-39oAo3{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Add server background and border radius fix */
+
+.content-2BXhLs{
+    border-radius: 0;
+}
+
+.wrapper-2ZbzR9{
+    border-radius: 0;
+}
+
+.theme-light .wrapper-2ZbzR9{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.actionButton-2PeQbJ{
+    border-radius: 0;
 }
