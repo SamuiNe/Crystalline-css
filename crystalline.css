@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.20.0                     *
+ *                     Version 1.21.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4166,7 +4166,7 @@ input{
 
 
 .header-2o-2hj{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.5);
     box-shadow: none;
 }
 
@@ -5206,8 +5206,6 @@ input{
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb{
     border-color: rgba(66, 66, 66, 0.42);
     background-color: rgba(22, 22, 22, 0.42);
-
-
 }
 
 /* Tooltip background fix */
@@ -5317,7 +5315,7 @@ input{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
-/* Friends List search bar background and background radius fix */
+/* Friends List search bar background and border radius fix */
 
 .searchBar-2_Yu-C{
     border-radius: 0;
@@ -5375,4 +5373,88 @@ input{
 
 .actionButton-2PeQbJ{
     border-radius: 0;
+}
+
+/* Fix chat bar add button popup menu */
+
+.theme-dark .attachPopout-1n-ZKM{
+    border-radius: 0;
+    background-color: rgba(22, 22, 22, 0.8);
+}
+
+.theme-dark .attachPopoutRow-KrE-f6:hover{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Fix discord notice bar border radius */
+
+.platform-win .base-3dtUhz{
+    border-radius: 0;
+}
+
+/* Fix channel sidebar selection and hover background color and border radius */
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU,
+.theme-light .wrapper-1ucjTd:hover .content-3at_AU{
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
+
+/* Fix setting sidebar selection and hover background color and border radius */
+
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+.theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
+.theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+.tooltip-2QfLtc{
+    border-radius: 0;
+}
+
+/* Tooltip background fixes */
+
+.theme-dark .tooltipBlack-PPG47z,
+.theme-light .tooltipBlack-PPG47z{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,
+.theme-light .tooltipBlack-PPG47z .tooltipPointer-3ZfirK{
+    border-top-color: rgba(197, 207, 237, 1)
+}
+
+.wrapper-pZmgj4{
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.33);
+    border-radius: 0;
+}
+
+/* Fixed border radius and background for current member count and member limit for voice channel */
+
+.users-i_3-kL{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.total-3tKGEB{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+
+.total-3tKGEB:after{
+    border-right-color: rgba(0, 0, 0, 0.33);
 }
