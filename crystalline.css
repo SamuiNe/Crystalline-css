@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.21.2                     *
+ *                     Version 1.22.0                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3166,7 +3166,7 @@ span.amount {
 /* Quick switcher highlight */
 .theme-dark .resultFocused-3aIoYe{
     border-radius: 0;
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    background-color: rgba(0, 0, 0, 0.42);
 }
 
 /* Fix for that large game playing stuff */
@@ -4574,11 +4574,11 @@ input{
 }
 
 .channel-2QD9_O:hover a{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.22);
 }
 
 .channel-2QD9_O.selected-1HYmZZ a{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.42);
 }
 
 /* Notice bar background opacity and border radius */
@@ -5544,7 +5544,195 @@ input{
 /* Fixed inconsistency on server icons and other buttons*/
 
 .theme-dark .acronym-2mOFsV,
-.theme-light .acronym-2mOFsV{
+.theme-light .acronym-2mOFsV,
+.theme-dark .button-OhfaWu,
+.theme-light .button-OhfaWu{
     background-color: rgba(0, 0, 0, 0.42);
     color: rgba(255, 255, 255, 0.8);
+}
+
+/* Fix activity feed background color */
+
+.theme-dark .activityFeed-1C0EmJ{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* Fix border radius and background colors for activity feed cards */
+
+.card-3SDdMD,
+.inset-GQDQYw,
+.outer-2IVh5n,
+.wrapper-Qvfyci{
+    border-radius: 0;
+}
+
+.theme-dark .outer-2IVh5n{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover{
+    background-color: rgba(42, 42, 42, 0.42);
+}
+
+.theme-dark .recentlyPlayedContainer-2F3MqS{
+    background-color: rgba(0, 0, 0, 0.42);
+    border: none;
+}
+
+.theme-dark .popout-3G62UL{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+}
+
+.theme-dark .multipleIconWrapper-1PjkRO,
+.theme-dark .section-2VKIPC,
+.theme-dark .popoutContainer-3WC9HR:hover{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.section-2VKIPC{
+    border-radius: 0;
+}
+
+.theme-dark .inset-GQDQYw{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.theme-dark .enabled-5QKLzu:hover,
+.theme-dark .memberListItem-2ZX2pl:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.theme-dark .enabled-5QKLzu:hover,
+.memberListItem-2ZX2pl{
+    border-radius: 0;
+}
+
+/* Fix the background and border radius for game features list */
+
+.theme-dark .row-1bU71H{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.row-1bU71H{
+    border-radius: 0;
+}
+
+/* Fix the Nitro banner thing's background color and border radius on Discord store's game page */
+
+.section-foaVwT:first-child,
+.premiumHeaderPrice-1F1CMD,
+.section-foaVwT:last-child{
+    border-radius: 0;
+}
+
+.theme-dark .bodySection-jqkkIP,
+.theme-light .bodySection-jqkkIP{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Fix background color and border radius for the nitro featured game banner */
+
+.overlappingBorder-3aFng4,
+.paginationItemContainer-3VCxU-{
+    border-radius: 0;
+}
+
+.theme-dark .itemBackground-2vEldQ{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .applicationMedia-3zsjP3{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius:0 ;
+}
+
+/* Fix background color, border radius, and inconsistent height for nitro game perks */
+
+.tile-QA_yMc{
+    border-radius: 0;
+}
+
+.theme-dark .tile-QA_yMc{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+
+.perkTag-2O4dx4{
+    border-radius: 0;
+    height: 17px;
+}
+
+/* Fix background color and border radius for nitro games list */
+
+.theme-dark .tileMedia-1q3guD{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.tileMedia-1q3guD{
+    border-radius: 0;
+}
+
+/* Fix the share button background color */
+
+.buttonColor-1agP3J{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Remove the out of place gradient for nitro games list */
+
+.theme-dark .gradientOverlayLeft-3w159C,
+.theme-dark .gradientOverlayRight-3vMuS8{
+    background: none;
+}
+
+/* Fix background color and border radius for the scroller buttons on nitro games list */
+
+.scrollerButton-1Vm5_P{
+    border-radius: 0;
+}
+
+.theme-dark .scrollerButton-1Vm5_P{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Fix the random gradient at share post screen */
+
+.theme-dark .copyButton-gxXBmB{
+    background: none;
+}
+
+/* Fix the background color and border radius for the share post search bar */
+
+.theme-dark .container-2XeR5Z{
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+
+/* Fix background color for hidden user list on activity feed setting */
+
+.theme-dark .emptyUsers--hiToV{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Fix background color for the unfollow game on activity feed setting */
+
+.theme-dark .unfollowButton-2uoMXv{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Fix background color for the search game search bar on activity feed setting */
+
+.theme-dark .searchResultsContainer-1ma_dc{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Fix background color and border radius for the game search bar selection */
+
+.theme-dark .searchOption-8nCYo-.selected-1r_nkg{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.searchOption-8nCYo-{
+    border-radius: 0;
 }
