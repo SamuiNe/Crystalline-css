@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.21.1                     *
+ *                     Version 1.21.2                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -5539,4 +5539,12 @@ input{
 .theme-dark .notDetected-33MY4s,
 .theme-light .notDetected-33MY4s{
     background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Fixed inconsistency on server icons and other buttons*/
+
+.theme-dark .acronym-2mOFsV,
+.theme-light .acronym-2mOFsV{
+    background-color: rgba(0, 0, 0, 0.42);
+    color: rgba(255, 255, 255, 0.8);
 }
