@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.0                     *
+ *                     Version 1.22.1                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4728,12 +4728,12 @@ input{
 }
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Discord Hypesquad border radius fix */
@@ -5735,4 +5735,116 @@ input{
 
 .searchOption-8nCYo-{
     border-radius: 0;
+}
+
+/* Fix background color and border radius for game icons at Activity Page's quick launcher */
+
+.theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover,
+.theme-dark .wrapped-15rg6t{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.container-35JN_A{
+    border-radius: 0;
+}
+
+/* Fix background color and border radius for mute / deafen / setting icons */
+
+.theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.button-2b6hmh{
+    border-radius: 0;
+}
+
+/* Fix background color for overflow member count at Activity Page's recently played section */
+
+.theme-dark .partyMemberOverflow-1tfvpb{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Fix background color and border radius for game activity's add game selection */
+
+.theme-dark .addGamePopout-2RY8Ju{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.addGamePopout-2RY8Ju{
+    border-radius: 0;
+}
+
+.css-15ejc46-control,
+.css-15ejc46-control:hover,
+.css-2yldzf-control,
+.css-2yldzf-control:hover{
+    background-color: rgba(0, 0, 0, 0.42);
+    border: none;
+    border-radius: 0;
+}
+
+.tile-2OwFgW{
+    border-radius: 0;
+}
+
+.theme-dark .tile-2OwFgW{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .tile-2OwFgW:hover{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Server boost server selection background fix */
+
+.theme-dark .modal-3v8ziU{
+    border-radius: 0;
+    background-color: rgba(42, 42, 42, 0.42);
+    box-shadow: none;
+}
+
+.theme-dark .separator-2pYyx-{
+    box-shadow: none;
+    background-color: rgba(42, 42, 42, 0.42);
+}
+
+.theme-dark .selectGuild-1Ygl76:hover{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .footer-30ewN8{
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgba(42, 42, 42, 0.42);
+}
+
+/* Server boost tier background color and border radius fix */
+
+.theme-dark .tierPill-1yRO48{
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Fix the username background color */
+
+.theme-dark .container-3baos1,
+.theme-light .container-3baos1{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Fix discrim number text color */
+.theme-dark .discriminator-3-Lf_x, .theme-light .discriminator-3-Lf_x{
+    color: rgba(197, 207, 237, 1);
+}
+
+/* Quick background fixes */
+
+.app-2rEoOp{
+    background-color: rgba(0, 0, 0, 0);
 }
