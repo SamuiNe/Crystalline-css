@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.1                     *
+ *                     Version 1.22.2                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -5847,4 +5847,10 @@ input{
 
 .app-2rEoOp{
     background-color: rgba(0, 0, 0, 0);
+}
+
+/* private channel list fix */
+
+.privateChannels-1nO12o{
+	background-color: rgba(0, 0, 0, 0);
 }
