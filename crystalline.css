@@ -5848,3 +5848,19 @@ input{
 .app-2rEoOp{
     background-color: rgba(0, 0, 0, 0);
 }
+
+/* private channel list fix (written by Jisagi) */
+.privateChannels-1nO12o{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* Another background fix */
+.theme-dark {
+    --background-primary: none;
+    --background-secondary: none;
+    --background-tertiary: none;
+    --deprecated-store-bg: none;
+    }
+    .theme-dark .modal-yWgWj-, .theme-dark .footer-3rDWdC {
+    background-color: rgba(24, 28, 37, 1);
+}
