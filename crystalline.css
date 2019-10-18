@@ -5851,7 +5851,7 @@ input{
 
 /* private channel list fix (written by Jisagi) */
 .privateChannels-1nO12o{
-	background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Another background fix */
@@ -5867,4 +5867,9 @@ input{
 
 .scroller-2FKFPG {
     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Go live & Voice panel bg fix */
+.panels-j1Uci_ {
+    background-color: rgba(0, 0, 0, 0.3);
 }
