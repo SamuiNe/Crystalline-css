@@ -5873,3 +5873,12 @@ input{
 .panels-j1Uci_ {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* Text input background fixed */
+.innerEnabled-3g80kR.inner-zqa7da {
+    background-color: transparent !important;
+}
+
+.scrollableContainer-38zsVD {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
