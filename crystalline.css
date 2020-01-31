@@ -5878,3 +5878,8 @@ input{
 .scrollableContainer-2NUZem.webkit-HjD9Er {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Friendlist background fixed */
+.container-1D34oG {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
