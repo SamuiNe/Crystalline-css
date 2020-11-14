@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.3                     *
+ *                     Version 1.22.4                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4038,24 +4038,36 @@ input{
     border: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW{
+.theme-dark .messagesPopoutWrap-1MQ1bW, .theme-dark .container-enaOkj {
     background-color: rgba(22, 22, 22, 0.8);
     border-radius: 0;
     border: none;
     box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX{
+.theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX, .theme-dark .container-enaOkj .header-ykumBX{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius: 0;
     box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group{
-    background-color: rgba(0, 0, 0, 0.42);
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .channelHeader-3Gd2xq, .theme-dark .container-enaOkj .channelHeader-3Gd2xq {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageContainer-gbhlwo, .theme-dark .container-enaOkj .messages-3G3erD{
+    background-color: rgba(0, 0, 0, 0.33);
     border-radius: 0;
     border: none;
 }
+
+.theme-dark .container-enaOkj {
+	background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
 
 .theme-dark .message-group h2 .timestamp{
     color: rgba(255, 255, 255, 0.42);
@@ -5869,8 +5881,8 @@ input{
 	--background-floating: rgba(0, 0, 0, 0.8);			
 	--background-modifier-hover: none;
 	--background-modifier-selected: none;
-	--scrollbar-auto-thumb: rgba(255, 255, 255, 0.3);
-    --scrollbar-auto-track: rgba(255, 255, 255, 0.05);
+	--scrollbar-auto-thumb: rgba(0, 0, 0, 0.4);
+    --scrollbar-auto-track: rgba(0, 0, 0, 0.05);
     --scrollbar-thin-thumb: rgba(255, 255, 255, 0.3);
 }
 
@@ -5885,13 +5897,25 @@ input{
 .container-1giJp5 {
 	background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* protip on user card (in case if you wanna delete it, just uncomment next rule) */
+/*
+.protip-YaFfgO {
+	visibility: hidden;
+	height: 0;
+	margin: 0;
+}
+*/
+
  /* I hated that new size of emojis so there is revert for it */
- /* probably it'll need to be removed */
+ /* probably it'll need to be removed (same as protip) */
+/*
 .emoji.jumboable {
 	width: 2rem;
 	height: 2rem;
 	min-height: 2rem;
 }
+*/
 .scrollableContainer-2NUZem.webkit-HjD9Er {
     background-color: rgba(0, 0, 0, 0.5);
 	border-radius:0
@@ -5902,11 +5926,6 @@ input{
 .theme-dark .bodyInner-245q0L {
 	background-color: transparent;
 }
-.protip-YaFfgO {
-	visibility: hidden;
-	height: 0;
-	margin: 0;
-}
 .container-1D34oG {
     background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -5914,6 +5933,7 @@ input{
 .scrollerWrap-2lJEkd .scrollerThemed-2oenus {
 	background-color: rgba(0, 0, 0, 0.22);
 }
+
 /* click-on-emoji-in-message fix */
 .popoutContainer-1MXdqN {
 	background-color: rgba(0, 0, 0, 0.6);
@@ -6009,4 +6029,26 @@ input{
 }
 .container-1taM1r:hover {
 	background: rgba(0, 0, 0, 0.7);
+}
+
+/* fix embed stuff */
+.embedFull-2tM8-- {
+	background: rgba(0, 0, 0, 0.33);
+	border-left: 2px solid rgba(255, 255, 255, 0.22);
+	border-radius: 0;
+}
+/* expanded folder background (wow) */
+.expandedFolderBackground-2sPsd- {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+/* a little gap between now playing section and role section on user card */
+.bodyInnerWrapper-Z8WDxe {
+	margin-top: 8px;
+}
+
+/* friend list hover fix */
+.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover {
+	background: rgba(0, 0, 0, 0.22);
+	border-radius: 0;
 }
