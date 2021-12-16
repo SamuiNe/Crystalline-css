@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.5                     *
+ *                     Version 1.22.6                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -11,7 +11,7 @@
  *               https://discord.gg/An6Yka5               *
  *                  Thank you in advance!                 *
  *                                                        *
- *       MIT License, Copyright SamuiNe 2016 ~ 2020?      *
+ *       MIT License, Copyright SamuiNe 2016 ~ 2021?      *
  **********************************************************/
 
 /* Caution! This theme only works for dark theme for now. It will not work properly at light theme. */
@@ -27,7 +27,7 @@ body {
     background: #fff url(https://w.wallhaven.cc/full/0q/wallhaven-0q19r5.png);
 
     /* Just in case adjusting the position is necessary (x% y%)*/
-    background-position: 75% 50%;
+    background-position: 50% 50%;
 
     /* It is recommended to set the background-size width to match your monitor's or discord window's width plus 1px.
        If the background picture is blurry, please use a bigger sized background picture. */
@@ -4968,10 +4968,6 @@ input{
 /* Member list background-color adjustment*/
 /* TODO: Look for existing CSS element */
 
-.theme-dark .members-1998pB, .channels-Ie2l6A{
-    background-color: rgba(0, 0, 0, 0.22);
-}
-
 /* Discord Nitro Classic banner background color and border radius fix */
 
 .theme-dark .tier1Banner-1B_WXY{
@@ -5268,7 +5264,7 @@ input{
 
 /* Fix guilds sidebar background color */
 
-.theme-dark .wrapper-1Rf91z{
+.theme-dark .wrapper-3NnKdC{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -6058,13 +6054,18 @@ input{
 	border-radius: 0;
 }
 /* expanded folder background (wow) */
-.expandedFolderBackground-2sPsd- {
+.expandedFolderBackground-3ZDF05 {
 	background: rgba(255, 255, 255, 0.1);
 }
 
 /* a little gap between now playing section and role section on user card */
 .bodyInnerWrapper-Z8WDxe {
 	margin-top: 8px;
+}
+
+/* also background color on default icons */
+.circleIconButton-1QV--U {
+	background: rgba(0, 0, 0, 0.42)
 }
 
 /* friend list hover fix */
@@ -6186,4 +6187,50 @@ input{
 }
 .button-1YfofB.buttonColor-7qQbGO:hover {
     background-color: rgba(0, 0, 0, 0.3);
+}
+.container-1pMiXm {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.backdrop-1wrmKB.withLayer-RoELSG {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* threads */
+.container-7uh5fX{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 0;
+}
+.header-1VS4tm{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.container-2I9Hud {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.threadName-2iLyXl {
+    color: #EEE;
+}
+.container-2wlB3z {
+    background-color: rgba(0, 0, 0, 0.22);
+}  
+.container-3hZ-gs {
+    background-color: rgba(0, 0, 0, 0.33);
+    border-radius: 0;
+}
+.chatHeaderBar-4vZS1x {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.chat-15Vmww::before {
+    border-color: rgba(0, 0, 0, 0.5);
+}
+/* search fix 2021 Certified */
+.searchResultsWrap-3-pOjs {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.searchHeader-2XoQg7 {
+    background-color: rgba(0, 0, 0, 0.33);
+}
+.searchResult-9tQ1uo {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 0;
 }
