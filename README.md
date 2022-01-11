@@ -3,7 +3,7 @@ Crystalline is a BeautifulDiscord theme focused on using non-rounded edges, dark
 If there is any bug found or any suggestions, feel free to open an issue. Thank you in advance!
 
 In case it is needed, embed Link is available below:<br>
-[Current Version](https://gitcdn.xyz/repo/SamuiNe/Crystalline-css/master/crystalline.css)<br>
+[Current Version](https://raw.githubusercontent.com/TommyGodlike/Crystalline-css/master/crystalline.css)<br>
 
 ## Requirements
 To apply this CSS to Discord, you need to have [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) installed!<br>
