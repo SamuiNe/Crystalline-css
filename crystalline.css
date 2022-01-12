@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.8                     *
+ *                     Version 1.22.9                     *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -233,6 +233,7 @@ div.theme-dark.context-menu.item.item-subMenu{
 
 .mention{
     background-color: rgba(179, 224, 255, 0.22);
+    border-radius: 0;
 }
 
 .need-help-modal .header{
@@ -301,7 +302,7 @@ input.game-input{
     color: rgba(255, 255, 255, 0.9);
 }
 
-.theme-dark .faded-3bns_w{
+.theme-dark .faded-Yd0FtY{
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -2536,7 +2537,7 @@ span.amount {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.container-3w7J-x,
+.container-1NXEtd,
 .private-channels .channel.selected a{
     background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -2575,12 +2576,12 @@ span.amount {
     border-radius: 0;
 }
 
-.card-3Qj_Yx{
+.card-16VQ8C{
     border: none;
     border-radius: 0;
 }
 
-.theme-dark .cardPrimary-1Hv-to{
+.theme-dark .cardPrimary-3qRT__{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
@@ -2588,7 +2589,7 @@ span.amount {
     border-radius: 0;
 }
 
-.button-38aScr{
+.button-f2h6uQ{
     border-radius: 0;
 }
 
@@ -2627,7 +2628,7 @@ span.amount {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.theme-dark .message-2qRu38{
+.theme-dark .message-G6O-Wv{
     background-color: rgba(11, 11, 11, 0.8);
     border-radius: 0;
     box-shadow: none;
@@ -2659,7 +2660,7 @@ span.amount {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-.theme-dark .copyInputDefault-21sXtF{
+.theme-dark .copyInputDefault-3jiMHw{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0;
     border: none;
@@ -2677,7 +2678,7 @@ span.amount {
     border-radius: 0 !important;
 }
 
-.theme-dark .elevationHigh-3A9Xbf{
+.theme-dark .elevationHigh-3KUiqj{
     border-radius: 0;
     background-color: rgba(22, 22, 22, 0.8);
 }
@@ -2770,18 +2771,18 @@ span.amount {
 }
 
 /* Discord theme update before 2017/09/13 */
-.item-3T2z1R:first-child,
-.item-3T2z1R:last-child,
-.item-3T2z1R{
+.item-2OyinQ:first-child,
+.item-2OyinQ:last-child,
+.item-2OyinQ{
     border-radius: 0;
     border: none;
 }
 
-.theme-dark .item-3T2z1R{
+.theme-dark .item-2OyinQ{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .item-3T2z1R:hover{
+.theme-dark .item-2OyinQ:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 .denySelected-1mh2mZ{
@@ -2831,7 +2832,7 @@ span.amount {
     border: none !important;
 }
 
-.round-2jCFai{
+.round-1RSG-3{
     border-radius: 0;
 }
 
@@ -2871,7 +2872,7 @@ span.amount {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.box-mmYMsp{
+.box-BHImcZ{
     border-radius: 0;
 }
 
@@ -2934,7 +2935,7 @@ span.amount {
     border: none;
 }
 
-.theme-dark .quickswitcher-3JagVE{
+.theme-dark .quickswitcher-pKcM9U{
     background-color: rgba(42, 42, 42, 0.7) !important;
     border-radius: 0;
 }
@@ -2950,23 +2951,23 @@ span.amount {
     color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.theme-dark .input-2VB9rf{
+.theme-dark .input-3r5zZY{
     background-color: rgba(0, 0, 0, 0.5) !important;
     border-radius: 0;
     box-shadow: none !important;
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.match-38WbBN{
+.match-20K5f5{
     color: rgba(197, 207, 237, 1);
 }
 
-.theme-dark .cardPrimaryEditable-3KtE4g{
+.theme-dark .cardPrimaryEditable-2mz_3i{
     background-color: rgba(0, 0, 0, 0.42) !important;
 	border-color: rgba(0, 0, 0, 0.42) !important;
 }
 
-.theme-dark .cardPrimaryEditable-3KtE4g:hover{
+.theme-dark .cardPrimaryEditable-2mz_3i:hover{
     background-color: rgba(0, 0, 0, 0.8) !important;
 	border-color: rgba(0, 0, 0, 0.8) !important;
 }
@@ -2988,13 +2989,13 @@ span.amount {
     opacity: 1 !important;
 }
 
-.theme-dark .title-31JmR4{
+.theme-dark .title-2dsDLn{
     color: rgba(255, 255, 255, 0.7);
 }
 .theme-dark .text-27cdrj,
 .theme-dark .title-2CL_z0,
-.theme-dark .description-3_Ncsb,
-.theme-dark .labelDescriptor-1PqHgD,
+.theme-dark .description-30xx7u,
+.theme-dark .labelDescriptor-34wZ-z,
 .theme-dark .desc-2Dttbk,
 .invite-settings-invite-row .channel-name{
     color: rgba(255, 255, 255, 0.5);
@@ -3016,7 +3017,7 @@ span.amount {
 
 /* Discord updates 2017/10/04? */
 
-.bar-30k2ka{
+.bar-2eAyLE{
     border-radius: 0;
     opacity: 0.9;
 }
@@ -3059,23 +3060,23 @@ span.amount {
 
 /* Other stuff discord changed */
 
-.theme-dark .container-1If-HZ,
-.theme-dark .reactors-Blmlhw,
+.theme-dark .container-KM8BU6,
+.theme-dark .reactors-1VXca7,
 .theme-dark .sidebar-1-SQro{
     background-color: rgba(22, 22, 22, 0.8);
 }
 
-.scroller-1-nKid{
+.scroller-2GkvCq{
     background-color: rgba(42, 42, 42, 0.8);
 }
 
-.reactionDefault-GBA58K,
-.reactionSelected-1pqISm{
+.reactionDefault-1Sjj1f,
+.reactionSelected-1aMb2K{
     border-radius: 0;
 }
 
 /* Discord Canary stuffs*/
-.container-2lgZY8{
+.container-1eFtFS{
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -3083,7 +3084,7 @@ span.amount {
     background: none;
 }
 
-.base-3dtUhz, .channels-Ie2l6A{
+.base-2jDfDU, .channels-Ie2l6A{
     border-radius: 0;
 }
 
@@ -3098,7 +3099,7 @@ span.amount {
     padding-bottom: 1px;
 }
 
-.theme-dark .title-3qD0b-{
+.theme-dark .title-31SJ6t{
     background-color: rgba(0, 0, 0, 0.5) !important;
     box-shadow: none !important;
 }
@@ -3172,22 +3173,22 @@ span.amount {
 
 /* Fix for that large game playing stuff */
 
-.theme-dark .activityProfile-1712BN .details-38sfDr,
-.theme-dark .activityProfile-1712BN .name-29ETJS,
-.theme-dark .headerTop-3GPUSF .details-38sfDr,
-.theme-dark .headerTop-3GPUSF .name-29ETJS,
-.theme-light .activityProfile-1712BN .details-38sfDr,
-.theme-light .activityProfile-1712BN .name-29ETJS,
-.theme-light .headerTop-3GPUSF .details-38sfDr,
-.theme-light .headerTop-3GPUSF .name-29ETJS{
+.theme-dark .activityProfile-1712BN .details-2-ciHo,
+.theme-dark .activityProfile-1712BN .name-1-Q7l2,
+.theme-dark .headerTop-3GPUSF .details-2-ciHo,
+.theme-dark .headerTop-3GPUSF .name-1-Q7l2,
+.theme-light .activityProfile-1712BN .details-2-ciHo,
+.theme-light .activityProfile-1712BN .name-1-Q7l2,
+.theme-light .headerTop-3GPUSF .details-2-ciHo,
+.theme-light .headerTop-3GPUSF .name-1-Q7l2{
     color: rgba(255, 255, 255, 0.8);
 }
 
-.theme-dark .headerTop-3GPUSF .content-3JfFJh{
+.theme-dark .headerTop-3GPUSF .content-tXPNDw{
     color: rgba(255, 255, 255, 0.5);
 }
 
-.assetsLargeImage-eYwpTX{
+.assetsLargeImage-8U5dlz{
     border-radius: 0;
 }
 
@@ -3247,7 +3248,7 @@ span.discriminator{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.iconActiveLarge-2nzn9z{
+.iconActiveLarge-ac-EDu{
     border-radius: 0;
 }
 
@@ -3368,7 +3369,7 @@ span.discriminator{
 
 /* Discord Canary update 2017/12/05 */
 /*
-.container-2lgZY8{
+.container-1eFtFS{
     background-color: rgba(0, 0, 0, 0);
 }*/
 
@@ -3389,7 +3390,7 @@ span.discriminator{
     border-radius: 0;
 }
 
-.botTagRegular-2HEhHi{
+.botTagRegular-kpctgU{
     border-radius: 0;
     height: 14px;
     font-size: 10px !important;
@@ -3403,7 +3404,7 @@ span.discriminator{
     box-shadow: none;
 }
 
-.saturation-1FDvtn>div{
+.saturation-CLQHFD>div{
     border-radius: 0 !important;
 }
 
@@ -3421,7 +3422,7 @@ span.discriminator{
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.bar-30k2ka{
+.bar-2eAyLE{
     border-radius: 0 !important;
 }
 
@@ -3622,23 +3623,23 @@ div.action.join {
     line-height: 13px;
 }
 
-.accountList-33MS45 {
+.accountList-305sx3 {
 	background: rgba(0, 0, 0, 0.55);
 	border-radius: 0;
 }
 
-.connection-1fbD7X{
+.connection-107AGH{
     border-radius: 0;
     background: rgba(0, 0, 0, 0.22);
 }
 
-.connectionHeader-2MDqhu{
+.connectionHeader-2rV1ze{
     border: none;
     border-radius: 0;
     background: rgba(0, 0, 0, 0.4);
 }
 
-.integration-3kMeY4 {
+.integration-1f5IUi {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
 }
@@ -3683,18 +3684,18 @@ div.action.join {
     border-radius: 0;
 }
 
-.reactor-3UBcOI:hover{
+.reactor-1J25Qp:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.remove-3V-yj8{
+.remove-19AQn_{
     border-radius: 0;
 }
 
 .embedImage-2Ynqkh,
 .imageWrapper-oMkQl4,
 .embedVideoActions-2XdFk2,
-.ghostPill-2-KUPM{
+.ghostPill-2uK4W1{
     border-radius: 0;
 }
 
@@ -3716,7 +3717,7 @@ div.action.join {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.wrapper-O5i5-0{
+.wrapper-3ByaVZ{
     border-radius: 0;
     /* TODO: This overlaps with other elements in friend invite screen, double check in the future */
     background-color: rgba(0, 0, 0, 0.0);
@@ -3724,15 +3725,15 @@ div.action.join {
 
 .form-deprecated .form-header,
 .form-deprecated .form-inner,
-.wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions{
+.wrapper-3ByaVZ .instantInviteModal-3vhcvC .form-actions{
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-header header{
+.wrapper-3ByaVZ .instantInviteModal-3vhcvC .form-header header{
     color: rgba(255, 255, 255, 0.8);
 }
 
-.wrapper-O5i5-0 .instantInviteModal-3vhcvC .blurb-zsamaY{
+.wrapper-3ByaVZ .instantInviteModal-3vhcvC .blurb-zsamaY{
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -3748,7 +3749,7 @@ input{
     background-color: rgba(0, 0, 0, 0);
 }
 
-.wrapper-O5i5-0 .instantInviteModalAdvanced-3qJETM .form-actions{
+.wrapper-3ByaVZ .instantInviteModalAdvanced-3qJETM .form-actions{
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -3775,7 +3776,7 @@ input{
     border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
 }
 
-.theme-dark .card-FDVird:before{
+.theme-dark .card-2ART2V:before{
     border-radius: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
@@ -3792,28 +3793,28 @@ input{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.container-1nZlH6{
+.container-30qY7E{
     border-radius: 0;
     border: none;
 }
 
-.theme-dark .accountBtnInner-sj5jLs{
+.theme-dark .accountBtnInner-3XK70s{
     border-radius: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .accountBtnInner-sj5jLs:hover{
+.theme-dark .accountBtnInner-3XK70s:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.connectionDelete-2Odoln{
+.connectionDelete-XXTMqE{
     border-radius: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.connectionDelete-2Odoln:hover{
+.connectionDelete-XXTMqE:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -3843,7 +3844,7 @@ input{
     border-radius: 0;
 }
 
-.theme-dark .cardPrimaryOutline-29Ujqw{
+.theme-dark .cardPrimaryOutline-1ofwVz{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -3858,39 +3859,39 @@ input{
     background-color: rgba(240, 71, 71, 0.5);
 }
 
-.theme-dark .select-2TCrqx .Select-menu-outer{
+.theme-dark .select-1YfRS9 .Select-menu-outer{
     background-color: rgba(22, 22, 22, 0.8);
 }
 
 /*
-.theme-dark .select-2TCrqx .Select-option{
+.theme-dark .select-1YfRS9 .Select-option{
     background-color: rgba(22, 22, 22, 0.8);
 }
 */
 
-.theme-dark .select-2TCrqx .Select-option.is-selected{
+.theme-dark .select-1YfRS9 .Select-option.is-selected{
     background-color: rgba(62, 62, 62, 0.8);
 }
 
-.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover{
+.theme-dark .select-1YfRS9 .Select-option.is-focused, .theme-dark .select-1YfRS9 .Select-option:hover{
     background: none;
 }
 
-.theme-dark .select-2TCrqx .Select-option.is-focused{
+.theme-dark .select-1YfRS9 .Select-option.is-focused{
     background-color: rgba(22, 22, 22, 0.8);
 }
 
-.theme-dark .select-2TCrqx .Select-option:hover{
+.theme-dark .select-1YfRS9 .Select-option:hover{
     background-color: rgba(42, 42, 42, 0.8);
 }
 
 
-.colorPickerSwatch-5GX3Ve.custom-2SJn4n,
-.colorPickerSwatch-5GX3Ve.default-cS_caM{
+.colorPickerSwatch-RTUGRR.custom-1Up2lr,
+.colorPickerSwatch-RTUGRR.default-3ISV7m{
     border-radius: 0;
 }
 
-.theme-dark .colorPickerCustom-2CWBn2{
+.theme-dark .colorPickerCustom-1swUKF{
     background-color: rgba(42, 42, 42, 0.8);
     border: none;
 }
@@ -3929,6 +3930,10 @@ input{
 .userPopout-2j1gM4{
     border-radius: 0;
     box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.footer-3naVBw{
+
 }
 
 .footer-1fjuF6{
@@ -3945,17 +3950,17 @@ input{
     background-color: rgba(29, 185, 84, 0.8);
 }
 
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ{
+.lookOutlined-3yKVGo.colorWhite-1H92hK{
     border: 0;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover{
+.lookOutlined-3yKVGo.colorWhite-1H92hK:hover{
     border: 0;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.theme-dark .elevationHigh-1PneE4{
+.theme-dark .elevationHigh-28Pty4{
     border-radius: 0;
     box-shadow: none;
 }
@@ -3964,7 +3969,7 @@ input{
     border-radius: 0;
 }
 
-.theme-dark .userSettingsVoice-1_dzjw .previewOverlay-2O7_KC{
+.theme-dark .userSettingsVoice-1_dzjw .previewOverlay-2reuWf{
     border-radius: 0;
     border: none;
     background-color: rgba(0, 0, 0, 0.5);
@@ -3974,13 +3979,13 @@ input{
     background: none;
 }
 
-.theme-dark .attachment-33OFj0{
+.theme-dark .attachment-1PZZB2{
     background-color: rgba(10, 10, 10, 0.7);
     border-radius: 0;
     border: none;
 }
 
-.bar-3urHkF, .barInner-3NDaY_{
+.bar-1GpknY, .barInner-3dHef4{
     border-radius: 0;
 }
 
@@ -4056,7 +4061,7 @@ input{
 }
 
 /* mentions */
-.theme-dark .messagesPopoutWrap-3zryHW, .theme-dark .container-enaOkj {
+.theme-dark .messagesPopoutWrap-3zryHW, .theme-dark .container-2ebMPP {
     background-color: rgba(22, 22, 22, 0.8);
     border-radius: 0;
     border: none;
@@ -4066,17 +4071,17 @@ input{
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.33);
 }
-.theme-dark .messagesPopoutWrap-3zryHW .header-145e10, .theme-dark .container-enaOkj .header-145e10{
+.theme-dark .messagesPopoutWrap-3zryHW .header-145e10, .theme-dark .container-2ebMPP .header-145e10{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius: 0;
     box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-24nkyi .channelHeader-DFRX8q, .theme-dark .container-enaOkj .channelHeader-DFRX8q {
+.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI .channelHeader-DFRX8q, .theme-dark .container-2ebMPP .channelHeader-DFRX8q {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-24nkyi .messageContainer-3VTXBC, .theme-dark .container-enaOkj .messages-23can0{
+.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI .messageContainer-3VTXBC, .theme-dark .container-2ebMPP .messages-23can0{
     background-color: rgba(0, 0, 0, 0.33);
     border-radius: 0;
     border: none;
@@ -4091,17 +4096,6 @@ input{
 }
 .header-1w9Q93 {
     background-color: rgba(0, 0, 0, 0.42);
-}
-.messages-23can0 {
-    border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.33);
-}
-
-.theme-dark .container-enaOkj {
-	background-color: rgba(22, 22, 22, 0.8);
-    border-radius: 0;
-    border: none;
-    box-shadow: none;
 }
 
 
@@ -4137,16 +4131,16 @@ input{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug{
+.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI .message-group:hover .actionButtons-2mNSAB{
     background-color: rgba(255, 255, 255, 0.0);
     box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-1ZwI_j{
+.theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI .message-group .actionButtons-2mNSAB .jumpButton-1ZwI_j{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.actionButtons-1sUUug .jumpButton-1ZwI_j{
+.actionButtons-2mNSAB .jumpButton-1ZwI_j{
     border-radius: 0;
     box-shadow: none;
 
@@ -4164,8 +4158,8 @@ input{
     background: none;
 }
 
-.theme-dark .layer-3QrUeG,
-.theme-dark .layers-3iHuyZ{
+.theme-dark .layer-86YKbF,
+.theme-dark .layers-OrUESM{
     background: none;
 }
 
@@ -4178,7 +4172,7 @@ input{
 
 /*The thing under the discord bar fix */
 
-.theme-dark .title-3qD0b-{
+.theme-dark .title-31SJ6t{
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: none;
 }
@@ -4252,7 +4246,7 @@ input{
     border-radius: 0;
 }
 
-.botTagRegular-2HEhHi {
+.botTagRegular-kpctgU {
     background: none;
     background-color: rgba(114, 137, 218, 0.7);
 }
@@ -4312,20 +4306,20 @@ input{
     background-color: rgba(0, 0, 0, 0);
 }
 
-.card-7JP0BX{
+.card-3Zmutq{
     border-radius: 0;
 }
 
-.theme-dark .card-7JP0BX{
+.theme-dark .card-3Zmutq{
     background-color: rgba(10, 10, 10, 0.0);
 }
 
-.theme-dark .body-SKIE6r,
-.theme-dark .header-1RC2Wb{
+.theme-dark .body-2S0G9D,
+.theme-dark .header-ISPHUQ{
     background-color: rgba(10, 10, 10, 0.7);
 }
 
-.splashArt-3yFzRe{
+.splashArt-175LCr{
     opacity: 0.88;
 }
 
@@ -4338,7 +4332,7 @@ input{
 }
 
 /* Music Background color */
-.theme-dark .wrapperAudio-1jDe0Q{
+.theme-dark .wrapperAudio-1Bzv_Z{
     background-color: rgba(10, 10, 10, 0.7);
     /*border-radius: 0;*/
     border: none;
@@ -4385,12 +4379,12 @@ input{
     background-color: rgba(88, 88, 88, 0.8) !important;
 }
 
-.progressBar-1T6LYX.small-1CUeBa{
+.progressBar-1T6LYX.small-1bZsRQ{
     background-color: rgba(0, 255, 133, 0.7) !important;
     border-radius: 0 !important;
 }
 
-.small-1CUeBa{
+.small-1bZsRQ{
     border-radius: 0;
 }
 
@@ -4425,7 +4419,7 @@ input{
     background-color: rgba(255, 255, 255, 0);
 }
 
-.theme-dark .messageGroupWrapper-1jf_7C:hover .actionButtons-1sUUug{
+.theme-dark .messageGroupWrapper-1jf_7C:hover .actionButtons-2mNSAB{
     -webkit-box-shadow: none;
 }
 
@@ -4548,7 +4542,7 @@ input{
 }
 
 /* Discord login screen */
-.authBox-hW6HRx{
+.authBox-1HR6Ha{
     border-radius: 0;
     box-shadow: none;
     background-color: rgba(22, 22, 22, 0.8);
@@ -4674,7 +4668,7 @@ input{
 
 /* Voice video chat background fix */
 
-.video-1kutKI{
+.video-35SHWt{
     background-color: rgba(22, 22, 22, 0.8);
 }
 
@@ -4707,7 +4701,7 @@ input{
 /* Version 1.18.0 > 1.18.1 */
 /* ｓｌｏｗ　ｍｏｄｅ text color */
 
-.cooldownWrapper-3joyFc{
+.cooldownWrapper-2k1jHK{
     color: rgb(255, 190, 120) !important;
 }
 
@@ -4751,39 +4745,39 @@ input{
 /* Version 1.18.1 > 1.18.2 */
 
 /* Discord Nitro page fix */
-.theme-dark .paymentRow-2e7VM6{
+.theme-dark .paymentRow-1HKOLu{
     border-color: rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .paymentPane-3bwJ6A,
-.theme-dark .paginator-166-09,
-.theme-dark .paymentRow-2e7VM6{
+.theme-dark .paymentPane-ut5qKZ,
+.theme-dark .paginator-1eqD2g,
+.theme-dark .paymentRow-1HKOLu{
     background: none;
     background-color: rgba(0, 0, 0, 0);
 }
-.theme-dark .paymentRow-2e7VM6:hover{
+.theme-dark .paymentRow-1HKOLu:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .expandedInfo-3kfShd{
+.theme-dark .expandedInfo-1W31i3{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.paymentPane-3bwJ6A{
+.paymentPane-ut5qKZ{
     border-radius: 0;
 }
 
-.indicator-2Qs3-E{
+.indicator-1zNk1M{
     border-radius: 0;
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-3b3xI6{
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-3b3xI6:active,
-.theme-dark .lookFilled-yCfaCM.colorPrimary-3b3xI6:hover{
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -4791,7 +4785,7 @@ input{
 
 /* TODO: Youtube preview border radius to 0 */
 
-.membershipDialog-rVL-t_,
+.membershipDialog-2wAdpQ,
 .ytp-cued-thumbnail-overlay-duration{
     border-radius: 0;
 }
@@ -4815,13 +4809,13 @@ input{
 
 /* Fix certain text box's background */
 /* TODO: Fix the dropdown menu background, too light and not enough opacity */
-.theme-dark .select-2TCrqx .Select-control{
+.theme-dark .select-1YfRS9 .Select-control{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
 /* Change unsaved roles confirmation window background color */
 
-.theme-dark .elevationHigh-1PneE4{
+.theme-dark .elevationHigh-28Pty4{
     background-color: rgba(22, 22, 22, 0.8) !important;
 }
 
@@ -4840,7 +4834,7 @@ input{
 
 /* Video preview border radius fix */
 
-.videoWrapper-3YdgHH{
+.videoWrapper-1_H3B3{
     border-radius: 0;
 }
 
@@ -4870,7 +4864,7 @@ input{
 
 /* Delet the random box shadow for search pop-up window */
 
-.theme-dark .elevationBorderHigh-2WYJ09{
+.theme-dark .elevationBorderHigh-3drnJX{
     box-shadow: none;
 }
 
@@ -4884,21 +4878,15 @@ input{
 
 /* Fix guild wrapper border radius */
 
-.guildsWrapper-5TJh6A{
+.guildsWrapper-5TJh6A,
+.video-2HW4jD,
+.embedImage-2Ynqkh img, .embedImage-2Ynqkh video
+.embedThumbnail-2nTasl img, .embedThumbnail-2nTasl video,
+.embedVideo-2ixt5A img, .embedVideo-2ixt5A video,
+.embedMedia-1mdWSP,
+.embedGalleryImagesWrapper-3BWvNM {
     border-radius: 0;
 }
-
-/* Fix gif embed border radius */
-
-.video-8eMOth{
-    border-radius: 0;
-}
-
-.embedImage-2Ynqkh,
-.embedThumbnail-2nTasl, .embedVideo-2ixt5A{
-    border-radius: 0;
-}
-
 /* Fix the background for server add button */
 
 .theme-dark .guildsAdd-21_IdK{
@@ -4907,7 +4895,7 @@ input{
 
 /* Fix color picker border radius */
 
-.colorPickerSwatch-5GX3Ve{
+.colorPickerSwatch-RTUGRR{
     border-radius: 0;
 }
 
@@ -4924,26 +4912,26 @@ input{
 
 /* Fix Display role menu pop-up */
 
-.theme-dark .elevationBorderLow-2qgTRQ{
+.theme-dark .elevationBorderLow-3_3rXL{
     border-radius: 0;
     box-shadow: none;
 }
 
-.theme-dark .popoutList-T9CKZQ{
+.theme-dark .popoutList-10IFAa{
     background-color: rgba(22, 22, 22, 0.8);
 }
 
-.theme-dark .selectableItem-1MP3MQ{
+.theme-dark .selectableItem-3-fmiM{
     border-radius: 0;
 }
 
-.theme-dark .selectableItem-1MP3MQ:hover{
+.theme-dark .selectableItem-3-fmiM:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Version 1.18.3 > 1.18.4 */
 
-/* .theme-dark .message-2qRu38 changed, refer to git for details */
+/* .theme-dark .message-G6O-Wv changed, refer to git for details */
 /* Fixed pin message background color */
 
 .theme-dark .lookFilled-1h1y05.select-1Pkeg4,
@@ -4975,7 +4963,7 @@ input{
     border-radius: 0;
 }
 
-/* .theme-dark .select-2TCrqx changed, refer to git for details */
+/* .theme-dark .select-1YfRS9 changed, refer to git for details */
 /* Adjusted background colors for dropdown menus for consistency */
 
 /* Forgot to document which one is this */
@@ -5049,7 +5037,7 @@ input{
 
 /* Discord Library header background color fix */
 
-.theme-dark .gameUpdates-2GPqBU{
+.theme-dark .gameUpdates-3Ts_5W{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -5070,18 +5058,18 @@ input{
 }
 
 /* Adjust the text color for Discord Library game information */
-.theme-dark .icon-1IKq3C, .theme-dark .textCell-sKsLUQ{
+.theme-dark .icon-3cUB-z, .theme-dark .textCell-sKsLUQ{
     color: rgba(255, 255, 255, 0.6);
 }
 
 /* Discord Library download bar fix */
 
-.small-4dgL9e,
-.xsmall-2LuBKD{
+.small-Q4fy6o,
+.xsmall-2nFcgN{
     border-radius: 0;
 }
 
-.theme-dark .progressCellText-3avmMz{
+.theme-dark .progressCellText-3ajYcj{
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -5157,16 +5145,16 @@ input{
 
 /* Overlay setting - Overlay Notification position preview border radius fix */
 
-.wrapper-3jrx9n{
+.wrapper-SdcMKg{
     border-radius: 0;
 }
 
-.option-n0icdO{
+.option-1QI4c9{
     border-radius: 0;
 }
 
 /* Game Activity now playing / inactive border radius fix */
-.notDetected-33MY4s, .nowPlaying-284llR{
+.notDetected-2HEmAp, .nowPlaying-zBamm2{
     border-radius: 0;
 }
 
@@ -5187,7 +5175,7 @@ input{
 
 /* Fix Search bar border radius and background color */
 
-.theme-dark .search-2Me5HY .searchBar-zdmu7v {
+.theme-dark .searchBar-zdmu7v {
     background-color: rgba(0, 0, 0, 0.42);
 }
 
@@ -5236,13 +5224,13 @@ input{
 
 /* Scroll bar and scroll bar background fix */
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2LSbBU::-webkit-scrollbar-track-piece{
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-kQBbkU::-webkit-scrollbar-track-piece{
     border: none;
     border-radius: 0;
     background: rgba(0, 0, 0, 0);
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2LSbBU::-webkit-scrollbar-thumb{
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-kQBbkU::-webkit-scrollbar-thumb{
     border-color: rgba(66, 66, 66, 0.42);
     background-color: rgba(22, 22, 22, 0.42);
 }
@@ -5344,13 +5332,13 @@ input{
 
 /* Fix disabled button background for user popup window */
 
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ:disabled{
+.lookOutlined-3yKVGo.colorWhite-1H92hK:disabled{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Settings Code Redemption background fix */
 
-.theme-dark .codeRedemptionRedirect-1wVR4b{
+.theme-dark .codeRedemptionRedirect-3SBiCp{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
@@ -5428,7 +5416,7 @@ input{
 
 /* Fix discord notice bar border radius */
 
-.platform-win .base-3dtUhz{
+.platform-win .base-2jDfDU{
     border-radius: 0;
 }
 
@@ -5468,13 +5456,13 @@ input{
 
 /* Tooltip background fixes */
 
-.theme-dark .tooltipBlack-PPG47z,
-.theme-light .tooltipBlack-PPG47z{
+.theme-dark .tooltipBlack-vMYxvw,
+.theme-light .tooltipBlack-vMYxvw{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3L49xb,
-.theme-light .tooltipBlack-PPG47z .tooltipPointer-3L49xb{
+.theme-dark .tooltipBlack-vMYxvw .tooltipPointer-3L49xb,
+.theme-light .tooltipBlack-vMYxvw .tooltipPointer-3L49xb{
     border-top-color: rgba(197, 207, 237, 1)
 }
 
@@ -5518,7 +5506,7 @@ input{
 
 /* Fix text color for chat search bar */
 
-.theme-dark .searchBar-3dMhjb{
+.theme-dark .searchBar-zdmu7v{
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -5544,13 +5532,13 @@ input{
 
 /* Fix voice chat's user list hover background color */
 
-.theme-dark .listDefault-2F-w65 .clickable-1lCRLF:hover .content-1Wq3SX,
-.theme-light .listDefault-2F-w65 .clickable-1lCRLF:hover .content-1Wq3SX{
+.theme-dark .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,
+.theme-light .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42{
     background-color: rgba(0, 0, 0, 0.22);
     border-radius: 0;
 }
 
-.theme-dark .selected-3t3Csj{
+.theme-dark .selected-1oxcpH{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius: 0;
 }
@@ -5560,11 +5548,11 @@ input{
     border-radius: 0;
 }
 
-.result-3w1ZcL::after{
+.result-3OpoO7::after{
     border-radius: 0;
 }
 
-.gif-1TcNIB{
+.gif-1EWTs-{
     border: none;
     border-radius: 0;
 }
@@ -5577,8 +5565,8 @@ input{
 
 /* Fix the background color for game activity when there is no game detected */
 
-.theme-dark .notDetected-33MY4s,
-.theme-light .notDetected-33MY4s{
+.theme-dark .notDetected-2HEmAp,
+.theme-light .notDetected-2HEmAp{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
@@ -5661,9 +5649,9 @@ input{
 
 /* Fix the Nitro banner thing's background color and border radius on Discord store's game page */
 
-.section-foaVwT:first-child,
+.section-18Kw3M:first-child,
 .premiumHeaderPrice-_S6RyD,
-.section-foaVwT:last-child{
+.section-18Kw3M:last-child{
     border-radius: 0;
 }
 
@@ -5745,7 +5733,7 @@ input{
 
 /* Fix the background color and border radius for the share post search bar */
 
-.theme-dark .container-2XeR5Z{
+.theme-dark .container-1SX9VC{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius: 0;
 }
@@ -5807,11 +5795,11 @@ input{
 
 /* Fix background color and border radius for game activity's add game selection */
 
-.theme-dark .addGamePopout-2RY8Ju{
+.theme-dark .addGamePopout-3yePJc{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
-.addGamePopout-2RY8Ju{
+.addGamePopout-3yePJc{
     border-radius: 0;
 }
 
@@ -5824,19 +5812,19 @@ input{
     border-radius: 0;
 }
 
-.tile-2OwFgW{
+.tile-2mmK5T{
     border-radius: 0;
 }
 
-.theme-dark .tile-2OwFgW{
+.theme-dark .tile-2mmK5T{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
-.theme-dark .tile-2OwFgW:hover{
+.theme-dark .tile-2mmK5T:hover{
     background-color: rgba(0, 0, 0, 0.22);
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-3b3xI6:disabled{
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:disabled{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -5914,7 +5902,7 @@ input{
     --channeltextarea-background: none;
 }
 
-.theme-dark .modal-yWgWj-, .theme-dark .footer-3rDWdC {
+.theme-dark .modal-2RrUKJ, .theme-dark .footer-1Ip3Sd {
     background-color: rgba(24, 28, 37, 1);
 }
 /* speaking avatars fix, was broken with those variables on .theme-dark class  */ 
@@ -5922,7 +5910,7 @@ input{
 	-webkit-box-shadow: inset 0 0 0 2px #43b581,inset 0 0 0 3px !important;
 }
 
-.container-1giJp5 {
+.container-1zzFcN {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -5944,7 +5932,7 @@ input{
 	min-height: 2rem;
 }
 */
-.scrollableContainer-15eg7h.webkit-HjD9Er {
+.scrollableContainer-15eg7h.webkit-QgSAqd {
     background-color: rgba(0, 0, 0, 0.5);
 	border-radius:0
 }
@@ -5966,11 +5954,11 @@ input{
 }
 
 /* click-on-emoji-in-message fix */
-.popoutContainer-1MXdqN {
+.popoutContainer-2wbmiM {
 	background-color: rgba(0, 0, 0, 0.6);
 	border-radius: 0 !important;
 }
-.guildSection-1EoFKd {
+.guildSection-2Zyzy8 {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 /* emoji picker fix */
@@ -6058,7 +6046,9 @@ input{
 	border-color: rgba(255, 255, 255, 0.6);
 	background-color: rgba(0, 0, 0, 0.4);
 }
-
+.liveShapeRound-2Tgi2d {
+    border-radius: 0;
+}
 /* fix guild button */ 
 .container-1-ERn5 {
 	background: rgba(0, 0, 0, 0.5);
@@ -6094,7 +6084,7 @@ input{
 	border-radius: 0;
 }
 
-.container-2dqNWc {
+.container-8Futzw {
 	border-radius: 0;
 }
 
@@ -6112,11 +6102,11 @@ input{
 	border-radius: 0;
 }
 
-.background-1QDuV2 {
+.background-3d_SjE {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
 }
-.fieldList-21DyL8 {
+.fieldList-in8WkP {
 	border-radius: 0;
 }
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
@@ -6140,11 +6130,11 @@ input{
 .item-2idW98:hover[aria-checked=true]{
 	background: rgba(0, 0, 0, 0.6);
 }
-.cardWrapper-2Min21 {
+.cardWrapper-CyvwQv {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
 }
-.theme-dark .gemIndicatorContainer-2jdECl {
+.theme-dark .gemIndicatorContainer-PqApbX {
 	background: rgba(0, 0, 0, 0.3);
 }
 .css-gvi9bl-control {
@@ -6161,44 +6151,44 @@ input{
 	background: rgba(0, 0, 0, 0.5);
 	font-weight: bold;
 }
-.open-kZ53_U, .select-2fjwPw {
+.open-1FRZsK, .select-1Ia3hD {
 	border-radius: 0;
 }
-.option-3KoAJB {
+.option-2eIyOn {
 	background: rgba(0, 0, 0, 0.4);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.option-3KoAJB:hover {
+.option-2eIyOn:hover {
 	background: rgba(0, 0, 0, 0.6);
 }
-.option-3KoAJB[aria-selected=true] {
+.option-2eIyOn[aria-selected=true] {
 	background: rgba(0, 0, 0, 0.7);
 	font-weight: bold;
 }
-.itemFilled-3llgIC:hover:not([aria-checked=true]) {
+.itemFilled-1cPbtg:hover:not([aria-checked=true]) {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.deny-3nAuT6, .allow-1PzSY3 {
+.deny-1GO6vI, .allow-1h61-Z {
 	border-radius: 0;
 }
-.deny-3nAuT6:hover, .allow-1PzSY3:hover, .passthrough-1c2ewQ:hover {
+.deny-1GO6vI:hover, .allow-1h61-Z:hover, .passthrough--fbdFR:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
-.deny-3nAuT6.selected-2YhbGh {
+.deny-1GO6vI.selected-3jieYB {
 	background-color: #f04747c0;
 }
-.allow-1PzSY3.selected-2YhbGh {
+.allow-1h61-Z.selected-3jieYB {
 	background-color: #43b581c0; 
 }
-.passthrough-1c2ewQ.selected-2YhbGh {
+.passthrough--fbdFR.selected-3jieYB {
 	background-color: rgba(0, 0, 0, 0.6);
 }
 .container-2oNtJn {
 	background: rgba(0, 0, 0, 0.6);
 	border-radius: 0;
 }
-.container-3XJ8ns {
+.container-2O1UgZ {
 	padding: 2px;
 	background: rgba(0, 0, 0, 0.7);
 	border-radius: 0;
@@ -6210,13 +6200,13 @@ input{
 	background: rgba(0, 0, 0, 0.5);
 	font-weight: bold;
 }
-.button-1YfofB.buttonColor-7qQbGO:hover {
+.button-1EGGcP.buttonColor-3bP3fX:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
-.container-1pMiXm {
+.container-rr3Ruk {
     background-color: rgba(0, 0, 0, 0.22);
 }
-.backdrop-2ByYRN.withLayer-RoELSG {
+.backdrop-2ByYRN.withLayer-2VVmpp {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
@@ -6232,7 +6222,7 @@ input{
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0;
 }
-.threadName-2iLyXl {
+.threadName-2k9mLl {
     color: #EEE;
 }
 .container-2o3qEW {
@@ -6245,7 +6235,7 @@ input{
 .chatHeaderBar-2fUORh {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.chat-15Vmww::before {
+.chat-3JZdy8::before {
     border-color: rgba(0, 0, 0, 0.5);
 }
 /* search fix 2021 Certified */
@@ -6263,10 +6253,10 @@ input{
     background-color: rgba(0, 0, 0, 0.22);
 }
 
-.header-2mZ9Ov {
+.header-JUTO-g {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
 }
-.accountProfileCard-1XCH88 {
+.accountProfileCard-lbN7n- {
     background-color: rgba(0, 0, 0, 0.33);
     border-radius: 0;
 }
