@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.9                     *
+ *                     Version 1.22.10                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4454,21 +4454,6 @@ input{
     border-radius: 0;
 }
 
-/*TODO: Delete below if stuff gets messed up again for this part*/
-
-.theme-dark .divider-2rZFJK.dividerRed-MKoLlr>span{
-    margin-left: calc(-100% + 242px);
-    margin-top: 22px;
-    background-color: rgba(240, 71, 71, 0.35) !important;
-    color: rgb(240, 71, 71);
-    z-index: 1 !important;
-    border-radius: 0;
-}
-
-.theme-dark .divider-2rZFJK.dividerRed-MKoLlr>div{
-    background-color: rgba(0, 0, 0, 0);
-}
-
 .theme-dark .divider-2rZFJK{
     margin-right: 20px;
 }
@@ -4503,26 +4488,14 @@ input{
 }
 
 .theme-dark .divider-2rZFJK  span{
-    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
 }
-
-.theme-dark .divider-2rZFJK :not(.red-1YQ4s7) span{
-
-    /* TODO: Fix text on this */
-}
-
-.theme-dark .divider-2rZFJK :not(.red-1YQ4s7) div{
-    /*margin-top: -40px !important;*/
-    background-color: rgba(0, 0, 0, 0);
-}
-
 
 .messageGroupBlocked-3wrQQX{
     border-bottom: 0px;
 }
 
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-{
-
     display: none;
 }
 
@@ -4533,7 +4506,6 @@ input{
 }
 */
 
-/* End of TODO 4398,3 */
 
 .theme-dark .jumpToPresentBar-1cEnH0,
 .theme-dark .jumpToPresentBar-1cEnH0:hover{
@@ -4705,33 +4677,17 @@ input{
     color: rgb(255, 190, 120) !important;
 }
 
-/* Fix 'New Messages' margin and width */
-.theme-dark .divider-2rZFJK .dividerRed-MKoLlr>span{
+/* date under unread fix */
+.theme-dark .divider-2rZFJK .content-3spvdd {
     margin-top: 1px;
     margin-bottom: -20px;
 }
 
-.theme-dark .divider-2rZFJK .dividerRed-MKoLlr{
-    width: 180px;
-}
 
 /* Fix border colors for 'hidden' dividers */
 
 .containerCozy-jafyvG .divider-32i8lo{
     border-color: hsla(0,0%,100%,.04);
-}
-
-/* Fix margins for date dividers */
-
-.theme-dark .divider-2rZFJK:not(.dividerRed-MKoLlr) .dividerContent-2L12VI{
-
-    color: rgba(255, 255, 255, 0.5);
-    margin-top: -11px;
-    margin-bottom: -8px;
-}
-
-.theme-dark .divider-2rZFJK:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-2rZFJK:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before{
-    border-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Make blocked messages divider hidden */
@@ -4826,6 +4782,10 @@ input{
 .theme-dark .reaction-2A2y9y{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.reaction-2A2y9y.reactionMe-3I9gFK {
+    background-color: hsla(235,85.6%, 64.7%, 0.15);
 }
 
 .theme-dark .reactionCount-2ddRoS{
@@ -5230,9 +5190,9 @@ input{
     background: rgba(0, 0, 0, 0);
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-kQBbkU::-webkit-scrollbar-thumb{
-    border-color: rgba(66, 66, 66, 0.42);
-    background-color: rgba(22, 22, 22, 0.42);
+.theme-dark .scroller-kQBbkU::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
 }
 
 /* Tooltip background fix */
@@ -5675,6 +5635,9 @@ input{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius:0 ;
 }
+.applicationStreamingHoverText-ETJLXZ {
+    border-radius: 0;
+}
 
 /* Fix background color, border radius, and inconsistent height for nitro game perks */
 
@@ -5896,8 +5859,8 @@ input{
 	--background-modifier-hover: none;
 	--background-modifier-selected: none;
 	--background-modifier-active: none;
-	--scrollbar-auto-thumb: rgba(0, 0, 0, 0.4);
-    --scrollbar-auto-track: rgba(0, 0, 0, 0.05);
+	--scrollbar-auto-thumb: rgba(0, 0, 0, 0.42);
+    --scrollbar-auto-track: rgba(0, 0, 0, 0);
     --scrollbar-thin-thumb: rgba(255, 255, 255, 0.3);
     --channeltextarea-background: none;
 }
@@ -6130,6 +6093,9 @@ input{
 .item-2idW98:hover[aria-checked=true]{
 	background: rgba(0, 0, 0, 0.6);
 }
+.radioBar-3w9XY- {
+    border-radius:0;
+}
 .cardWrapper-CyvwQv {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
@@ -6212,7 +6178,7 @@ input{
 
 /* threads */
 .container-18GwIk{
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-color: rgba(22, 22, 22, 0.8) !important;
     border-radius: 0;
 }
 .header-3_zmOb{
@@ -6300,4 +6266,25 @@ input{
 /* 1px under profile control wtf */ 
 .container-YkUktl {
     margin-bottom: 0;
+}
+
+/* boost cards */
+.theme-dark .feature-2IUcBI {
+    border-radius: 0;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+/* user customization settings */
+.notice-1Qe0b_ {
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 0;
+}
+.profileBannerPreview-3mLIdO {
+    border-radius: 0;
+    box-shadow: none;
+}
+.banner-3D8GgT {
+    border-radius: 0;
 }
