@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.10                    *
+ *                     Version 1.22.11                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -19,13 +19,9 @@
 body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
-
-    /* The picture source is from 书童hiroco at the link (thanks shinji257!):   // 2017
-       https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61734227  // 2017
-    */
-
+    /* Picture URL goes into parenthesis. */
     background: #fff url(https://w.wallhaven.cc/full/0q/wallhaven-0q19r5.png);
-
+    
     /* Just in case adjusting the position is necessary (x% y%)*/
     background-position: 50% 50%;
 
@@ -6057,14 +6053,26 @@ input{
 }
 
 .theme-dark .root-g14mjS {
-	background: rgba(0, 0, 0, 0.62) !important;
+	background: rgba(22, 22, 22, 0.8) !important;
 	border-radius: 0;
 }
 .theme-dark .footer-31IekZ {
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.4);
 	border-radius: 0;
 }
-
+.card-1SdQ2- {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.qualitySettingsContainer-30AsSH{
+    border-color: rgba(0, 0, 0, 0.0);
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.lookFilled-1GseHa.select-1Ia3hD {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
 .background-3d_SjE {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
@@ -6191,6 +6199,10 @@ input{
 .threadName-2k9mLl {
     color: #EEE;
 }
+.popout-TdhJ6Z {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0;
+}
 .container-2o3qEW {
     background-color: rgba(0, 0, 0, 0.22);
 }  
@@ -6287,4 +6299,34 @@ input{
 }
 .banner-3D8GgT {
     border-radius: 0;
+}
+
+/* boost server tooltip */
+.subscribeTooltipWrapper-3ipXtC{
+    background-color: rgba(22, 22, 22, 0.8);
+    border-radius: 0;
+}
+.subscribeTooltipWrapper-3ipXtC:after {
+    border-color: rgba(22, 22, 22, 0.8);
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* reply stuff */
+.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+.repliedMessage-3Z6XBG:before {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.callContainer-HtHELf  {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px);
 }
