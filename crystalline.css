@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.11                    *
+ *                     Version 1.22.12                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3431,6 +3431,8 @@ span.discriminator{
 .role-2TIOKu{
     border-radius: 0;
     height: 20px;
+    border: 1px solid;
+    padding: 4px 4px 4px 2px;
 }
 
 .roleName-2ZJJYR{
@@ -4836,7 +4838,7 @@ input{
 
 .guildsWrapper-5TJh6A,
 .video-2HW4jD,
-.embedImage-2Ynqkh img, .embedImage-2Ynqkh video
+.embedImage-2Ynqkh img, .embedImage-2Ynqkh video,
 .embedThumbnail-2nTasl img, .embedThumbnail-2nTasl video,
 .embedVideo-2ixt5A img, .embedVideo-2ixt5A video,
 .embedMedia-1mdWSP,
@@ -5372,7 +5374,7 @@ input{
 
 /* Fix discord notice bar border radius */
 
-.platform-win .base-2jDfDU{
+.notice-2HEN-u{
     border-radius: 0;
 }
 
@@ -5995,13 +5997,13 @@ input{
 }
 
 /* stream preview overlay */ 
-.theme-dark .streamPreview-3qoMP4 {
+.theme-dark .streamPreview-I7itZ6 {
 	background-color: rgba(0, 0, 0, 0.65);
 }
-.streamPreview-3qoMP4 {
+.streamPreview-I7itZ6 {
 	border-radius: 0;
 }
-.theme-dark .watchButton-2v6cPT:hover {
+.theme-dark .watchButton-2YRKxv:hover {
 	border-color: rgba(255, 255, 255, 0.6);
 	background-color: rgba(0, 0, 0, 0.4);
 }
@@ -6033,7 +6035,7 @@ input{
 }
 
 /* also background color on default icons */
-.circleIconButton-1QV--U {
+.circleIconButton-1VxDrg {
 	background: rgba(0, 0, 0, 0.42)
 }
 
@@ -6055,6 +6057,12 @@ input{
 .theme-dark .root-g14mjS {
 	background: rgba(22, 22, 22, 0.8) !important;
 	border-radius: 0;
+}
+.theme-dark .contentWrapper-3oy4Xo {
+    background-color: rgba(0, 0, 0, 0);
+}
+.contentWrapper-3oy4Xo {
+    border-radius: 0;
 }
 .theme-dark .footer-31IekZ {
 	background: rgba(0, 0, 0, 0.4);
@@ -6329,4 +6337,28 @@ input{
 .callContainer-HtHELf  {
     background-color: rgba(0, 0, 0, 0.5) !important;
     backdrop-filter: blur(10px);
+}
+.tile-2TcwiO {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.button-3Vyz67 {
+    border-radius: 0;
+}
+.pictureInPictureVideo-2puO2Q {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* new server window */
+.base-21yXnu {
+    color: rgba(255, 255, 255, 0.9);
+}
+.container-x8Y1ix {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.colorStandard-21JIj7 {
+    color: rgba(255, 255, 255, 0.8);
+}
+.container-x8Y1ix:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
