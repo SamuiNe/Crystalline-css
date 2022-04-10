@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.12                    *
+ *                     Version 1.22.13                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2955,7 +2955,7 @@ span.amount {
 }
 
 .match-20K5f5{
-    color: rgba(197, 207, 237, 1);
+    color: rgba(197, 207, 217, 1);
 }
 
 .theme-dark .cardPrimaryEditable-2mz_3i{
@@ -3626,18 +3626,18 @@ div.action.join {
 	border-radius: 0;
 }
 
-.connection-107AGH{
+.connection-YOVI9j {
     border-radius: 0;
     background: rgba(0, 0, 0, 0.22);
 }
 
-.connectionHeader-2rV1ze{
+.connectionHeader-Ixbb1s{
     border: none;
     border-radius: 0;
     background: rgba(0, 0, 0, 0.4);
 }
 
-.integration-1f5IUi {
+.integration-1qC-fv {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
 }
@@ -3796,23 +3796,23 @@ input{
     border: none;
 }
 
-.theme-dark .accountBtnInner-3XK70s{
+.accountBtn-3pgcgr .accountBtnInner-3ttD-i{
     border-radius: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .accountBtnInner-3XK70s:hover{
+.accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.connectionDelete-XXTMqE{
+.connectionDelete-3YgMVq{
     border-radius: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.connectionDelete-XXTMqE:hover{
+.connectionDelete-3YgMVq:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -3931,7 +3931,7 @@ input{
     background-color: rgba(0, 0, 0, 0.7);
 }
 .footer-3naVBw{
-
+    background: none;
 }
 
 .footer-1fjuF6{
@@ -4583,15 +4583,15 @@ input{
 
 /* Friend List background Selected + Hover */
 
-.channel-1Shao0 a{
+.interactive-1vLZ_I{
     border-radius: 0;
 }
 
-.channel-1Shao0:hover a{
+.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover{
     background-color: rgba(0, 0, 0, 0.22);
 }
 
-.channel-1Shao0.selected-1HYmZZ a{
+.interactive-1vLZ_I:active, .interactiveSelected-29CP8y{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
@@ -4654,7 +4654,7 @@ input{
 
 /* Fix for that random shadow below search bar */
 
-.searchBar-3TnChZ {
+.searchBar-jGtisZ {
     box-shadow: none;
 	background-color: rgba(0, 0, 0, 0.42);
 }
@@ -4832,6 +4832,9 @@ input{
     border-radius: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
+}
+.closeButton-PCZcma:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Fix guild wrapper border radius */
@@ -6049,7 +6052,7 @@ input{
 	border-radius: 0;
 }
 
-/* link window fix */
+/* untrusted link window fix */
 .backdrop-2ByYRN.withLayer-2VVmpp {
 	opacity: 0.5 !important;
 }
@@ -6077,6 +6080,7 @@ input{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
 }
+/* this setting is used in two different places, FUCK */
 .lookFilled-1GseHa.select-1Ia3hD {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
@@ -6268,12 +6272,16 @@ input{
 .searchBar-3TnChZ {
     background-color: rgba(0, 0, 0, 0.5)
 }
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
 
 /* what the fuck is this, ::after gradient, for real? */
-.theme-dark .option-2KkUJO:after {
+.theme-dark .option-ayUoaq:after {
     background: none;
 }
-.theme-dark .option-2KkUJO:hover {
+.theme-dark .option-ayUoaq:hover {
     background-color: rgba(0, 0, 0, 0.33);
 }
 
@@ -6325,7 +6333,7 @@ input{
 }
 
 /* reply stuff */
-.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+.threadSuggestionBar-3ExSyc {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 0;
 }
@@ -6356,9 +6364,86 @@ input{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
 }
+.colorHeaderSecondary-g5teka {
+    color: rgba(255, 255, 255, 0.8);
+}
 .colorStandard-21JIj7 {
     color: rgba(255, 255, 255, 0.8);
 }
 .container-x8Y1ix:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+.channelNotice-7cg_jN {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.attachedBars-2BCP3l {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+.messagesErrorBar-1IQ1rH {
+    background-color: rgba(240, 71, 71, 0.8);
+    border-radius: 0;
+}
+.closeIcon-11LhXr {
+    color: white;
+}
+.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
+    color: white;
+}
+.theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98 {
+    background-color:rgba(0, 0, 0, 0.33);
+}
+.theme-dark .card-2TuZPZ:hover, .theme-dark .card-2TuZPZ:hover .iconMask-2fMR98, .theme-dark .iconMask-2fMR98:hover, .theme-dark .iconMask-2fMR98:hover .iconMask-2fMR98 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4 {
+    background-color: none;
+    border-radius: 0;
+}
+
+/* some parts of friend/channel finder */
+.result-u66Ywh {
+    border-radius: 0;
+}
+.result-u66Ywh[aria-selected=true] {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* make line between items in list a little bit brighter */
+.peopleListItem-u6dGxF, .divider-_0um2u {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+.scroller-hE2gWq, .wrapper-2RrXDg {
+    border: none;
+}
+.theme-dark .game-2f2vPC {
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15);
+}
+.separator-2wx7h6 {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* settings game activity */
+.theme-dark .notDetected-M3Ghh2, .theme-light .notDetected-M3Ghh2 {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.notDetected-M3Ghh2, .nowPlaying-3UpuKc {
+    border-radius: 0;
+}
+.theme-dark .nowPlaying-3UpuKc, .theme-light .nowPlaying-3UpuKc {
+    background-color: rgba(45, 125, 70, 0.6);
+}
+
+/* settings integration */
+.accountList-Wii_T5 {
+    background-color: rgba(0, 0, 0, 0.33);
+    border-radius: 0;
+}
+
+/* https://media.discordapp.net/attachments/589742302419746826/962728217704288327/unknown.png */
+.theme-dark .blockedPaymentsWarning-T43O2z, .theme-dark .codeRedemptionRedirect-2hYMSQ {
+    background-color: rgba(0, 0, 0, 0.33);
+}
+.noItemsCard-5EOcCl, .noItemsCard-2V85P5 {
+    background-color: rgba(0, 0, 0, 0.33);
 }
