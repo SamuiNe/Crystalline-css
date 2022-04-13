@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.13                    *
+ *                     Version 1.22.14                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2959,13 +2959,13 @@ span.amount {
 }
 
 .theme-dark .cardPrimaryEditable-2mz_3i{
-    background-color: rgba(0, 0, 0, 0.42) !important;
-	border-color: rgba(0, 0, 0, 0.42) !important;
+    background-color: rgba(0, 0, 0, 0.22) !important;
+	border-color: rgba(0, 0, 0, 0.22) !important;
 }
 
 .theme-dark .cardPrimaryEditable-2mz_3i:hover{
-    background-color: rgba(0, 0, 0, 0.8) !important;
-	border-color: rgba(0, 0, 0, 0.8) !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+	border-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Text color adjustments */
@@ -3697,9 +3697,18 @@ div.action.join {
     border-radius: 0;
 }
 
-.menu-Sp6bN1{
+.menu-1QACrS{
     border-radius: 0;
     background-color: rgba(22, 22, 22, 0.8);
+}
+.item-1OdjEX {
+    border-radius: 0;
+}
+.colorDefault-CDqZdO.focused-3qFvc8 {
+    background-color: rgba(71, 82, 196, 0.6);
+}
+.colorDanger-3n-KnP.focused-3qFvc8 {
+    background-color: rgba(216, 60, 62, 0.6);
 }
 
 .separator-2zcjq8{
@@ -4414,7 +4423,7 @@ input{
 }
 
 .theme-dark .jumpButton-1ZwI_j{
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .theme-dark .messageGroupWrapper-1jf_7C:hover .actionButtons-2mNSAB{
@@ -5927,10 +5936,12 @@ input{
 }
 /* emoji picker fix */
 .contentWrapper-3vHNP2, .emojiPicker-6YCk8a {
-	background: rgba(0, 0, 0, 0.65);
+	background: rgba(0, 0, 0, 0.4);
 	border-radius: 0;
 }
-
+.navButtonActive-1EqC5l {
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .wrapper-1NNaWG {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -6071,6 +6082,9 @@ input{
 	background: rgba(0, 0, 0, 0.4);
 	border-radius: 0;
 }
+.theme-dark .footer-31IekZ .button-f2h6uQ {
+    color: white;
+}
 .card-1SdQ2- {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
@@ -6080,9 +6094,9 @@ input{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
 }
-/* this setting is used in two different places, FUCK */
+
 .lookFilled-1GseHa.select-1Ia3hD {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
     border: none;
 }
 .background-3d_SjE {
@@ -6140,14 +6154,18 @@ input{
 .open-1FRZsK, .select-1Ia3hD {
 	border-radius: 0;
 }
-.option-2eIyOn {
+.popout-1KHNAq {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0;
+}
+/*.option-2eIyOn {
 	background: rgba(0, 0, 0, 0.4);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
+}*/
 .option-2eIyOn:hover {
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(255, 255, 255, 0.1);
 }
-.option-2eIyOn[aria-selected=true] {
+.option-2eIyOn[aria-selected=true], .option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv)  {
 	background: rgba(0, 0, 0, 0.7);
 	font-weight: bold;
 }
@@ -6244,7 +6262,8 @@ input{
 }
 
 .header-JUTO-g {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));*/
+    backdrop-filter: blur(5px);
 }
 .accountProfileCard-lbN7n- {
     background-color: rgba(0, 0, 0, 0.33);
@@ -6410,7 +6429,7 @@ input{
 }
 
 /* make line between items in list a little bit brighter */
-.peopleListItem-u6dGxF, .divider-_0um2u {
+.peopleListItem-u6dGxF, .divider-_0um2u, .separator-1So4YB {
     border-color: rgba(255, 255, 255, 0.15);
 }
 .scroller-hE2gWq, .wrapper-2RrXDg {
@@ -6419,7 +6438,7 @@ input{
 .theme-dark .game-2f2vPC {
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
-.separator-2wx7h6 {
+.separator-2wx7h6, .roleRow-3LoHQ6:before, .roleRow-3LoHQ6:last-child:after {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -6446,4 +6465,33 @@ input{
 }
 .noItemsCard-5EOcCl, .noItemsCard-2V85P5 {
     background-color: rgba(0, 0, 0, 0.33);
+}
+
+/* bit of server settings */ 
+.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) {
+    background-color: rgba(0, 0, 0, 0.33);
+    border-radius: 0;
+}
+.container-3EtAkD {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.container-3EtAkD:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.disabled-1nofHP.item-3XjbnG, .disabled-1nofHP.item-3XjbnG:hover {
+    color:rgba(255, 255, 255, 0.2);
+}
+.tabBar-3DfKkN {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.container-3jbRo5 {
+    border-radius: 0;
+}
+
+.button-1zW0-r:hover, .keyboard-mode .button-1zW0-r.focused-H4w81f {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.button-1zW0-r {
+    border-radius: 0;;
 }
