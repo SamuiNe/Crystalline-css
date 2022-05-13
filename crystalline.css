@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.15                    *
+ *                     Version 1.22.16                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -4453,6 +4453,10 @@ input{
     background-color: rgba(0, 0, 0, 0);
 }
 
+.content-1jQy2l .members-3WRCEx {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
 .theme-dark .messagesWrapper-3lZDfY{
     background-color: rgba(0, 0, 0, 0);
 }
@@ -5392,6 +5396,9 @@ input{
     border-radius: 0;
 }
 
+.colorDark-17ICom {
+    background-color: rgba(55, 55, 55, 0.8);
+}
 /* Fix channel sidebar selection and hover background color and border radius */
 
 .theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ,
@@ -5877,11 +5884,17 @@ input{
     --scrollbar-thin-thumb: rgba(255, 255, 255, 0.3);
     --channeltextarea-background: none;
 
+    --background-modifier-accent: rgba(255, 255, 255, 0.15);
+
     /* THIS IS A TEST */
     --text-normal: rgba(255, 255, 255, 0.9);
     --text-muted: rgba(255, 255, 255, 0.5);
     --header-secondary: rgba(255, 255, 255, 0.75);
-    --channels-default: rgba(255, 255, 255, 0.5);
+    --channels-default: rgba(255, 255, 255, 0.6);
+    --interactive-normal: rgba(220, 220, 220, 0.7);
+    --interactive-hover: rgba(255, 255, 255, 0.8);
+    --interactive-muted: rgba(130, 130, 130, 0.7);
+    --channel-icon: rgba(255, 255, 255, 0.6);
 }
 
 .theme-dark .modal-2RrUKJ, .theme-dark .footer-1Ip3Sd {
@@ -5914,10 +5927,6 @@ input{
 	min-height: 2rem;
 }
 */
-.scrollableContainer-15eg7h.webkit-QgSAqd {
-    background-color: rgba(0, 0, 0, 0.5);
-	border-radius:0
-}
 .panels-3wFtMD {
 	background-color: transparent;
 }
@@ -6244,7 +6253,8 @@ input{
     border-radius: 0;
 }
 .container-2o3qEW {
-    background-color: rgba(0, 0, 0, 0.22);
+    height: 100%;
+    flex-direction: unset;
 }  
 .container-3i3IzO {
     background-color: rgba(0, 0, 0, 0.33);
@@ -6290,7 +6300,9 @@ input{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 0;
 }
-
+.container-3XgAHv .scrollableContainer-15eg7h {
+    background-color: rgba(0, 0, 0, 0);
+}
 /* up-left search bar on friend list page */
 .searchBar-3TnChZ {
     background-color: rgba(0, 0, 0, 0.5)
@@ -6357,7 +6369,7 @@ input{
 
 /* reply stuff */
 .threadSuggestionBar-3ExSyc {
-    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
 }
 .repliedMessage-3Z6XBG:before {
@@ -6446,7 +6458,7 @@ input{
 .theme-dark .game-2f2vPC {
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
-.separator-2wx7h6, .roleRow-3LoHQ6:before, .roleRow-3LoHQ6:last-child:after {
+.separator-2wx7h6, .roleRow-3LoHQ6:before, .roleRow-3LoHQ6:last-child:after, .divider-1wtgZ3 {
     background-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -6464,6 +6476,10 @@ input{
 }
 .theme-dark .nowPlaying-3UpuKc, .theme-light .nowPlaying-3UpuKc {
     background-color: rgba(45, 125, 70, 0.6);
+}
+.theme-dark .gameNameInput-2wbDJ9:focus, .theme-dark .gameNameInput-2wbDJ9:hover {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* settings integration */
@@ -6507,4 +6523,35 @@ input{
 }
 .button-1zW0-r {
     border-radius: 0;;
+}
+
+/* text chat on voice channel */
+.container-3XgAHv {
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+.container-3XgAHv .channelTextArea-1FufC0 {
+    background-color: rgba(255, 255, 255, 0.07) !important;
+    border-radius: 0;
+}
+.emptyChannelIcon-1YdEz2 {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf, .container-3XgAHv {
+    border-radius: 0;
+}
+
+/* the fastest party mode fix in the world */
+.container-3wgZ8J {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+}
+.container-3wgZ8J:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.combo-2aK5O7 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container-2hGpaU {
+    background-color: rgba(0, 0, 0, 0.8);
 }
