@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.16                    *
+ *                     Version 1.22.17                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2621,7 +2621,7 @@ span.amount {
 }
 
 .theme-dark .input-2g-os5{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.42);
 }
 
 .theme-dark .message-G6O-Wv{
@@ -4249,7 +4249,7 @@ input{
 
 /* Bot Tag Thing */
 
-.botTag-7aX5WZ{
+.px-MnE_OR.botTag-7aX5WZ{
     border-radius: 0;
 }
 
@@ -4792,16 +4792,19 @@ input{
 
 /* Fix reaction border radius */
 /* Adjusted reaction text color and background color */
-.theme-dark .reaction-2A2y9y{
+.theme-dark .reaction-3vwAF2{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
 }
+.reaction-3vwAF2:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
 
-.reaction-2A2y9y.reactionMe-3I9gFK {
+.reaction-3vwAF2.reactionMe-1PwQAc {
     background-color: hsla(235,85.6%, 64.7%, 0.15);
 }
 
-.theme-dark .reactionCount-2ddRoS{
+.theme-dark .reactionCount-26U4As{
     color: rgba(255, 255, 255, 0.42);
 }
 
@@ -4978,10 +4981,6 @@ input{
 
 /* TODO: Update existing CSS element */
 /* Adjust the background color for input field */
-
-.theme-dark .input-2g-os5{
-    background-color: rgba(0, 0, 0, 0.42);
-}
 
 .theme-dark .searchBox-pyIJJj{
     background-color: rgba(0, 0, 0, 0.42);
@@ -5208,7 +5207,6 @@ input{
 
 .theme-dark .scroller-kQBbkU::-webkit-scrollbar-thumb{
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 0;
 }
 
 /* Tooltip background fix */
@@ -5303,6 +5301,12 @@ input{
 }
 
 .autocompleteHeaderBackground-3u7TwO{
+    border-radius: 0;
+}
+.clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
+    background-color: rgba(42, 42, 42, 0.8);
+}
+.base-2v-uc0 {
     border-radius: 0;
 }
 
@@ -6038,7 +6042,9 @@ input{
 	background-color: rgba(0, 0, 0, 0.4);
 }
 .liveShapeRound-2Tgi2d {
-    border-radius: 0;
+    /*border-radius: 0;*/
+    font-size: 0;
+    background-color: rgba(237, 66, 69, 0.85) !important;
 }
 /* fix guild button */ 
 .container-1-ERn5 {
@@ -6101,11 +6107,11 @@ input{
 .theme-dark .footer-31IekZ .button-f2h6uQ {
     color: white;
 }
-.card-1SdQ2- {
+.card-m7VgZ8 {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
 }
-.qualitySettingsContainer-30AsSH{
+.qualitySettingsContainer-2LjkfM {
     border-color: rgba(0, 0, 0, 0.0);
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
@@ -6209,16 +6215,15 @@ input{
 	border-radius: 0;
 }
 .container-2O1UgZ {
-	padding: 2px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 0;
+	background: rgba(11, 11, 11, 0.8);
+	border: none;
+    border-radius: 0;
 }
 .item-1BCeuB {
 	border-radius: 0;
 }
-.item-1BCeuB:hover {
-	background: rgba(0, 0, 0, 0.5);
-	font-weight: bold;
+.focused-qp-W9B, .item-1BCeuB:hover:not(.disabled-Mmpvl7) {
+	background: rgba(255, 255, 255, 0.1);
 }
 .button-1EGGcP.buttonColor-3bP3fX:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -6249,8 +6254,14 @@ input{
     color: #EEE;
 }
 .popout-TdhJ6Z {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(11, 11, 11, 0.8);
     border-radius: 0;
+}
+.row-1qtctT {
+    border-radius: 0;
+}
+.row-1qtctT:hover{
+    background-color: rgba(88, 101, 242, 0.5);
 }
 .container-2o3qEW {
     height: 100%;
@@ -6461,6 +6472,13 @@ input{
 .separator-2wx7h6, .roleRow-3LoHQ6:before, .roleRow-3LoHQ6:last-child:after, .divider-1wtgZ3 {
     background-color: rgba(255, 255, 255, 0.15);
 }
+/* also that reply/thread line */
+.cozy-VmLDNB.hasThread-3h-KJV:after {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.spine-29OFwR {
+    color: rgba(255, 255, 255, 0.3);
+}
 
 /* or maybe delete them at all */
 .activityPanel-9icbyU, .panel-2ZFCRb, .container-1zzFcN {
@@ -6534,11 +6552,30 @@ input{
     background-color: rgba(255, 255, 255, 0.07) !important;
     border-radius: 0;
 }
+
 .emptyChannelIcon-1YdEz2 {
     background-color: rgba(255, 255, 255, 0.2);
 }
 .wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf, .container-3XgAHv {
     border-radius: 0;
+}
+.wrapper-1gVUIN.minimum-fXpVNc {
+    background: none;
+}
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: rgba(0, 0, 0, 0.33);
+}
+.colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.colorable-3rVGna.red-3T8maV {
+    background-color: rgba(237, 66, 69, 0.5);
+}
+.colorable-3rVGna.green-3wkLbx {
+    background-color: rgba(59, 165, 93, 0.5)
+}
+.colorable-3rVGna.green-3wkLbx.active-3D763s, .colorable-3rVGna.green-3wkLbx:hover {
+    background-color: rgba(59, 165, 93, 1);
 }
 
 /* the fastest party mode fix in the world */
@@ -6554,4 +6591,82 @@ input{
 }
 .container-2hGpaU {
     background-color: rgba(0, 0, 0, 0.8);
+}
+.gradientContainer-phMG8d {
+    background-image: none;
+}
+.colorable-3rVGna.white-11auuQ {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* forum stuff */
+.theme-dark .container-3wLKDe {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.container-JhuCwn {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.authorContainer-3m1uzW {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+}
+.textAreaForPostCreation-15Soam {
+    padding-left: 5px !important
+}
+.form-25Aujy .submitButton-3B-dZd {
+    border-radius: 0;
+}
+.pill-3pRQlO {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    padding: 2px;
+    margin-right: 2px;
+    height: 36px;
+}
+.pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.pill-3pRQlO.selected-24z1Ou {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.form-25Aujy .mediaButton-3lZSdn {
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1)!important;
+}
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover {
+    background-color: rgba(255, 255, 255, 0.2)!important;
+}
+.mainCard-3KBsBI {
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.mainCard-3KBsBI:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: none;
+    transform: none;
+}
+.container-2qVG6q {
+    transition: none;
+}
+.container-3YcgdM {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    backdrop-filter: blur(5px);
+}
+.addReactButton-3bSQb6, .buttonInner-3aRbcx {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.addReactButton-3bSQb6:hover, .buttonInner-3aRbcx:hover {
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.bodyMedia-3ij3KY {
+    border-radius: 0;
+}
+
+.aboutMeGuildIconTooltip-2cYR0X {
+    background-color: rgba(0, 0, 0, 0.7);
 }
