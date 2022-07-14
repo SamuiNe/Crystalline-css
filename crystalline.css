@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.17                    *
+ *                     Version 1.22.18                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2634,21 +2634,21 @@ span.amount {
     border-radius: 0;
 }
 
-.auditLog-3jNbM6{
+.auditLog-1NVAY0 {
     border-radius: 0;
     border: none;
 }
 
-.theme-dark .headerClickable-2IVFo9,
-.theme-dark .headerDefault-1wrJcN{
+.theme-dark .headerClickable-zGQJz3, 
+.theme-dark .headerDefault-1e6yjj {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-.theme-dark .headerExpanded-CUEwZ5{
+.theme-dark .headerExpanded-1-zwDr {
     background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-.theme-dark .divider-1pnAR2{
+.theme-dark .divider-M3saWq {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -3274,7 +3274,7 @@ span.discriminator{
     border: none !important;
 }
 
-.connectedAccount-36nQx7{
+.connectedAccountContainer-SlCC-S{
     border-radius: 0 !important;
     border: none !important;
     background-color: rgba(255, 255, 255, 0.15);
@@ -3380,7 +3380,7 @@ span.discriminator{
     color: rgba(255, 255, 255, 0.8);
 }
 
-.theme-dark .auditLog-3jNbM6{
+.theme-dark .auditLog-1NVAY0{
     background-color: rgba(0, 0, 0, 0.6) !important;
     border: none;
     border-radius: 0;
@@ -3422,7 +3422,7 @@ span.discriminator{
     border-radius: 0 !important;
 }
 
-.roleCircle-1EgnFN{
+.roleCircle-3K9O3d {
     border-radius: 0;
     height: 10px;
     width: 10px;
@@ -3596,7 +3596,9 @@ div.action.join {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
 }
-
+.listRow-2nO1T6 {
+    border-radius: 0;
+}
 .theme-dark .listRow-2nO1T6:hover{
     background: none;
     background-color: rgba(255, 255, 255, 0.1);
@@ -3957,12 +3959,12 @@ input{
     background-color: rgba(29, 185, 84, 0.8);
 }
 
-.lookOutlined-3yKVGo.colorWhite-1H92hK{
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo{
     border: 0;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.lookOutlined-3yKVGo.colorWhite-1H92hK:hover{
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
     border: 0;
     background-color: rgba(255, 255, 255, 0.3);
 }
@@ -4792,7 +4794,7 @@ input{
 
 /* Fix reaction border radius */
 /* Adjusted reaction text color and background color */
-.theme-dark .reaction-3vwAF2{
+.theme-dark .reaction-3vwAF2, .reactionInner-1po5__{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -4807,7 +4809,9 @@ input{
 .theme-dark .reactionCount-26U4As{
     color: rgba(255, 255, 255, 0.42);
 }
-
+.reaction-102jx9 {
+    border-radius: 0;
+}
 /* Video preview border radius fix */
 
 .videoWrapper-1_H3B3{
@@ -6312,7 +6316,7 @@ input{
     border-radius: 0;
 }
 .container-3XgAHv .scrollableContainer-15eg7h {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.07);
 }
 /* up-left search bar on friend list page */
 .searchBar-3TnChZ {
@@ -6549,7 +6553,6 @@ input{
     
 }
 .container-3XgAHv .channelTextArea-1FufC0 {
-    background-color: rgba(255, 255, 255, 0.07) !important;
     border-radius: 0;
 }
 
@@ -6616,6 +6619,10 @@ input{
 .form-25Aujy .submitButton-3B-dZd {
     border-radius: 0;
 }
+.sidebarCard-1Gn1ch, .container-2IhveL {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
 .pill-3pRQlO {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
@@ -6669,4 +6676,43 @@ input{
 
 .aboutMeGuildIconTooltip-2cYR0X {
     background-color: rgba(0, 0, 0, 0.7);
+}
+/* why-leave-server window */
+.root-cw9rWQ {
+    border-radius: 0;
+}
+.option-1O-Hwt {
+    border: none;
+}
+.option-1O-Hwt:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* server settings automod */
+.editCard-K9Q9mb {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+    border: none;
+}
+.editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
+.collapseable-1mNWCS:before {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.collapseable-1mNWCS:active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.triggerMainContainer-274ue5 {
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+.keywordListContainer-9ux8nU, .actionContainer-2krsiT, .actionContainer-EzNGrb, .collapseable-1mNWCS {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.keywordsTextArea-3QkFoG {
+    background-color: rgba(0, 0, 0, 0.22);
 }
