@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.18                    *
+ *                     Version 1.22.19                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2645,7 +2645,7 @@ span.amount {
 }
 
 .theme-dark .headerExpanded-1-zwDr {
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .theme-dark .divider-M3saWq {
@@ -3062,7 +3062,7 @@ span.amount {
     background-color: rgba(22, 22, 22, 0.8);
 }
 
-.scroller-2GkvCq{
+.theme-dark .scroller-2GkvCq{
     background-color: rgba(42, 42, 42, 0.8);
 }
 
@@ -3381,7 +3381,7 @@ span.discriminator{
 }
 
 .theme-dark .auditLog-1NVAY0{
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    background-color: rgba(0, 0, 0, 0.22) !important;
     border: none;
     border-radius: 0;
 }
@@ -3686,6 +3686,14 @@ div.action.join {
 
 .reactor-1J25Qp:hover{
     background-color: rgba(255, 255, 255, 0.1);
+}
+.theme-dark .reactorDefault-3GSyaV {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+}
+.theme-dark .reactorDefault-3GSyaV:hover {
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 
 .remove-19AQn_{
@@ -6098,6 +6106,11 @@ input{
 	background: rgba(22, 22, 22, 0.8) !important;
 	border-radius: 0;
 }
+.theme-dark .carouselModal-1eUFoq.root-g14mjS {
+    background-color: rgba(0, 0, 0, 0) !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .theme-dark .contentWrapper-3oy4Xo {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -6473,7 +6486,7 @@ input{
 .theme-dark .game-2f2vPC {
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
-.separator-2wx7h6, .roleRow-3LoHQ6:before, .roleRow-3LoHQ6:last-child:after, .divider-1wtgZ3 {
+.separator-2wx7h6, .roleRow-230vCm:before, .roleRow-230vCm:last-child:after, .divider-1wtgZ3 {
     background-color: rgba(255, 255, 255, 0.15);
 }
 /* also that reply/thread line */
@@ -6519,7 +6532,7 @@ input{
 }
 
 /* bit of server settings */ 
-.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) {
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
     background-color: rgba(0, 0, 0, 0.33);
     border-radius: 0;
 }
@@ -6644,6 +6657,10 @@ input{
 .lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover {
     background-color: rgba(255, 255, 255, 0.2)!important;
 }
+.newBadge-1LcB6t {
+    border-radius: 0;
+    height: 16px;
+}
 .mainCard-3KBsBI {
     border: none;
     border-radius: 0;
@@ -6715,4 +6732,9 @@ input{
 }
 .keywordsTextArea-3QkFoG {
     background-color: rgba(0, 0, 0, 0.22);
+}
+/* temporal fix for that funny size-changing videos haha im tired of it */ 
+.video-2HW4jD {
+    min-width: 50px;
+    min-height: 50px;
 }
