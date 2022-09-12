@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.19                    *
+ *                     Version 1.22.20                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -29,7 +29,6 @@ body {
        If the background picture is blurry, please use a bigger sized background picture. */
     background-size: 1921px auto;
 }
-
 .app, .connecting ,
 .appMount-2yBXZl {
     /* You can adjust the background brightness by reducing the fourth value of below.
@@ -3238,12 +3237,17 @@ span.discriminator{
 
 /* Discord update 2017/11/23 */
 
-.theme-dark .wrapper-1HIH0j{
+.theme-dark .wrapper-1HIH0j, .wrapper-3-JZ_Z{
     border-radius: 0;
     border: none;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+.count-62gVQ0 {
+    color: rgba(255, 255, 255, 0.6);
+}
+.theme-dark .buildDetails-15XTIW, .theme-dark .copyLink-1bBHaR:hover, .theme-dark .infoLink-3jBZ_6:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
 .iconActiveLarge-ac-EDu{
     border-radius: 0;
 }
@@ -3387,12 +3391,14 @@ span.discriminator{
 }
 
 .botTagRegular-kpctgU{
-    border-radius: 0;
+    border-radius: 0 !important;
     height: 14px;
     font-size: 10px !important;
     background-color: rgba(0, 108, 200, 0.5) !important;
 }
-
+.botTagOP-3pUTXu {
+    color: white;
+}
 .theme-dark .ui-color-picker-custom{
     background-color: rgba(42, 42, 42, 0.8);
     border-radius: 0;
@@ -5884,7 +5890,7 @@ input{
 }
 
 /* Another background fix */
-.theme-dark {
+.theme-dark, .theme-light {
     --background-primary: none;
     --background-secondary: none;
 	--background-secondary-alt: none;
@@ -5905,6 +5911,7 @@ input{
     /* THIS IS A TEST */
     --text-normal: rgba(255, 255, 255, 0.9);
     --text-muted: rgba(255, 255, 255, 0.5);
+    --header-primary: rgba(255, 255, 255, 0.8);
     --header-secondary: rgba(255, 255, 255, 0.75);
     --channels-default: rgba(255, 255, 255, 0.6);
     --interactive-normal: rgba(220, 220, 220, 0.7);
@@ -5993,7 +6000,7 @@ input{
 }
 
 .emojiItem-277VFM.emojiItemSelected-2Lg50V {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(255, 255, 255, 0.15);
 	border-radius: 0;
 }
 
@@ -6089,7 +6096,7 @@ input{
 
 /* friend list hover fix */
 .peopleListItem-u6dGxF.active-2UF8Zh, .peopleListItem-u6dGxF:hover {
-	background: rgba(0, 0, 0, 0.22);
+	background: rgba(255, 255, 255, 0.15);
 	border-radius: 0;
 }
 
@@ -6194,7 +6201,7 @@ input{
 	border-radius: 0;
 }
 .popout-1KHNAq {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(11, 11, 11, 0.8);
     border-radius: 0;
 }
 /*.option-2eIyOn {
@@ -6205,8 +6212,8 @@ input{
 	background: rgba(255, 255, 255, 0.1);
 }
 .option-2eIyOn[aria-selected=true], .option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv)  {
-	background: rgba(0, 0, 0, 0.7);
-	font-weight: bold;
+	background: rgba(255, 255, 255, 0.1);
+	/*font-weight: bold;*/
 }
 .itemFilled-1cPbtg:hover:not([aria-checked=true]) {
     background-color: rgba(0, 0, 0, 0.3);
@@ -6674,6 +6681,9 @@ input{
 .container-2qVG6q {
     transition: none;
 }
+.container-2qVG6q.isOpen-2OXbFs {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .container-3YcgdM {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
@@ -6737,4 +6747,54 @@ input{
 .video-2HW4jD {
     min-width: 50px;
     min-height: 50px;
+}
+
+/* server settings nitro boost */
+.theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierHeaderUnlocked-1OpOLf {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.theme-dark .tierBody-1d3UiS {
+    background-color: rgba(0, 0, 0, 0.33);
+    color: rgba(255, 255, 255, 0.65);
+}
+.theme-dark .background-3xJH_4, .theme-dark .tierInProgress-1vFUnw {
+    color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.serverBoostTabItem-3QwA3W[aria-selected=true] {
+    background-color: rgba(88, 101, 242, 0.5) !important;
+}
+
+.theme-dark .perksModal-CLcR1c {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.theme-dark .perk-19D_HN {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.tierWrapper-CsnudO, .tierHeader-wgo0w_, .tierBody-3ju-rc {
+    border-radius: 0;
+}
+.theme-dark .tierBody-3ju-rc {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.theme-dark .tierHeaderLocked-3ItHYn {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.background-Gjdjzm {
+    border-radius: 0;
+}
+.selectedBackground-1t6xXq {
+    background-color: rgba(114, 137, 218, 0.5);
+}
+
+.list-3-WAYB {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.theme-dark.authBox-1HR6Ha {
+    background: none;
+}
+.theme-dark.navRow-dG-XX8 {
+    background-color: rgba(0, 0, 0, 0.4);
 }
