@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.20                    *
+ *                     Version 1.22.21                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3278,7 +3278,7 @@ span.discriminator{
     border: none !important;
 }
 
-.connectedAccountContainer-SlCC-S{
+.connectedAccountContainer-3aLMHJ {
     border-radius: 0 !important;
     border: none !important;
     background-color: rgba(255, 255, 255, 0.15);
@@ -3437,8 +3437,11 @@ span.discriminator{
 .role-2TIOKu{
     border-radius: 0;
     height: 20px;
-    border: 1px solid;
-    padding: 4px 4px 4px 2px;
+    /* border: 1px solid;
+    padding: 4px 4px 4px 2px; */
+}
+.rolePill-2IJ1vo {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .roleName-2ZJJYR{
@@ -5001,7 +5004,7 @@ input{
 /* Adjust the background color for input field */
 
 .theme-dark .searchBox-pyIJJj{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.42) !important;
     border-radius: 0;
 }
 
@@ -5897,7 +5900,7 @@ input{
     --background-tertiary: none;
     --deprecated-store-bg: none;
 	--deprecated-panel-background: none;
-	--background-floating: rgba(0, 0, 0, 0.8);	
+	--background-floating: rgba(11, 11, 11, 0.8); /*rgba(0, 0, 0, 0.8);	*/
 	--background-modifier-hover: none;
 	--background-modifier-selected: none;
 	--background-modifier-active: none;
@@ -5908,15 +5911,15 @@ input{
 
     --background-modifier-accent: rgba(255, 255, 255, 0.15);
 
-    /* THIS IS A TEST */
     --text-normal: rgba(255, 255, 255, 0.9);
     --text-muted: rgba(255, 255, 255, 0.5);
     --header-primary: rgba(255, 255, 255, 0.8);
     --header-secondary: rgba(255, 255, 255, 0.75);
     --channels-default: rgba(255, 255, 255, 0.6);
-    --interactive-normal: rgba(220, 220, 220, 0.7);
-    --interactive-hover: rgba(255, 255, 255, 0.8);
+    --interactive-normal: rgba(220, 220, 220, 0.66);
+    --interactive-hover: rgba(255, 255, 255, 0.75);
     --interactive-muted: rgba(130, 130, 130, 0.7);
+    --interactive-active: rgba(255, 255, 255, 0.9);
     --channel-icon: rgba(255, 255, 255, 0.6);
 }
 
@@ -5976,9 +5979,13 @@ input{
 	background-color: rgba(0, 0, 0, 0.3);
 }
 /* emoji picker fix */
-.contentWrapper-3vHNP2, .emojiPicker-6YCk8a {
+.contentWrapper-3vHNP2, .emojiPicker-6YCk8a, .header-11eigE {
 	background: rgba(0, 0, 0, 0.65);
 	border-radius: 0;
+}
+.premiumRetentionNotice-A_Ke4K {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
 }
 .navButtonActive-1EqC5l {
     background-color: rgba(255, 255, 255, 0.1);
@@ -6112,6 +6119,8 @@ input{
 .theme-dark .root-g14mjS {
 	background: rgba(22, 22, 22, 0.8) !important;
 	border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 .theme-dark .carouselModal-1eUFoq.root-g14mjS {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -6433,6 +6442,7 @@ input{
 .container-x8Y1ix {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
+    border: none;
 }
 .colorHeaderSecondary-g5teka {
     color: rgba(255, 255, 255, 0.8);
@@ -6481,7 +6491,7 @@ input{
 
 
 /* make line between items in list a little bit brighter */
-.peopleListItem-u6dGxF, .divider-_0um2u, .separator-1So4YB, .divider-2rZFJK {
+.peopleListItem-u6dGxF, .divider-_0um2u, .separator-1So4YB, .divider-2rZFJK, .divider-1tWBgZ {
     border-color: rgba(255, 255, 255, 0.15);
 }
 .isUnread-3Lojb- {
@@ -6648,7 +6658,6 @@ input{
     border-radius: 0;
     padding: 2px;
     margin-right: 2px;
-    height: 36px;
 }
 .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -6797,4 +6806,107 @@ input{
 }
 .theme-dark.navRow-dG-XX8 {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.theme-light.content-i-YmzK, .theme-light .content-i-YmzK {
+    background-color: rgba(11, 11, 11, 0.8);
+}
+.title-25RSW7 {
+    color: var(--text-normal);
+}
+.content-i-YmzK {
+    border-radius: 0;
+}
+.container-2Y4CWj {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.communityInfoPill-2Mll66 {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.optionContainer-yOpaLq {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.optionContainer-yOpaLq:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.compactButton-3hG-bs {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.compactButton-3hG-bs:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.container-3a5mk-, .overlayTitle-2efoIF {
+    border-radius: 0;
+}
+
+.upsellTooltipWrapper-1wqikQ {
+    background-color: rgba(11, 11, 11, 0.8);
+    border-radius: 0;
+}
+
+/* thats uhhhh */
+.bar-2qGj24 {
+    border-radius: 0;
+    background-color: rgba(88, 101, 142, 0.8);
+}
+
+/* app directory */ 
+.theme-dark .directoryModal-YJsOMv {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+.card-2xymMp, .container-2NdZr9, .container-SidGiM {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.clickable-O5xo4T.container-2NdZr9:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.category-3LanTP, .category-qFAw-K, .clickable-WBCFI5{
+    border-radius: 0;
+}
+.category-3LanTP:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.list-1bztb- {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.commandName-SDgdgz {
+    border-radius: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.category-2OvQ93, .activeCategory-1iqXig {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.category-2OvQ93:hover, .category-qFAw-K:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.category-qFAw-K.activeCategory-1iqXig {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.clickable-WBCFI5:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* user profile */
+.roundedBanner-TdlJGa, .userPopoutInner-1hXSeY:before, .userPopoutOuter-3AVBmJ {
+    border-radius: 0;
+} 
+.userProfileInner-3F03PX {
+    background-color: rgba(11, 11, 11, 0.8);
+    border-radius: 0 !important;
+}
+.overlayBackground-1KgwVi, .profileBadges-31rDHI {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.messageInputContainer-2rGDH8 {
+    border-color: rgba(255, 255, 255, 0.07);
+    border-radius: 0;
 }
