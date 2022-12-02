@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.21                    *
+ *                     Version 1.22.22                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3440,6 +3440,9 @@ span.discriminator{
     /* border: 1px solid;
     padding: 4px 4px 4px 2px; */
 }
+.roleWrapper-2IhvNd .role-2TIOKu {
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .rolePill-2IJ1vo {
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -3637,7 +3640,7 @@ div.action.join {
 	border-radius: 0;
 }
 
-.connection-YOVI9j {
+.connection-YOVI9j, .connectContainer-1hylYM {
     border-radius: 0;
     background: rgba(0, 0, 0, 0.22);
 }
@@ -3718,7 +3721,8 @@ div.action.join {
 
 .menu-1QACrS{
     border-radius: 0;
-    background-color: rgba(22, 22, 22, 0.8);
+    
+    /* background-color: rgba(22, 22, 22, 0.8); */
 }
 .item-1OdjEX {
     border-radius: 0;
@@ -3805,17 +3809,17 @@ input{
 .theme-dark .card-2ART2V:before{
     border-radius: 0;
     border: none;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
-.theme-dark .button-mM-y8i{
+.theme-dark .default-1Tkeeg{
     border-radius: 0;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: none;
 }
 
-.theme-dark .button-mM-y8i:hover{
+.theme-dark .default-1Tkeeg:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -3837,11 +3841,10 @@ input{
 .connectionDelete-3YgMVq{
     border-radius: 0;
     border: none;
-    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .connectionDelete-3YgMVq:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .regionSelect-3lf4eE .regionSelectInner-24f4Ce{
@@ -3984,6 +3987,11 @@ input{
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
     border: 0;
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+    border: 0;
+    background-color: rgba(237, 66, 69, 0.5);
 }
 
 .theme-dark .elevationHigh-28Pty4{
@@ -5077,11 +5085,11 @@ input{
 }
 
 .theme-dark .sidebarRegion-1VBisG {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .theme-dark .contentRegion-3HkfJJ{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Fix emoji margins */
@@ -5923,6 +5931,7 @@ input{
     --channel-icon: rgba(255, 255, 255, 0.6);
 }
 
+
 .theme-dark .modal-2RrUKJ, .theme-dark .footer-1Ip3Sd {
     background-color: rgba(24, 28, 37, 1);
 }
@@ -5980,7 +5989,8 @@ input{
 }
 /* emoji picker fix */
 .contentWrapper-3vHNP2, .emojiPicker-6YCk8a, .header-11eigE {
-	background: rgba(0, 0, 0, 0.65);
+	/* background: rgba(0, 0, 0, 0.65); */
+    background: rgba(11, 11, 11, 0.8);
 	border-radius: 0;
 }
 .premiumRetentionNotice-A_Ke4K {
@@ -6058,14 +6068,17 @@ input{
 
 /* stream preview overlay */ 
 .theme-dark .streamPreview-I7itZ6 {
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: rgba(11, 11, 11, 0.8);
 }
 .streamPreview-I7itZ6 {
 	border-radius: 0;
 }
+.theme-dark .watchButton-2YRKxv {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+}
 .theme-dark .watchButton-2YRKxv:hover {
-	border-color: rgba(255, 255, 255, 0.6);
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(255, 255, 255, 0.3);
 }
 .liveShapeRound-2Tgi2d {
     /*border-radius: 0;*/
@@ -6115,10 +6128,11 @@ input{
 .backdrop-2ByYRN.withLayer-2VVmpp {
 	opacity: 0.5 !important;
 }
-
+.root-g14mjS {
+    border-radius: 0;
+}
 .theme-dark .root-g14mjS {
-	background: rgba(22, 22, 22, 0.8) !important;
-	border-radius: 0;
+	background: rgba(11, 11, 11, 0.8) !important;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -6176,7 +6190,7 @@ input{
 .item-2idW98:hover {
 	background: rgba(0, 0, 0, 0.33);
 }
-.itemFilled-1cPbtg:hover:not([aria-checked=true]) {
+.itemFilled-1cPbtg:hover:not([aria-checked=true]):not(.disabled-3tqE8r){
     background: rgba(0, 0, 0, 0.33);
 }
 .item-2idW98:hover[aria-checked=true]{
@@ -6404,11 +6418,23 @@ input{
 .subscribeTooltipWrapper-3ipXtC:after {
     border-color: rgba(22, 22, 22, 0.8);
 }
+
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(88, 101, 242, 0.3);
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.lookFilled-yCfaCM.colorWhite-1H92hK {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.lookFilled-yCfaCM.colorWhite-1H92hK:active, .lookFilled-yCfaCM.colorWhite-1H92hK:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* reply stuff */
@@ -6494,6 +6520,9 @@ input{
 .peopleListItem-u6dGxF, .divider-_0um2u, .separator-1So4YB, .divider-2rZFJK, .divider-1tWBgZ {
     border-color: rgba(255, 255, 255, 0.15);
 }
+.theme-dark .divider-3qUeLQ, .divider-1zHRlg, .termsRow-2I3Fqz {
+    border-color: rgba(255, 255, 255, 0.1);
+}
 .isUnread-3Lojb- {
     border-color: rgba(237, 66, 69, 0.8) !important;
 }
@@ -6550,7 +6579,7 @@ input{
 
 /* bit of server settings */ 
 .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: rgba(255, 255, 255, 0.15);
     border-radius: 0;
 }
 .container-3EtAkD {
@@ -6634,7 +6663,7 @@ input{
 
 /* forum stuff */
 .theme-dark .container-3wLKDe {
-    background-color: rgba(0, 0, 0, 0.22);
+    background-color: rgba(0, 0, 0, 0);
 }
 .container-JhuCwn {
     background-color: rgba(0, 0, 0, 0.15);
@@ -6653,7 +6682,7 @@ input{
     background-color: rgba(0, 0, 0, 0.22);
     border-radius: 0;
 }
-.pill-3pRQlO {
+.pill-3pRQlO, .sortButton-n-cIAH, .tagsButton-4pwOKH .tagsButtonInner-2pvSm1 {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
     padding: 2px;
@@ -6677,7 +6706,7 @@ input{
     border-radius: 0;
     height: 16px;
 }
-.mainCard-3KBsBI {
+.mainCard-3KBsBI, .container-3arpDl {
     border: none;
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.22);
@@ -6686,6 +6715,10 @@ input{
     background-color: rgba(0, 0, 0, 0.4);
     box-shadow: none;
     transform: none;
+}
+.descriptionContainer-2ylKGk {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
 }
 .container-2qVG6q {
     transition: none;
@@ -6706,13 +6739,24 @@ input{
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.2);
 }
-.bodyMedia-3ij3KY {
+.bodyMedia-3ij3KY, .optionRow-1wYi0s {
     border-radius: 0;
 }
+.optionRow-1wYi0s:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.container-2d0jMv, .container-3kfp0r {
+    background-color: rgba(11, 11, 11, 0.8);
+    border-radius: 0;
+    box-shadow: none;
+}
+
 
 .aboutMeGuildIconTooltip-2cYR0X {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+
 /* why-leave-server window */
 .root-cw9rWQ {
     border-radius: 0;
@@ -6804,6 +6848,9 @@ input{
 .theme-dark.authBox-1HR6Ha {
     background: none;
 }
+.wrapper-1f5byN .authBox-1HR6Ha {
+    background-color: rgba(0, 0, 0, 0.6);
+}
 .theme-dark.navRow-dG-XX8 {
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -6850,17 +6897,20 @@ input{
 /* thats uhhhh */
 .bar-2qGj24 {
     border-radius: 0;
-    background-color: rgba(88, 101, 142, 0.8);
+    background-color: rgba(88, 101, 242, 0.8);
 }
 
 /* app directory */ 
 .theme-dark .directoryModal-YJsOMv {
-    background-color: rgba(0, 0, 0, 0.22);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .card-2xymMp, .container-2NdZr9, .container-SidGiM {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0;
+}
+.linkCard-2SSonX {
+    background-color: /*hsl(235, 46.7%, 44.1%);*/ rgba(60, 69, 165, 0.4);
 }
 .clickable-O5xo4T.container-2NdZr9:hover {
     background-color: rgba(0, 0, 0, 0.6);
@@ -6895,7 +6945,7 @@ input{
 }
 
 /* user profile */
-.roundedBanner-TdlJGa, .userPopoutInner-1hXSeY:before, .userPopoutOuter-3AVBmJ {
+.roundedBanner-TdlJGa, .userPopoutInner-1hXSeY:before, .userPopoutOuter-3AVBmJ, .userProfileModalInner-3fh3QA:before, .userProfileOuter-1K_BYU, .badgeList-2pMvZX {
     border-radius: 0;
 } 
 .userProfileInner-3F03PX {
@@ -6909,4 +6959,229 @@ input{
 .messageInputContainer-2rGDH8 {
     border-color: rgba(255, 255, 255, 0.07);
     border-radius: 0;
+}
+.container-JMJRDf {
+    border-radius: 0;
+    background: rgba(88, 101, 242, 0.5);
+}
+
+/* activities */
+.activityItem-1Z9CTr {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+}
+
+.activityItem-1Z9CTr:hover{
+    background: rgba(0, 0, 0, 0.75);
+}
+.activityItem-1Z9CTr.disabled-3YLMBX {
+    background: rgba(255, 255, 255, 0.1)
+}
+.activityTag-3C3YK5 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+
+/* server settings stickers */
+.wrapper-24fR1R {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.wrapper-24fR1R:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.actions-1aMD1r {
+    right: 0;
+    top: 0;
+}
+.action-2YPPom {
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+.action-2YPPom:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.action-2YPPom+.action-2YPPom {
+    margin: 0;
+}
+.placeholderCard-3eGmb3 { 
+    border-radius: 0;
+}
+
+.aboutMeGuildIconTooltip-tM91BN {
+    background-color: rgba(11, 11, 11, 0.8);
+}
+
+.sidebarFixedContainer-2fX672 {
+    border-color: rgba(255, 255, 255, 0.15);
+    border-radius: 0;
+}
+.backgroundContainer-gUNEZU {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.fieldBackground-2TpuOY {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.fieldFooterContainer-2QTUnl {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.backgroundAccent-2YeFtZ {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+}
+
+.buttonColor-XIRMbp {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.buttonColor-XIRMbp:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: none;
+}
+
+.accountButtonInner-33vCDY, .accountBtnInner-1DCgBm {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.accountButtonInner-33vCDY:hover, .accountBtnInner-1DCgBm:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.guild-2Fq4I5, .cardWrapper-1bSePP {
+    border-radius: 0;
+}
+.guildHeader-1EPPBS {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.guildSubscriptionSlots-1i_C21, .cardWrapper-1bSePP  {
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.messageContentWrapper-3jcFO8 {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.toast-3y2zEK:hover > .messageContentWrapper-3jcFO8 {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-3x20HF, .container-2Hi7Km, .icon-2IDTxf, .container-xwOzwi  {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+}
+
+.interactiveCard-2iMtdk {
+    transition: none;
+    border-color: rgba(0, 0, 0, 0);
+}
+.interactiveCard-2iMtdk:hover {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.interactiveCard-2iMtdk.selected-sszUNx, .interactiveCard-2iMtdk:active, .interactiveCard-2iMtdk:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+.container-3HMTms {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 0;
+}
+.container-3HMTms:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.body-_wLPAC {
+    padding-bottom: 4px;
+}
+.feedItemHeader-txJq98 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.backgroundModifierContainer-WjXgb2 {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.backgroundModifierContainer-WjXgb2.selected-2f8_FP {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN) {
+    background-color: rgba(0, 0, 0, 0.33);
+}
+.collapseable-DdnHFl:active {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.groupCollapsedContainer-1h2Wkb {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.collapseable-DdnHFl:before {
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.groupContainer-x_RNHs {
+    border-radius: 0;
+}
+
+.guildDetails-1il1dn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.featureCard-3XHbjy {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
+.checklistContainer-12xGp5, .container-13pE3E {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
+.checklistHeader-3liG7E, .header-Wl8ec- {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+
+.requirementContainer-1YZZty, .fieldBackground-3nYcw0, .fieldBackground-3nYcw0:hover:not(:focus) {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0;
+}
+.modal-2TOYtq .footer-31IekZ {
+    background-color: rgba(0, 0, 0, 0);
+}
+.modal-2TOYtq {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.exampleRule-KGGZmT {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+
+.upsellContainer-2a5eMP {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.upsellFooter-3M1V33 {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
+
+.enableContainer-H2cRts {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.previewContainer-29oeA6 {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+}
+.welcomeChannel-_Q4qAA {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content-2eQb8J {
+    background-color: rgba(0, 0, 0, 0);
+}
+.perks-2IIbWQ {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.perkRow-10K6XE {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
