@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.22                    *
+ *                     Version 1.22.23                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -11,7 +11,7 @@
  *  Feel free to open an issue at the GitHub repository.  *
  *                  Thank you in advance!                 *
  *                                                        *
- *       MIT License, Copyright SamuiNe 2016 ~ 2022?      *
+ *       MIT License, Copyright SamuiNe 2016 ~ 2023?      *
  **********************************************************/
 
 /* Caution! This theme only works for dark theme for now. It will not work properly at light theme. */
@@ -39,7 +39,7 @@ body {
        2nd value - Green 0-255
        3rd value - Blue 0-255
        4th value - Alpha (Opacity) 0.0-1.0 */
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5) !important;
 
     -webkit-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
@@ -48,7 +48,6 @@ body {
 /*
     To use custom font, please enter the font name enclosed with ' ' at font-family and remove both */ /*.
 */
-
 *:not(code) {
     /*font-family: Whitney, Helvetica, Arial, sans-serif !important;*/
 }
@@ -2614,13 +2613,17 @@ span.amount {
     box-shadow: none;
 }
 
-.input-2g-os5{
+.input-3O04eu{
     border-radius: 0;
     border: none;
 }
 
-.theme-dark .input-2g-os5{
+.theme-dark .input-3O04eu{
     background-color: rgba(0, 0, 0, 0.42);
+}
+
+.theme-dark .iconWrapper-2_MXbk {
+    background-color: rgba(0, 0, 0, 0.33);
 }
 
 .theme-dark .message-G6O-Wv{
@@ -2686,7 +2689,7 @@ span.amount {
     border-radius: 0;
 }
 
-.theme-dark .bar-1Bhnl9{
+.theme-dark .bar-2H7Q9u{
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.2);
 }
@@ -2965,6 +2968,11 @@ span.amount {
 .theme-dark .cardPrimaryEditable-2mz_3i:hover{
     background-color: rgba(0, 0, 0, 0.6) !important;
 	border-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.permissionV3BannerContainer-3_4aSa {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 0;
 }
 
 /* Text color adjustments */
@@ -3443,10 +3451,15 @@ span.discriminator{
 .roleWrapper-2IhvNd .role-2TIOKu {
     background-color: rgba(255, 255, 255, 0.1);
 }
-.rolePill-2IJ1vo {
+.rolePill-2IJ1vo, .role-23oyrw {
     background-color: rgba(255, 255, 255, 0.1);
 }
-
+.role-23oyrw {
+    border-radius: 0;
+}
+.role-23oyrw:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
 .roleName-2ZJJYR{
     font-weight: normal;
 }
@@ -4095,7 +4108,7 @@ input{
 }
 
 /* mentions */
-.theme-dark .messagesPopoutWrap-3zryHW, .theme-dark .container-2ebMPP {
+.theme-dark .messagesPopoutWrap-3zryHW, .theme-dark .container-2ebMPP, .container-_dQaft {
     background-color: rgba(22, 22, 22, 0.8);
     border-radius: 0;
     border: none;
@@ -4112,7 +4125,14 @@ input{
 }
 
 .theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI .channelHeader-DFRX8q, .theme-dark .container-2ebMPP .channelHeader-DFRX8q {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+.tertiary-1e-lAP {
+    border-radius: 0;
+}
+.tertiary-1e-lAP:hover:not(.disabled-184-il) {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .theme-dark .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI .messageContainer-3VTXBC, .theme-dark .container-2ebMPP .messages-23can0{
@@ -4624,11 +4644,11 @@ input{
 
 /* Friend List background Selected + Hover */
 
-.interactive-1vLZ_I{
+.interactive-iyXY_x{
     border-radius: 0;
 }
 
-.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover{
+.interactive-26HRN_:focus-within, .interactive-26HRN_:hover{
     background-color: rgba(0, 0, 0, 0.22);
 }
 
@@ -5505,6 +5525,11 @@ input{
     box-shadow: none;
 }
 
+.addFriendInputWrapper-kkoSV9 {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* Fix emoji picker search bar background color and text color */
 
 .container-1SX9VC{
@@ -6164,7 +6189,7 @@ input{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.lookFilled-1GseHa.select-1Ia3hD {
+.lookFilled-GPyucw.select-Zz0IcO {
     background-color: rgba(0, 0, 0, 0.3);
     border: none;
 }
@@ -6179,26 +6204,26 @@ input{
 	background: rgba(0, 0, 0, 0.6);
 }
 
-.item-2idW98 {
+.item-1TA5qI {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
 }
-
-.item-2idW98[aria-checked=true] {
+.item-1TA5qI[aria-checked=true] {
 	background: rgba(0, 0, 0, 0.5);
 }
-.item-2idW98:hover {
+.item-1TA5qI:hover {
 	background: rgba(0, 0, 0, 0.33);
 }
-.itemFilled-1cPbtg:hover:not([aria-checked=true]):not(.disabled-3tqE8r){
+.itemFilled-2Fo7lr:hover:not([aria-checked=true]):not(.disabled-WBmOu_){
     background: rgba(0, 0, 0, 0.33);
 }
-.item-2idW98:hover[aria-checked=true]{
+.item-1TA5qI:hover[aria-checked=true]{
 	background: rgba(0, 0, 0, 0.6);
 }
-.radioBar-3w9XY- {
+.radioBar-1XgZqD {
     border-radius:0;
 }
+
 .cardWrapper-CyvwQv {
 	background: rgba(0, 0, 0, 0.22);
 	border-radius: 0;
@@ -6220,10 +6245,10 @@ input{
 	background: rgba(0, 0, 0, 0.5);
 	font-weight: bold;
 }
-.open-1FRZsK, .select-1Ia3hD {
+.open-1FRZsK, .select-Zz0IcO {
 	border-radius: 0;
 }
-.popout-1KHNAq {
+.popout-15UxD6 {
     background: rgba(11, 11, 11, 0.8);
     border-radius: 0;
 }
@@ -6234,7 +6259,7 @@ input{
 .option-2eIyOn:hover {
 	background: rgba(255, 255, 255, 0.1);
 }
-.option-2eIyOn[aria-selected=true], .option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv)  {
+.option-2eIyOn[aria-selected=true], .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4)  {
 	background: rgba(255, 255, 255, 0.1);
 	/*font-weight: bold;*/
 }
@@ -6347,6 +6372,12 @@ input{
     background-color: rgba(0, 0, 0, 0.33);
     border-radius: 0;
 }
+.memberRow-1FhJgR {
+    border-radius: 0;
+}
+.memberRow-1FhJgR:hover {
+    background-color: rgba(0, 0, 0, 0.22);
+}
 
 .bodyInnerWrapper-2bQs1k {
     background-color: rgba(0, 0, 0, 0.0);
@@ -6355,7 +6386,7 @@ input{
     background-color: rgba(0, 0, 0, 0);
 }
 .scrollableContainer-15eg7h {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border-radius: 0;
 }
 .container-3XgAHv .scrollableContainer-15eg7h {
@@ -6425,7 +6456,9 @@ input{
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
     background-color: rgba(0, 0, 0, 0.2);
 }
-
+.lookInverted-2mDUMi.colorBrand-I6CyqQ {
+    background-color: rgba(255, 255, 255, 0.75);
+}
 .lookFilled-yCfaCM.colorWhite-1H92hK {
     background-color: rgba(255, 255, 255, 0.75);
 }
@@ -6459,6 +6492,7 @@ input{
 }
 .pictureInPictureVideo-2puO2Q {
     background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
 }
 
 /* new server window */
@@ -6716,21 +6750,17 @@ input{
     box-shadow: none;
     transform: none;
 }
-.descriptionContainer-2ylKGk {
+.descriptionContainer-2ylKGk, .descriptionBox-SKGNgB {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0;
 }
 .container-2qVG6q {
     transition: none;
 }
-.container-2qVG6q.isOpen-2OXbFs {
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.container-3YcgdM {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    backdrop-filter: blur(5px);
-}
+
 .addReactButton-3bSQb6, .buttonInner-3aRbcx {
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.1);
@@ -6774,8 +6804,8 @@ input{
     border-radius: 0;
     border: none;
 }
-.editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV {
-    background-color: rgba(0, 0, 0, 0.22);
+.editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV, .editCard-K9Q9mb.active-Xi2rnV  {
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0;
 }
 .collapseable-1mNWCS:before {
@@ -7101,13 +7131,14 @@ input{
 .backgroundModifierContainer-WjXgb2.selected-2f8_FP {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN) {
+.backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN), .backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN):not(.noAction-3PygTY) {
     background-color: rgba(0, 0, 0, 0.33);
 }
+
 .collapseable-DdnHFl:active {
     background-color: rgba(0, 0, 0, 0.4);
 }
-.groupCollapsedContainer-1h2Wkb {
+.groupCollapsedContainer-2z4Vrr {
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -7184,4 +7215,22 @@ input{
 }
 .perkRow-10K6XE {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.button-1kija8:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Browse Channels */
+.theme-dark .checkbox-1LuCGM {
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.firstChannel-3vAGDY, .lastChannel-21yyBC {
+    border-radius: 0;
+}
+.stepper-1gzQ8P {
+    border-radius: 0;
 }
