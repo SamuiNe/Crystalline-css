@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.23                    *
+ *                     Version 1.22.24                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -3992,17 +3992,17 @@ input{
     background-color: rgba(29, 185, 84, 0.8);
 }
 
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo{
+.lookOutlined-3RTC7c.colorPrimary-2-Lusz{
     border: 0;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover{
+.lookOutlined-3RTC7c.colorPrimary-2-Lusz:hover{
     border: 0;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.lookOutlined-3yKVGo.colorRed-rQXKgM {
+.lookOutlined-3RTC7c.colorRed-2VFhM4 {
     border: 0;
     background-color: rgba(237, 66, 69, 0.5);
 }
@@ -4648,12 +4648,12 @@ input{
     border-radius: 0;
 }
 
-.interactive-26HRN_:focus-within, .interactive-26HRN_:hover{
-    background-color: rgba(0, 0, 0, 0.22);
+.theme-dark .interactive-26HRN_:focus-within, .theme-dark .interactive-26HRN_:hover{
+    background: rgba(0, 0, 0, 0.22);
 }
 
-.interactive-1vLZ_I:active, .interactiveSelected-29CP8y{
-    background-color: rgba(0, 0, 0, 0.42);
+.interactive-26HRN_:active, .interactiveSelected-29CP8y{
+    background: rgba(0, 0, 0, 0.42) !important;
 }
 
 /* Notice bar background opacity and border radius */
@@ -4788,12 +4788,12 @@ input{
     border-radius: 0;
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo{
+.theme-dark .lookFilled-1H2Jvj.colorPrimary-2-Lusz{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:active,
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover{
+.theme-dark .lookFilled-1H2Jvj.colorPrimary-2-Lusz:active,
+.theme-dark .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -5361,7 +5361,7 @@ input{
 
 /* Fix disabled button background for user popup window */
 
-.lookOutlined-3yKVGo.colorWhite-1H92hK:disabled{
+.lookOutlined-3RTC7c.colorWhite-1H92hK:disabled{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -5549,19 +5549,19 @@ input{
 
 /* Fix spoiler tag background color and border radius */
 
-.spoilerText-27bIiA, .spoilerWarning-8ovW0v{
+.spoilerText-2G40u0, .spoilerWarning-1JN1Ot{
     border-radius: 0;
 }
 
-.theme-dark .spoilerText-27bIiA{
+.theme-dark .spoilerText-2G40u0{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.theme-dark .spoilerText-27bIiA.hidden-3B-Rum{
+.theme-dark .spoilerText-2G40u0.hidden-2lQZ5q{
     background-color: rgba(111, 111, 111, 0.42);
 }
 
-.theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover{
+.theme-dark .spoilerText-2G40u0.hidden-2lQZ5q:hover{
     background-color: rgba(111, 111, 111, 0.6);
 }
 
@@ -5865,7 +5865,7 @@ input{
     background-color: rgba(0, 0, 0, 0.22);
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:disabled{
+.theme-dark .lookFilled-1H2Jvj.colorPrimary-2-Lusz:disabled{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -5991,7 +5991,7 @@ input{
 	background-color: transparent;
 }
 .activityPanel-9icbyU {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5) !important;
 }
 .theme-dark .bodyInner-245q0L {
 	background-color: transparent;
@@ -6099,6 +6099,7 @@ input{
 	border-radius: 0;
 }
 .theme-dark .watchButton-2YRKxv {
+    border-radius: 0;
     background-color: rgba(255, 255, 255, 0.2);
     border: none;
 }
@@ -6153,15 +6154,15 @@ input{
 .backdrop-2ByYRN.withLayer-2VVmpp {
 	opacity: 0.5 !important;
 }
-.root-g14mjS {
+.root-1CAIjD {
     border-radius: 0;
 }
-.theme-dark .root-g14mjS {
+.theme-dark .root-1CAIjD {
 	background: rgba(11, 11, 11, 0.8) !important;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
-.theme-dark .carouselModal-1eUFoq.root-g14mjS {
+.theme-dark .carouselModal-1eUFoq.root-1CAIjD {
     background-color: rgba(0, 0, 0, 0) !important;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -6172,11 +6173,11 @@ input{
 .contentWrapper-3oy4Xo {
     border-radius: 0;
 }
-.theme-dark .footer-31IekZ {
+.theme-dark .footer-IubaaS{
 	background: rgba(0, 0, 0, 0.4);
 	border-radius: 0;
 }
-.theme-dark .footer-31IekZ .button-f2h6uQ {
+.theme-dark .footer-IubaaS .button-f2h6uQ {
     color: white;
 }
 .card-m7VgZ8 {
@@ -6200,8 +6201,16 @@ input{
 .fieldList-in8WkP {
 	border-radius: 0;
 }
-.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
+.theme-dark .lookFilled-1H2Jvj.colorGrey-2iAG-B {
 	background: rgba(0, 0, 0, 0.6);
+}
+.cta-3-AFNF {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+}
+.cta-3-AFNF:hover {
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .item-1TA5qI {
@@ -6450,24 +6459,31 @@ input{
     border-color: rgba(22, 22, 22, 0.8);
 }
 
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
     background-color: rgba(88, 101, 242, 0.3);
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled {
     background-color: rgba(0, 0, 0, 0.2);
 }
-.lookInverted-2mDUMi.colorBrand-I6CyqQ {
+.lookInverted-2GrLaB.colorBrand-2M3O3N {
     background-color: rgba(255, 255, 255, 0.75);
 }
-.lookFilled-yCfaCM.colorWhite-1H92hK {
+.lookFilled-1H2Jvj.colorWhite-1H92hK {
     background-color: rgba(255, 255, 255, 0.75);
 }
-.lookFilled-yCfaCM.colorWhite-1H92hK:active, .lookFilled-yCfaCM.colorWhite-1H92hK:hover {
+.lookFilled-1H2Jvj.colorWhite-1H92hK:active, .lookFilled-1H2Jvj.colorWhite-1H92hK:hover {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
 .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
     background-color: rgba(0, 0, 0, 0.4);
+}
+.button-ejjZWC {
+    border-radius: 0;
+}
+
+.background-L8lGH6 {
+    -webkit-mask: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(0, 0, 0, 0) 50%);
 }
 
 /* reply stuff */
@@ -6733,7 +6749,7 @@ input{
     border: none;
     background-color: rgba(255, 255, 255, 0.1)!important;
 }
-.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover {
+.lookOutlined-3RTC7c.colorBrand-I6CyqQ:hover {
     background-color: rgba(255, 255, 255, 0.2)!important;
 }
 .newBadge-1LcB6t {
@@ -7233,4 +7249,23 @@ input{
 }
 .stepper-1gzQ8P {
     border-radius: 0;
+} 
+.theme-dark .quickSelectPopout-2F0PXw {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+
+.hoverButtonGroup-2yZIzC {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+}
+.nonMediaAttachment-3C_4Pd {
+    top: 0;
+    right: 0;
+}
+.hoverButton-36QWJk:hover, .keyboard-mode .hoverButton-36QWJk:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.removeAttachmentHoverButton-3gHROs:hover, .keyboard-mode .removeAttachmentHoverButton-3gHROs:focus {
+    background-color: rgba(237, 66, 69, 0.8);
 }
