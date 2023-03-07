@@ -1,6 +1,6 @@
 /**********************************************************
  *           Crystalline CSS for BeautifulDiscord         *
- *                     Version 1.22.24                    *
+ *                     Version 1.22.25                    *
  *                                                        *
  *                   Created by SamuiNe                   *
  *               https://github.com/SamuiNe               *
@@ -2672,7 +2672,7 @@ span.amount {
     background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-.item-3XjbnG{
+.item-2GWPIy{
     border-radius: 0 !important;
 }
 
@@ -3286,11 +3286,12 @@ span.discriminator{
     border: none !important;
 }
 
-.connectedAccountContainer-3aLMHJ {
+.connectedAccountContainer-2TWiXT {
     border-radius: 0 !important;
-    border: none !important;
-    background-color: rgba(255, 255, 255, 0.15);
-    color: rgba(255, 255, 255, 0.9);
+    /*border: none !important;*/
+    border-color: rgba(255, 255, 255, 0.2);
+    /*background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.9);*/
 }
 
 .connectedAccountName-f8AEe2{
@@ -3436,7 +3437,7 @@ span.discriminator{
     border-radius: 0 !important;
 }
 
-.roleCircle-3K9O3d {
+.roleCircle-3TFUOr {
     border-radius: 0;
     height: 10px;
     width: 10px;
@@ -3834,6 +3835,7 @@ input{
 
 .theme-dark .default-1Tkeeg:hover{
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
 }
 
 .container-30qY7E{
@@ -4388,7 +4390,7 @@ input{
 /* Music Background color */
 .theme-dark .wrapperAudio-1Bzv_Z{
     background-color: rgba(10, 10, 10, 0.7);
-    /*border-radius: 0;*/
+    border-radius: 0;
     border: none;
 }
 
@@ -5470,15 +5472,15 @@ input{
 
 /* Fix setting sidebar selection and hover background color and border radius */
 
-.theme-dark .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
-.theme-dark .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover,
-.theme-dark .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
-.theme-dark .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover{
+.theme-dark .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.theme-dark .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy:hover,
+.theme-dark .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.theme-dark .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy:hover{
     background-color: rgba(0, 0, 0, 0.42);
 }
 
-.theme-dark .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover,
-.theme-dark .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover{
+.theme-dark .side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover,
+.theme-dark .topPill-2vcLsa .themed-qqoYp3.item-2GWPIy:hover{
     background-color: rgba(0, 0, 0, 0.22);
 }
 
@@ -6639,7 +6641,7 @@ input{
 .container-3EtAkD:hover {
     background-color: rgba(0, 0, 0, 0.6);
 }
-.disabled-1nofHP.item-3XjbnG, .disabled-1nofHP.item-3XjbnG:hover {
+.disabled-1nofHP.item-2GWPIy, .disabled-1nofHP.item-2GWPIy:hover {
     color:rgba(255, 255, 255, 0.2);
 }
 .tabBar-3DfKkN {
@@ -7040,6 +7042,10 @@ input{
     right: 0;
     top: 0;
 }
+.emojiRow-1aPaM- .emojiRemove-D9w3jo, .revokeInvite-1VNYBG {
+    top: 0;
+    right: -19px;
+}
 .action-2YPPom {
     border-radius: 0;
     box-shadow: none;
@@ -7147,7 +7153,9 @@ input{
 .backgroundModifierContainer-WjXgb2.selected-2f8_FP {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN), .backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN):not(.noAction-3PygTY) {
+.backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN), 
+.backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN):not(.noAction-3PygTY), 
+.backgroundModifierContainer-WjXgb2:active:not(.disabled-3Q7kTN):not(.noAction-3PygTY) {
     background-color: rgba(0, 0, 0, 0.33);
 }
 
@@ -7268,4 +7276,26 @@ input{
 }
 .removeAttachmentHoverButton-3gHROs:hover, .keyboard-mode .removeAttachmentHoverButton-3gHROs:focus {
     background-color: rgba(237, 66, 69, 0.8);
+}
+
+/* i already did this fix somewhere here */ 
+.container-2kTWmC {
+    background-color: rgba(11, 11, 11, 0.8);
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+.item-1Mjtru {
+    border-radius: 0;
+}
+.focused-3v9Ulm, .item-1Mjtru:hover:not(.disabled-Lzz-qs) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* keyboard shortcuts window */ 
+.theme-dark .keyboardShortcutsModal-2CRmCm {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.key-RP8gj3 {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
 }
