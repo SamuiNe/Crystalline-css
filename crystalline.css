@@ -2575,8 +2575,9 @@ span.amount {
     border-radius: 0;
 }
 
-.theme-dark .cardPrimary-3qRT__{
-    background-color: rgba(0, 0, 0, 0.42);
+.theme-dark .cardPrimary-pAe8Ed{
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
 .buttonOutlined-38aLSW{
@@ -3622,10 +3623,10 @@ div.action.join {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
 }
-.listRow-2nO1T6 {
+.listRow-Y5zoF8 {
     border-radius: 0;
 }
-.theme-dark .listRow-2nO1T6:hover{
+.theme-dark .listRow-Y5zoF8:hover{
     background: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -3733,18 +3734,18 @@ div.action.join {
     border-radius: 0;
 }
 
-.menu-1QACrS{
+.menu-2TXYjN{
     border-radius: 0;
     
     /* background-color: rgba(22, 22, 22, 0.8); */
 }
-.item-1OdjEX {
+.item-5ApiZt {
     border-radius: 0;
 }
-.colorDefault-CDqZdO.focused-3qFvc8 {
+.colorDefault-2_rLdz.focused-3LIdPu {
     background-color: rgba(71, 82, 196, 0.6);
 }
-.colorDanger-3n-KnP.focused-3qFvc8 {
+.colorDanger-3umuSx.focused-3LIdPu {
     background-color: rgba(216, 60, 62, 0.6);
 }
 
@@ -6451,6 +6452,17 @@ input{
 .banner-3D8GgT {
     border-radius: 0;
 }
+/* boost window */
+.theme-dark .ctaBar-Nhk8yY {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+}
+.theme-dark .barBackground-unEPDT {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.theme-dark .tierMarkerBackground-G8FoN4 {
+    background-color: rgba(0, 0, 0, 0.33);
+}
 
 /* boost server tooltip */
 .subscribeTooltipWrapper-3ipXtC{
@@ -6545,9 +6557,17 @@ input{
 .closeIcon-11LhXr {
     color: white;
 }
-.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
-    color: white;
+.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL, 
+.search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0 {
+    color: rgba(255, 255, 255, 0.5);
 }
+.search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
+    color: var(--text-normal)
+}
+
 .theme-dark .card-2TuZPZ, .theme-dark .iconMask-2fMR98 {
     background-color:rgba(0, 0, 0, 0.33);
 }
@@ -6555,7 +6575,11 @@ input{
     background-color: rgba(0, 0, 0, 0.5);
 }
 .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4 {
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+
+.headerImage-2D5D-v {
     border-radius: 0;
 }
 
@@ -6569,7 +6593,8 @@ input{
 
 
 /* make line between items in list a little bit brighter */
-.peopleListItem-u6dGxF, .divider-_0um2u, .separator-1So4YB, .divider-2rZFJK, .divider-1tWBgZ {
+.peopleListItem-u6dGxF, .divider-_0um2u, .separator-1So4YB, .divider-2rZFJK, .divider-1tWBgZ,
+.theme-dark .paymentHeader-2o7Phd {
     border-color: rgba(255, 255, 255, 0.15);
 }
 .theme-dark .divider-3qUeLQ, .divider-1zHRlg, .termsRow-2I3Fqz {
@@ -6624,6 +6649,8 @@ input{
 /* https://media.discordapp.net/attachments/589742302419746826/962728217704288327/unknown.png */
 .theme-dark .blockedPaymentsWarning-T43O2z, .theme-dark .codeRedemptionRedirect-2hYMSQ {
     background-color: rgba(0, 0, 0, 0.33);
+    border: none;
+    border-radius: 0;
 }
 .noItemsCard-5EOcCl, .noItemsCard-2V85P5 {
     background-color: rgba(0, 0, 0, 0.33);
@@ -6851,6 +6878,9 @@ input{
 }
 
 /* server settings nitro boost */
+.tierHeaderWithoutCardBody-1iT8o_ {
+    border-radius: 0;
+}
 .theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierHeaderUnlocked-1OpOLf {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -6867,7 +6897,7 @@ input{
 }
 
 .theme-dark .perksModal-CLcR1c {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
 }
 .theme-dark .perk-19D_HN {
     border-radius: 0;
@@ -6877,7 +6907,7 @@ input{
     border-radius: 0;
 }
 .theme-dark .tierBody-3ju-rc {
-    background-color: rgba(0, 0, 0, 0.22);
+    background-color: rgba(0, 0, 0, 0.33);
 }
 .theme-dark .tierHeaderLocked-3ItHYn {
     background-color: rgba(0, 0, 0, 0.5);
@@ -6917,7 +6947,7 @@ input{
 }
 .communityInfoPill-2Mll66 {
     border-radius: 0;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .optionContainer-yOpaLq {
     background-color: rgba(255, 255, 255, 0.1);
@@ -7031,6 +7061,9 @@ input{
 }
 
 /* server settings stickers */
+.banner-3Uu4yV {
+    border-radius: 0;
+}
 .wrapper-24fR1R {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0;
@@ -7079,7 +7112,7 @@ input{
 .fieldFooterContainer-2QTUnl {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.backgroundAccent-2YeFtZ {
+.backgroundAccent-2YeFtZ, .backgroundAccent-1MMH1o {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 0;
 }
@@ -7155,7 +7188,8 @@ input{
 }
 .backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN), 
 .backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN):not(.noAction-3PygTY), 
-.backgroundModifierContainer-WjXgb2:active:not(.disabled-3Q7kTN):not(.noAction-3PygTY) {
+.backgroundModifierContainer-WjXgb2:active:not(.disabled-3Q7kTN):not(.noAction-3PygTY),
+.collapseable-1FiLab:active {
     background-color: rgba(0, 0, 0, 0.33);
 }
 
@@ -7298,4 +7332,17 @@ input{
 .key-RP8gj3 {
     border-radius: 0;
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* yet another tooltip fix */
+.tooltip-33Jwqe {
+    border-radius: 0;
+}
+.theme-dark .tooltip-33Jwqe, .theme-light .tooltip-33Jwqe {
+    box-shadow: none;
+}
+
+/* badges */
+.baseShapeRound-3epLEv {
+    border-radius: 0;
 }
