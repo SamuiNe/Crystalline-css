@@ -3078,6 +3078,12 @@ span.amount {
 .reactionSelected-1aMb2K{
     border-radius: 0;
 }
+.reactionDefault-1Sjj1f:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.reactionSelected-1aMb2K {
+    background-color: rgba(255, 255, 255, 0.2);
+}
 
 /* Discord Canary stuffs*/
 .container-1eFtFS{
@@ -3287,7 +3293,7 @@ span.discriminator{
     border: none !important;
 }
 
-.connectedAccountContainer-2TWiXT {
+.connectedAccountContainer-3aLMHJ {
     border-radius: 0 !important;
     /*border: none !important;*/
     border-color: rgba(255, 255, 255, 0.2);
@@ -3295,7 +3301,7 @@ span.discriminator{
     color: rgba(255, 255, 255, 0.9);*/
 }
 
-.connectedAccountName-f8AEe2{
+.connectedAccountName-2QfG-N{
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
@@ -3453,7 +3459,7 @@ span.discriminator{
 .roleWrapper-2IhvNd .role-2TIOKu {
     background-color: rgba(255, 255, 255, 0.1);
 }
-.rolePill-2IJ1vo, .role-23oyrw {
+.rolePill-78LFtg, .role-23oyrw {
     background-color: rgba(255, 255, 255, 0.1);
 }
 .role-23oyrw {
@@ -3623,10 +3629,10 @@ div.action.join {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0;
 }
-.listRow-Y5zoF8 {
+.listRow-2nO1T6 {
     border-radius: 0;
 }
-.theme-dark .listRow-Y5zoF8:hover{
+.theme-dark .listRow-2nO1T6:hover{
     background: none;
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -4512,7 +4518,7 @@ input{
 }
 
 .newMessagesBar-1hF-9G {
-    background-color: rgba(114,137,218, 0.6);
+    background-color: rgba(114, 137, 218, 0.6);
     border-radius: 0;
 }
 
@@ -4847,7 +4853,7 @@ input{
     background-color: rgba(255, 255, 255, 0.1);
 }
 .reaction-3vwAF2:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .reaction-3vwAF2.reactionMe-1PwQAc {
@@ -5970,26 +5976,9 @@ input{
 
 .container-1zzFcN {
 	background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba()
 }
 
-/* protip on user card (in case if you wanna delete it, just uncomment next rule) */
-/*
-.protip-YaFfgO {
-	visibility: hidden;
-	height: 0;
-	margin: 0;
-}
-*/
-
- /* I hated that new size of emojis so there is revert for it */
- /* probably it'll need to be removed (same as protip) */
-/*
-.emoji.jumboable {
-	width: 2rem;
-	height: 2rem;
-	min-height: 2rem;
-}
-*/
 .panels-3wFtMD {
 	background-color: transparent;
 }
@@ -6016,10 +6005,14 @@ input{
 	background-color: rgba(0, 0, 0, 0.3);
 }
 /* emoji picker fix */
-.contentWrapper-3vHNP2, .emojiPicker-6YCk8a, .header-11eigE {
+.contentWrapper-3vHNP2, .emojiPicker-6YCk8a, .header-11eigE,
+.contentWrapper-2f9yME, .picker-20lcBA {
 	/* background: rgba(0, 0, 0, 0.65); */
     background: rgba(11, 11, 11, 0.8);
 	border-radius: 0;
+}
+.contentWrapper-2f9yME.isBurstReactionPicker-3h5fqV {
+    border-radius: 0;
 }
 .premiumRetentionNotice-A_Ke4K {
     background-color: rgba(0, 0, 0, 0.4);
@@ -6047,6 +6040,16 @@ input{
 .emojiItem-277VFM.emojiItemSelected-2Lg50V {
 	background-color: rgba(255, 255, 255, 0.15);
 	border-radius: 0;
+}
+.soundButton-2P2Ua2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+}
+.soundAddButton-1FOn5u.focused-J7xXDg, .soundAddButton-1FOn5u:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.buttonOverlayBackground-3fyfGX {
+    background-color: rgba(0, 0, 0, 0.33);
 }
 
 /* that active contacts now playing thingy on friend page */
@@ -6158,7 +6161,7 @@ input{
 	opacity: 0.5 !important;
 }
 .root-1CAIjD {
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 .theme-dark .root-1CAIjD {
 	background: rgba(11, 11, 11, 0.8) !important;
@@ -6268,7 +6271,7 @@ input{
 	background: rgba(0, 0, 0, 0.4);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }*/
-.option-2eIyOn:hover {
+.option-Uc12mm:hover {
 	background: rgba(255, 255, 255, 0.1);
 }
 .option-2eIyOn[aria-selected=true], .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4)  {
@@ -7023,10 +7026,11 @@ input{
 }
 
 /* user profile */
-.roundedBanner-TdlJGa, .userPopoutInner-1hXSeY:before, .userPopoutOuter-3AVBmJ, .userProfileModalInner-3fh3QA:before, .userProfileOuter-1K_BYU, .badgeList-2pMvZX {
-    border-radius: 0;
+.roundedBanner-uNt2w-, .userPopoutInner-nv9Y92:before, .userProfileOuter-2tQwNf, .userProfileModalInner-3dx9L9:before, 
+.userProfileOuter-1K_BYU, .profileBadges-2pItdR, .badgeList-2aoHPw, .overlayBackground-2aa7wt {
+    border-radius: 0 !important;
 } 
-.userProfileInner-3F03PX {
+.userProfileInner-1ngKnf {
     background-color: rgba(11, 11, 11, 0.8);
     border-radius: 0 !important;
 }
@@ -7341,4 +7345,3 @@ input{
 .theme-dark .tooltip-33Jwqe, .theme-light .tooltip-33Jwqe {
     box-shadow: none;
 }
-
