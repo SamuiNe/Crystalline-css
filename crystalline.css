@@ -5463,16 +5463,16 @@ input{
 }
 /* Fix channel sidebar selection and hover background color and border radius */
 
-.theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ,
-.theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ,
-.theme-light .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ,
-.theme-light .wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ{
+.theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV,
+.theme-dark .wrapper-NhbLHG.modeSelected-3DmyhH:hover .link-1_kTxV,
+.theme-light .wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV,
+.theme-light .wrapper-NhbLHG.modeSelected-3DmyhH:hover .link-1_kTxV{
     background-color: rgba(0, 0, 0, 0.42);
     border-radius: 0;
 }
 
-.theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ,
-.theme-light .wrapper-NhbLHG:hover .content-1gYQeQ{
+.theme-dark .wrapper-NhbLHG:hover .link-1_kTxV,
+.theme-light .wrapper-NhbLHG:hover .link-1_kTxV{
     background-color: rgba(0, 0, 0, 0.22);
     border-radius: 0;
 }
@@ -7034,7 +7034,7 @@ input{
     background-color: rgba(11, 11, 11, 0.8);
     border-radius: 0 !important;
 }
-.overlayBackground-1KgwVi, .profileBadges-31rDHI {
+.overlayBackground-2aa7wt, .profileBadges-31rDHI {
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.22);
 }
@@ -7344,4 +7344,10 @@ input{
 }
 .theme-dark .tooltip-33Jwqe, .theme-light .tooltip-33Jwqe {
     box-shadow: none;
+}
+.bar-wDIGjg {
+    border-radius: 0;
+    width: 200px;
+    background-color: rgba(120, 120, 120, 0.8);
+    justify-content: center;
 }
