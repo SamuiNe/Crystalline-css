@@ -6353,7 +6353,10 @@ input{
 .container-2o3qEW {
     height: 100%;
     flex-direction: unset;
-}  
+} 
+.membersListNotices-UstAx3 {
+    display: none;
+}
 .container-3i3IzO {
     background-color: rgba(0, 0, 0, 0.33);
     border-radius: 0;
@@ -6784,16 +6787,16 @@ input{
 .lookOutlined-3RTC7c.colorBrand-I6CyqQ:hover {
     background-color: rgba(255, 255, 255, 0.2)!important;
 }
-.newBadge-1LcB6t {
+.newBadge-1RUEYb {
     border-radius: 0;
     height: 16px;
 }
-.mainCard-3KBsBI, .container-3arpDl {
+.increasedActivityMainCard-2ry6hI, .container-3arpDl {
     border: none;
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0.22);
 }
-.mainCard-3KBsBI:hover {
+.increasedActivityMainCard-2ry6hI:hover {
     background-color: rgba(0, 0, 0, 0.4);
     box-shadow: none;
     transform: none;
@@ -6802,10 +6805,10 @@ input{
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0;
 }
-.container-2qVG6q {
+.container-3wvkMY {
     transition: none;
 }
-.theme-dark .container-2qVG6q.isOpen-2OXbFs {
+.theme-dark .container-3wvkMY.isOpen-2ldXbM {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
